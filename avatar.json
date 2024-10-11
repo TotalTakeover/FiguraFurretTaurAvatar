@@ -1,0 +1,17 @@
+{
+	"name": "Furret Taur",
+	"description": "\"- bUT I CAN WALK! (They can walk!)\"",
+	"authors": [
+		"Total",
+		"§f§nCredits§r",
+		"Jimmy",
+		"Manuel_",
+		"PoolloverNathan",
+		"§f§nLibraries§r",
+		"Grandpa Scout (GSAnimBlend, GSCarrier)",
+		"Squishy (SquAPI)",
+		"Katt (OriginsAPI, KattArmor, DynamicCrosshair)",
+		"4P5 (GroundCheck)"
+	],
+	"version": "0.1.4"
+}
