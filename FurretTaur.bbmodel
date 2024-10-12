@@ -1686,26 +1686,6 @@
 			"start_delay": "",
 			"loop_delay": "",
 			"animators": {
-				"38d5cea8-3123-0042-3d03-a89976654b67": {
-					"name": "Player",
-					"type": "bone",
-					"keyframes": [
-						{
-							"channel": "position",
-							"data_points": [
-								{
-									"x": "0",
-									"y": "0",
-									"z": "0"
-								}
-							],
-							"uuid": "1f6d0b6d-897f-e0b2-a17d-dbf84b99cbbf",
-							"time": 0,
-							"color": -1,
-							"interpolation": "linear"
-						}
-					]
-				},
 				"18ff47bb-aa8a-ff2f-e4b6-e56867e76a69": {
 					"name": "torso",
 					"type": "bone",
@@ -2099,26 +2079,6 @@
 			"start_delay": "",
 			"loop_delay": "",
 			"animators": {
-				"18ff47bb-aa8a-ff2f-e4b6-e56867e76a69": {
-					"name": "torso",
-					"type": "bone",
-					"keyframes": [
-						{
-							"channel": "rotation",
-							"data_points": [
-								{
-									"x": 0,
-									"y": "0",
-									"z": "0"
-								}
-							],
-							"uuid": "7fa8f28c-3ce2-d11d-f144-b00c42006866",
-							"time": 0,
-							"color": -1,
-							"interpolation": "linear"
-						}
-					]
-				},
 				"6b71dcbb-0184-7168-1b59-af90e0f31ec2": {
 					"name": "torso2",
 					"type": "bone",
