@@ -317,7 +317,7 @@
 			"uuid": "9f22454a-a7bc-a981-c6b2-b37c5fd7b92b"
 		},
 		{
-			"name": "cube",
+			"name": "Arm",
 			"box_uv": false,
 			"rescale": false,
 			"locked": false,
@@ -360,7 +360,7 @@
 			"uuid": "13dbec7f-d9e7-d7d9-a686-3956508a61f4"
 		},
 		{
-			"name": "cube",
+			"name": "Arm",
 			"box_uv": false,
 			"rescale": false,
 			"locked": false,
@@ -404,7 +404,7 @@
 			"uuid": "e1c9b12d-0a1f-dae2-cb05-7793cc951d81"
 		},
 		{
-			"name": "cube",
+			"name": "Arm",
 			"box_uv": false,
 			"rescale": false,
 			"locked": false,
@@ -447,7 +447,7 @@
 			"uuid": "d1b8fad2-3dfa-5b9b-0075-38f90aa71c7a"
 		},
 		{
-			"name": "cube",
+			"name": "Arm",
 			"box_uv": false,
 			"rescale": false,
 			"locked": false,
@@ -721,7 +721,7 @@
 									"children": ["20a43c6b-d2a9-344e-e214-e16a47012472"]
 								},
 								{
-									"name": "arm_left",
+									"name": "leftArm",
 									"origin": [-2, 2, -9],
 									"color": 0,
 									"uuid": "1e499f40-f640-5694-a243-770cc61540b0",
@@ -734,7 +734,7 @@
 									"children": [
 										"13dbec7f-d9e7-d7d9-a686-3956508a61f4",
 										{
-											"name": "arm_left2",
+											"name": "leftArm2",
 											"origin": [-2, 0.5, -9],
 											"color": 0,
 											"uuid": "1c5dfe24-ea99-5e52-0e7e-f1ed368b555d",
@@ -749,7 +749,7 @@
 									]
 								},
 								{
-									"name": "arm_right",
+									"name": "rightArm",
 									"origin": [2, 2, -9],
 									"color": 0,
 									"uuid": "de3c61a8-c2c8-bea9-3d42-8c23dba9c050",
@@ -762,7 +762,7 @@
 									"children": [
 										"d1b8fad2-3dfa-5b9b-0075-38f90aa71c7a",
 										{
-											"name": "arm_right2",
+											"name": "rightArm2",
 											"origin": [2, 0.5, -9],
 											"color": 0,
 											"uuid": "efae0449-c2ff-0ae9-bc54-3d525828ee02",
@@ -1178,7 +1178,7 @@
 					]
 				},
 				"1e499f40-f640-5694-a243-770cc61540b0": {
-					"name": "arm_left",
+					"name": "leftArm",
 					"type": "bone",
 					"keyframes": [
 						{
@@ -1212,7 +1212,7 @@
 					]
 				},
 				"1c5dfe24-ea99-5e52-0e7e-f1ed368b555d": {
-					"name": "arm_left2",
+					"name": "leftArm2",
 					"type": "bone",
 					"keyframes": [
 						{
@@ -1232,7 +1232,7 @@
 					]
 				},
 				"de3c61a8-c2c8-bea9-3d42-8c23dba9c050": {
-					"name": "arm_right",
+					"name": "rightArm",
 					"type": "bone",
 					"keyframes": [
 						{
@@ -1266,7 +1266,7 @@
 					]
 				},
 				"efae0449-c2ff-0ae9-bc54-3d525828ee02": {
-					"name": "arm_right2",
+					"name": "rightArm2",
 					"type": "bone",
 					"keyframes": [
 						{
@@ -1409,7 +1409,7 @@
 					]
 				},
 				"1e499f40-f640-5694-a243-770cc61540b0": {
-					"name": "arm_left",
+					"name": "leftArm",
 					"type": "bone",
 					"keyframes": [
 						{
@@ -1429,7 +1429,7 @@
 					]
 				},
 				"1c5dfe24-ea99-5e52-0e7e-f1ed368b555d": {
-					"name": "arm_left2",
+					"name": "leftArm2",
 					"type": "bone",
 					"keyframes": [
 						{
@@ -1449,7 +1449,7 @@
 					]
 				},
 				"de3c61a8-c2c8-bea9-3d42-8c23dba9c050": {
-					"name": "arm_right",
+					"name": "rightArm",
 					"type": "bone",
 					"keyframes": [
 						{
@@ -1469,7 +1469,7 @@
 					]
 				},
 				"efae0449-c2ff-0ae9-bc54-3d525828ee02": {
-					"name": "arm_right2",
+					"name": "rightArm2",
 					"type": "bone",
 					"keyframes": [
 						{
