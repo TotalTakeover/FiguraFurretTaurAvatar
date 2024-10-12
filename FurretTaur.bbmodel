@@ -26,7 +26,7 @@
 			"to": [4, 9, -13],
 			"autouv": 0,
 			"color": 0,
-			"origin": [0, 2, -15],
+			"origin": [0, 0, 0],
 			"uv_offset": [24, 23],
 			"faces": {
 				"north": {
@@ -69,7 +69,7 @@
 			"to": [-1.5, 6.5, -20.01],
 			"autouv": 0,
 			"color": 10,
-			"origin": [-0.5, 2, -15],
+			"origin": [0, 0, 0],
 			"uv_offset": [48, 26],
 			"faces": {
 				"north": {
@@ -112,7 +112,7 @@
 			"to": [-2, 6.5, -20.015],
 			"autouv": 0,
 			"color": 9,
-			"origin": [-0.5, 2, -15],
+			"origin": [0, 0, 0],
 			"uv_offset": [35, 0],
 			"faces": {
 				"north": {
@@ -155,7 +155,7 @@
 			"to": [0.5, 4.75, -20.01],
 			"autouv": 0,
 			"color": 0,
-			"origin": [0, 2, -15],
+			"origin": [0, 0, 0],
 			"uv_offset": [4, 34],
 			"faces": {
 				"north": {
@@ -198,7 +198,7 @@
 			"to": [1.5, 4.25, -20.01],
 			"autouv": 0,
 			"color": 0,
-			"origin": [0, 2, -15],
+			"origin": [0, 0, 0],
 			"uv_offset": [0, 7],
 			"faces": {
 				"north": {
@@ -241,7 +241,7 @@
 			"to": [3.5, 8.5, -10],
 			"autouv": 0,
 			"color": 0,
-			"origin": [0, 2.5, -15],
+			"origin": [0, 0, 0],
 			"uv_offset": [0, 46],
 			"faces": {
 				"north": {
@@ -285,7 +285,7 @@
 			"autouv": 0,
 			"color": 0,
 			"inflate": 0.01,
-			"origin": [0, 2.5, -14.5],
+			"origin": [0, 0, 0],
 			"uv_offset": [0, 16],
 			"faces": {
 				"north": {
@@ -328,7 +328,7 @@
 			"to": [4, 8.5, 3.5],
 			"autouv": 0,
 			"color": 0,
-			"origin": [0, 2.5, -14],
+			"origin": [0, 0, 0],
 			"faces": {
 				"north": {
 					"uv": [9, 9, 17, 16],
@@ -371,7 +371,7 @@
 			"autouv": 0,
 			"color": 0,
 			"inflate": 0.01,
-			"origin": [0, 2.5, -14.5],
+			"origin": [0, 0, 0],
 			"uv_offset": [0, 31],
 			"faces": {
 				"north": {
@@ -414,7 +414,7 @@
 			"to": [3.5, 8.5, 14.5],
 			"autouv": 0,
 			"color": 0,
-			"origin": [0, 2.5, -9],
+			"origin": [0, 0, 0],
 			"uv_offset": [26, 8],
 			"faces": {
 				"north": {
@@ -457,7 +457,7 @@
 			"to": [3, 8, 19.5],
 			"autouv": 0,
 			"color": 0,
-			"origin": [0, 2.5, -3],
+			"origin": [0, 0, 0],
 			"uv_offset": [30, 38],
 			"faces": {
 				"north": {
@@ -500,7 +500,7 @@
 			"to": [0, 7.5, 25.5],
 			"autouv": 0,
 			"color": 0,
-			"origin": [0, 2.5, 3],
+			"origin": [0, 0, 0],
 			"uv_offset": [26, 44],
 			"faces": {
 				"north": {
@@ -543,7 +543,7 @@
 			"to": [-0.5, 3, -8],
 			"autouv": 0,
 			"color": 0,
-			"origin": [0, 2, -13.5],
+			"origin": [0, 0, 0],
 			"uv_offset": [20, 46],
 			"faces": {
 				"north": {
@@ -587,7 +587,7 @@
 			"autouv": 0,
 			"color": 0,
 			"inflate": 0.01,
-			"origin": [0, 0.5, -13.5],
+			"origin": [0, 0, 0],
 			"uv_offset": [48, 10],
 			"faces": {
 				"north": {
@@ -630,7 +630,7 @@
 			"to": [3.5, 3, -8],
 			"autouv": 0,
 			"color": 0,
-			"origin": [0, 2, -13.5],
+			"origin": [0, 0, 0],
 			"uv_offset": [45, 0],
 			"faces": {
 				"north": {
@@ -674,7 +674,7 @@
 			"autouv": 0,
 			"color": 0,
 			"inflate": 0.01,
-			"origin": [0, 0.5, -13.5],
+			"origin": [0, 0, 0],
 			"uv_offset": [48, 6],
 			"faces": {
 				"north": {
@@ -718,7 +718,7 @@
 			"autouv": 0,
 			"color": 0,
 			"inflate": 0.01,
-			"origin": [-2.5, 1.5, 0],
+			"origin": [0, 0, 0],
 			"uv_offset": [35, 2],
 			"faces": {
 				"north": {
@@ -762,7 +762,7 @@
 			"autouv": 0,
 			"color": 0,
 			"inflate": 0.01,
-			"origin": [2.5, 1.5, 0],
+			"origin": [0, 0, 0],
 			"uv_offset": [25, 0],
 			"faces": {
 				"north": {
@@ -805,7 +805,7 @@
 			"to": [-1, 14, -17],
 			"autouv": 0,
 			"color": 0,
-			"origin": [0, 2, -15],
+			"origin": [0, 0, 0],
 			"uv_offset": [0, 16],
 			"faces": {
 				"north": {
@@ -848,7 +848,7 @@
 			"to": [5, 14, -17],
 			"autouv": 0,
 			"color": 0,
-			"origin": [0, 2, -15],
+			"origin": [0, 0, 0],
 			"faces": {
 				"north": {
 					"uv": [0, 0, 4, 7],
@@ -891,7 +891,7 @@
 			"autouv": 0,
 			"color": 10,
 			"inflate": 0.01,
-			"origin": [-0.5, 2, -14.9],
+			"origin": [0, 0, 0],
 			"uv_offset": [48, 23],
 			"faces": {
 				"north": {
@@ -934,7 +934,7 @@
 			"to": [3.5, 6.5, -20.01],
 			"autouv": 0,
 			"color": 10,
-			"origin": [0.5, 2, -15],
+			"origin": [0, 0, 0],
 			"uv_offset": [0, 46],
 			"faces": {
 				"north": {
@@ -977,7 +977,7 @@
 			"to": [3, 6.5, -20.015],
 			"autouv": 0,
 			"color": 9,
-			"origin": [0.5, 2, -15],
+			"origin": [0, 0, 0],
 			"uv_offset": [25, 2],
 			"faces": {
 				"north": {
@@ -1021,7 +1021,7 @@
 			"autouv": 0,
 			"color": 10,
 			"inflate": 0.01,
-			"origin": [0.5, 2, -14.9],
+			"origin": [0, 0, 0],
 			"uv_offset": [30, 41],
 			"faces": {
 				"north": {
@@ -1064,7 +1064,7 @@
 			"to": [-3.01, 4.5, -19.01],
 			"autouv": 0,
 			"color": 0,
-			"origin": [0, 2, -15],
+			"origin": [0, 0, 0],
 			"uv_offset": [30, 38],
 			"faces": {
 				"north": {
@@ -1107,7 +1107,7 @@
 			"to": [4.01, 4.5, -19.01],
 			"autouv": 0,
 			"color": 0,
-			"origin": [0, 2, -15],
+			"origin": [0, 0, 0],
 			"uv_offset": [0, 34],
 			"faces": {
 				"north": {
@@ -1151,7 +1151,7 @@
 			"autouv": 0,
 			"color": 0,
 			"inflate": 0.01,
-			"origin": [0, 2, -15],
+			"origin": [0, 0, 0],
 			"uv_offset": [25, 6],
 			"faces": {
 				"north": {
@@ -1194,7 +1194,7 @@
 			"to": [1, 4.75, -19.91],
 			"autouv": 0,
 			"color": 0,
-			"origin": [0, 2, -14.9],
+			"origin": [0, 0, 0],
 			"uv_offset": [0, 31],
 			"faces": {
 				"north": {
@@ -1237,7 +1237,7 @@
 			"to": [0.5, 5.25, -19.91],
 			"autouv": 0,
 			"color": 0,
-			"origin": [0, 2, -14.9],
+			"origin": [0, 0, 0],
 			"uv_offset": [25, 0],
 			"faces": {
 				"north": {
@@ -1272,7 +1272,7 @@
 	"outliner": [
 		{
 			"name": "Player",
-			"origin": [0, 1.5, 0],
+			"origin": [0, 0, 0],
 			"color": 0,
 			"uuid": "38d5cea8-3123-0042-3d03-a89976654b67",
 			"export": true,
