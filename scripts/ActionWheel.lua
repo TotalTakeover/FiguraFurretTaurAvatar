@@ -4,6 +4,9 @@ if not host:isHost() then return end
 -- Required scripts
 local itemCheck = require("lib.ItemCheck")
 
+local s, avatar = pcall(require, "scripts.Player")
+if not s then avatar = {} end
+
 local s, armor = pcall(require, "scripts.Armor")
 if not s then armor = {} end
 
@@ -131,6 +134,8 @@ pages.main
 
 -- Avatar actions
 pages.avatar
+	:action( -1, avatar.vanillaSkinAct)
+	:action( -1, avatar.modelAct)
 	:action( -1, pageActs.armor)
 	:action( -1, pageActs.camera)
 	:action( -1, backAct)

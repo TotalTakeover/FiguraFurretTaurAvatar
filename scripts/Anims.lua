@@ -1,6 +1,7 @@
 -- Required script
 require("lib.GSAnimBlend")
-local pose = require("scripts.Posing")
+local parts = require("lib.PartsAPI")
+local pose  = require("scripts.Posing")
 
 -- Animations setup
 local anims = animations.FurretTaur
@@ -66,11 +67,9 @@ end
 -- Fixing spyglass jank
 function events.RENDER(delta, context)
 	
-	--[[
 	local rot = vanilla_model.HEAD:getOriginRot()
 	rot.x = math.clamp(rot.x, -90, 30)
 	parts.group.Spyglass:offsetRot(rot)
 		:pos(pose.crouch and vec(0, -4, 0) or nil)
-	--]]
 	
 end
