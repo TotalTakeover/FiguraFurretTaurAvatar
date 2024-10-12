@@ -1689,7 +1689,7 @@
 	"animations": [
 		{
 			"uuid": "93243c45-7f9c-fbcc-3c03-627d4c64239b",
-			"name": "animation.furret.pose",
+			"name": "pose",
 			"loop": "once",
 			"override": false,
 			"length": 0,
@@ -1944,7 +1944,7 @@
 		},
 		{
 			"uuid": "9cd1a01c-2327-c081-3284-235bb1827e47",
-			"name": "animation.furret.ground_idle",
+			"name": "ground_idle",
 			"loop": "once",
 			"override": false,
 			"length": 0,
