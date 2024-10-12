@@ -1,15 +1,12 @@
 {
 	"meta": {
 		"format_version": "4.10",
-		"model_format": "bedrock",
+		"model_format": "figura",
 		"box_uv": true
 	},
-	"name": "FurretTaur",
-	"model_identifier": "furret",
 	"visible_box": [1, 1, 0],
 	"variable_placeholders": "",
 	"variable_placeholder_buttons": [],
-	"bedrock_animation_mode": "entity",
 	"timeline_setups": [],
 	"unhandled_root_fields": {},
 	"resolution": {
@@ -1276,7 +1273,6 @@
 		{
 			"name": "furret",
 			"origin": [0, 0, 0],
-			"bedrock_binding": "",
 			"color": 0,
 			"uuid": "b2cc84fc-a8d6-9567-48d4-d1618dca990b",
 			"export": true,
@@ -1289,7 +1285,6 @@
 				{
 					"name": "body",
 					"origin": [0, 1.5, 0],
-					"bedrock_binding": "",
 					"color": 0,
 					"uuid": "38d5cea8-3123-0042-3d03-a89976654b67",
 					"export": true,
@@ -1302,7 +1297,6 @@
 						{
 							"name": "torso",
 							"origin": [0, 3, 1.5],
-							"bedrock_binding": "",
 							"color": 0,
 							"uuid": "18ff47bb-aa8a-ff2f-e4b6-e56867e76a69",
 							"export": true,
@@ -1315,7 +1309,6 @@
 								{
 									"name": "torso2",
 									"origin": [0, 5, -3.5],
-									"bedrock_binding": "",
 									"color": 0,
 									"uuid": "6b71dcbb-0184-7168-1b59-af90e0f31ec2",
 									"export": true,
@@ -1328,7 +1321,6 @@
 										{
 											"name": "neck",
 											"origin": [0, 5, -11],
-											"bedrock_binding": "",
 											"color": 0,
 											"uuid": "bbf97fc4-f8da-d830-9118-1c734d673b38",
 											"export": true,
@@ -1341,7 +1333,6 @@
 												{
 													"name": "head",
 													"origin": [0, 5.5, -15.5],
-													"bedrock_binding": "",
 													"color": 0,
 													"uuid": "f706c886-f699-7a2b-d885-1983b6b9a038",
 													"export": true,
@@ -1359,7 +1350,6 @@
 															"name": "ear_left",
 															"origin": [-3, 8, -17],
 															"rotation": [35, 22.5, 52.5],
-															"bedrock_binding": "",
 															"color": 0,
 															"uuid": "6d7562c5-5d2a-9430-af96-8e66aba75c2e",
 															"export": true,
@@ -1374,7 +1364,6 @@
 															"name": "ear_right",
 															"origin": [3, 8, -17],
 															"rotation": [35, -22.5, -52.5],
-															"bedrock_binding": "",
 															"color": 0,
 															"uuid": "b9bd37be-12c4-9d06-f4bd-21ef3c26d54e",
 															"export": true,
@@ -1388,7 +1377,6 @@
 														{
 															"name": "mouth_closed",
 															"origin": [0, 2, -15],
-															"bedrock_binding": "",
 															"color": 0,
 															"uuid": "2a306e22-a265-fd51-9be3-afd7230f0a59",
 															"export": true,
@@ -1402,7 +1390,6 @@
 														{
 															"name": "mouth_open",
 															"origin": [0, 3.75, -20.41],
-															"bedrock_binding": "",
 															"color": 0,
 															"uuid": "d81f2955-79a2-73c0-e94b-c107e34160d5",
 															"export": true,
@@ -1416,7 +1403,6 @@
 														{
 															"name": "eye_left",
 															"origin": [-0.5, 2, -15],
-															"bedrock_binding": "",
 															"color": 0,
 															"uuid": "2653ad1e-d65c-102b-a2c0-bdcfb066772b",
 															"export": true,
@@ -1431,7 +1417,6 @@
 																{
 																	"name": "eyelid_left",
 																	"origin": [-0.5, 2, -14.9],
-																	"bedrock_binding": "",
 																	"color": 0,
 																	"uuid": "f8861777-d825-ce67-6094-3bc17f49ea3f",
 																	"export": true,
@@ -1447,7 +1432,6 @@
 														{
 															"name": "eye_right",
 															"origin": [0.5, 2, -15],
-															"bedrock_binding": "",
 															"color": 0,
 															"uuid": "f6282274-7c11-30e4-20a8-2c8db7f244f3",
 															"export": true,
@@ -1462,7 +1446,6 @@
 																{
 																	"name": "eyelid_right",
 																	"origin": [0.5, 2, -14.9],
-																	"bedrock_binding": "",
 																	"color": 0,
 																	"uuid": "89cb616e-e99f-d74f-c834-1f127e771958",
 																	"export": true,
@@ -1484,7 +1467,6 @@
 										{
 											"name": "arm_left",
 											"origin": [-2, 2, -9],
-											"bedrock_binding": "",
 											"color": 0,
 											"uuid": "1e499f40-f640-5694-a243-770cc61540b0",
 											"export": true,
@@ -1498,7 +1480,6 @@
 												{
 													"name": "arm_left2",
 													"origin": [-2, 0.5, -9],
-													"bedrock_binding": "",
 													"color": 0,
 													"uuid": "1c5dfe24-ea99-5e52-0e7e-f1ed368b555d",
 													"export": true,
@@ -1514,7 +1495,6 @@
 										{
 											"name": "arm_right",
 											"origin": [2, 2, -9],
-											"bedrock_binding": "",
 											"color": 0,
 											"uuid": "de3c61a8-c2c8-bea9-3d42-8c23dba9c050",
 											"export": true,
@@ -1528,7 +1508,6 @@
 												{
 													"name": "arm_right2",
 													"origin": [2, 0.5, -9],
-													"bedrock_binding": "",
 													"color": 0,
 													"uuid": "efae0449-c2ff-0ae9-bc54-3d525828ee02",
 													"export": true,
@@ -1546,7 +1525,6 @@
 								{
 									"name": "tail",
 									"origin": [0, 5, 1.5],
-									"bedrock_binding": "",
 									"color": 0,
 									"uuid": "b9b8d09e-cef5-92cf-4647-3bd772dee9f8",
 									"export": true,
@@ -1560,7 +1538,6 @@
 										{
 											"name": "tail2",
 											"origin": [0, 5, 7],
-											"bedrock_binding": "",
 											"color": 0,
 											"uuid": "82a2d74b-9f3a-fc9c-f73b-e9b89f73e634",
 											"export": true,
@@ -1574,7 +1551,6 @@
 												{
 													"name": "tail3",
 													"origin": [0, 5, 13],
-													"bedrock_binding": "",
 													"color": 0,
 													"uuid": "eae06fd0-9604-ce1b-f921-b441dac102c5",
 													"export": true,
@@ -1588,7 +1564,6 @@
 														{
 															"name": "tail4",
 															"origin": [0, 5, 19],
-															"bedrock_binding": "",
 															"color": 0,
 															"uuid": "f05dcc43-42bb-2489-b8dc-989d3cfb04d3",
 															"export": true,
@@ -1611,7 +1586,6 @@
 						{
 							"name": "leg_left",
 							"origin": [-2.5, 1.5, 0.5],
-							"bedrock_binding": "",
 							"color": 0,
 							"uuid": "049c3529-0f13-cf39-d865-ed2a47e6531f",
 							"export": true,
@@ -1625,7 +1599,6 @@
 						{
 							"name": "leg_right",
 							"origin": [2.5, 1.5, 0.5],
-							"bedrock_binding": "",
 							"color": 0,
 							"uuid": "ffdd0755-d5b7-3d5f-06a4-f79796ea28c9",
 							"export": true,
@@ -1708,8 +1681,6 @@
 			"length": 0,
 			"snapping": 24,
 			"selected": false,
-			"saved": false,
-			"path": "C:\\Users\\blazi\\Desktop\\General Art\\Cobblemon Assets\\sentret\\furret.animation.json",
 			"anim_time_update": "",
 			"blend_weight": "",
 			"start_delay": "",
@@ -2144,8 +2115,6 @@
 			"length": 0.1667,
 			"snapping": 24,
 			"selected": false,
-			"saved": true,
-			"path": "C:\\Users\\blazi\\Desktop\\General Art\\Cobblemon Assets\\sentret\\furret.animation.json",
 			"anim_time_update": "",
 			"blend_weight": "",
 			"start_delay": "",
@@ -2305,8 +2274,6 @@
 			"length": 0,
 			"snapping": 24,
 			"selected": false,
-			"saved": true,
-			"path": "C:\\Users\\blazi\\Desktop\\General Art\\Cobblemon Assets\\sentret\\furret.animation.json",
 			"anim_time_update": "",
 			"blend_weight": "",
 			"start_delay": "",
@@ -2562,8 +2529,6 @@
 			"length": 1.5,
 			"snapping": 12,
 			"selected": false,
-			"saved": true,
-			"path": "C:\\Users\\blazi\\Desktop\\General Art\\Cobblemon Assets\\sentret\\furret.animation.json",
 			"anim_time_update": "",
 			"blend_weight": "",
 			"start_delay": "",
