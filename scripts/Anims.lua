@@ -54,8 +54,8 @@ end
 
 -- GS Blending Setup
 local blendAnims = {
-	{ anim = anims.ground_idle, ticks = {7,7} }
-	{ anim = anims.pose,        ticks = {7,7} },
+	{ anim = anims.ground_idle, ticks = {7,7} },
+	{ anim = anims.pose,        ticks = {7,7} }
 }
 
 -- Apply GS Blending
