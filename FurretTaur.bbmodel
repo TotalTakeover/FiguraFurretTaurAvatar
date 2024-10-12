@@ -801,10 +801,12 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [-5, 7, -17],
-			"to": [-1, 14, -17],
+			"from": [-5, 7, 0],
+			"to": [-1, 14, 0],
 			"autouv": 0,
 			"color": 0,
+			"visibility": false,
+			"export": false,
 			"origin": [0, 0, 0],
 			"uv_offset": [0, 16],
 			"faces": {
@@ -844,10 +846,12 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [1, 7, -17],
-			"to": [5, 14, -17],
+			"from": [1, 7, 0],
+			"to": [5, 14, 0],
 			"autouv": 0,
 			"color": 0,
+			"visibility": false,
+			"export": false,
 			"origin": [0, 0, 0],
 			"faces": {
 				"north": {
@@ -1338,34 +1342,6 @@
 												"dcc39321-59c2-33f4-a135-e92759f0607b",
 												"7941025c-7784-be39-61e0-2c686603b343",
 												{
-													"name": "ear_left",
-													"origin": [-3, 8, -17],
-													"rotation": [35, 22.5, 52.5],
-													"color": 0,
-													"uuid": "6d7562c5-5d2a-9430-af96-8e66aba75c2e",
-													"export": true,
-													"mirror_uv": false,
-													"isOpen": false,
-													"locked": false,
-													"visibility": true,
-													"autouv": 0,
-													"children": ["137f7ca5-1354-90ae-a19e-adafe4f783a9"]
-												},
-												{
-													"name": "ear_right",
-													"origin": [3, 8, -17],
-													"rotation": [35, -22.5, -52.5],
-													"color": 0,
-													"uuid": "b9bd37be-12c4-9d06-f4bd-21ef3c26d54e",
-													"export": true,
-													"mirror_uv": false,
-													"isOpen": false,
-													"locked": false,
-													"visibility": true,
-													"autouv": 0,
-													"children": ["d3173e55-5d90-cda8-855e-b94a7babb1f1"]
-												},
-												{
 													"name": "mouth_closed",
 													"origin": [0, 2, -15],
 													"color": 0,
@@ -1596,6 +1572,48 @@
 					"visibility": true,
 					"autouv": 0,
 					"children": ["d1c0fad0-fa66-5069-8d9c-32cc1fc6853b"]
+				}
+			]
+		},
+		{
+			"name": "Ears",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"uuid": "c6db286f-fc93-fad4-299c-0b0888c6f933",
+			"export": false,
+			"mirror_uv": false,
+			"isOpen": false,
+			"locked": false,
+			"visibility": false,
+			"autouv": 0,
+			"children": [
+				{
+					"name": "ear_left",
+					"origin": [-3, 8, 0],
+					"rotation": [35, 22.5, 52.5],
+					"color": 0,
+					"uuid": "6d7562c5-5d2a-9430-af96-8e66aba75c2e",
+					"export": false,
+					"mirror_uv": false,
+					"isOpen": false,
+					"locked": false,
+					"visibility": false,
+					"autouv": 0,
+					"children": ["137f7ca5-1354-90ae-a19e-adafe4f783a9"]
+				},
+				{
+					"name": "ear_right",
+					"origin": [3, 8, 0],
+					"rotation": [35, -22.5, -52.5],
+					"color": 0,
+					"uuid": "b9bd37be-12c4-9d06-f4bd-21ef3c26d54e",
+					"export": false,
+					"mirror_uv": false,
+					"isOpen": false,
+					"locked": false,
+					"visibility": false,
+					"autouv": 0,
+					"children": ["d3173e55-5d90-cda8-855e-b94a7babb1f1"]
 				}
 			]
 		}
