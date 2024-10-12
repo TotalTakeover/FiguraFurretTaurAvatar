@@ -29,12 +29,12 @@ end
 function events.TICK()
 	
 	-- Animation states
-	local isPose     = true
 	local groundIdle = false
+	local isPose     = true
 	
 	-- Animations
-	anims.pose:playing(isPose)
 	anims.ground_idle:playing(groundIdle)
+	anims.pose:playing(isPose)
 	
 end
 
@@ -51,8 +51,8 @@ end
 
 -- GS Blending Setup
 local blendAnims = {
-	{ anim = anims.pose,        ticks = {7,7} },
 	{ anim = anims.ground_idle, ticks = {7,7} }
+	{ anim = anims.pose,        ticks = {7,7} },
 }
 
 -- Apply GS Blending
