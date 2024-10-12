@@ -491,7 +491,7 @@
 			"uuid": "4f0e8585-eb99-5a58-e6a5-c92df1aa6a13"
 		},
 		{
-			"name": "cube",
+			"name": "Leg",
 			"box_uv": false,
 			"rescale": false,
 			"locked": false,
@@ -535,7 +535,7 @@
 			"uuid": "482c0176-06a1-edef-6fd0-54554e7f2aa6"
 		},
 		{
-			"name": "cube",
+			"name": "Leg",
 			"box_uv": false,
 			"rescale": false,
 			"locked": false,
@@ -839,7 +839,7 @@
 					]
 				},
 				{
-					"name": "leg_left",
+					"name": "leftLeg",
 					"origin": [-2.5, 1.5, 0.5],
 					"color": 0,
 					"uuid": "049c3529-0f13-cf39-d865-ed2a47e6531f",
@@ -852,7 +852,7 @@
 					"children": ["482c0176-06a1-edef-6fd0-54554e7f2aa6"]
 				},
 				{
-					"name": "leg_right",
+					"name": "rightLeg",
 					"origin": [2.5, 1.5, 0.5],
 					"color": 0,
 					"uuid": "ffdd0755-d5b7-3d5f-06a4-f79796ea28c9",
@@ -1286,7 +1286,7 @@
 					]
 				},
 				"ffdd0755-d5b7-3d5f-06a4-f79796ea28c9": {
-					"name": "leg_right",
+					"name": "rightLeg",
 					"type": "bone",
 					"keyframes": [
 						{
@@ -1320,7 +1320,7 @@
 					]
 				},
 				"049c3529-0f13-cf39-d865-ed2a47e6531f": {
-					"name": "leg_left",
+					"name": "leftLeg",
 					"type": "bone",
 					"keyframes": [
 						{
