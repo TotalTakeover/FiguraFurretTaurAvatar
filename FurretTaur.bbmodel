@@ -1271,7 +1271,7 @@
 	],
 	"outliner": [
 		{
-			"name": "body",
+			"name": "Player",
 			"origin": [0, 1.5, 0],
 			"color": 0,
 			"uuid": "38d5cea8-3123-0042-3d03-a89976654b67",
@@ -1687,7 +1687,7 @@
 			"loop_delay": "",
 			"animators": {
 				"38d5cea8-3123-0042-3d03-a89976654b67": {
-					"name": "body",
+					"name": "Player",
 					"type": "bone",
 					"keyframes": [
 						{
