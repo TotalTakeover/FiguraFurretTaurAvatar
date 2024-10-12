@@ -32,6 +32,9 @@ function pings.setColorShiny(boolean)
 	
 	shiny = boolean
 	config:save("ColorShiny", shiny)
+	if player:isLoaded() and shiny then
+		sounds:playSound("block.amethyst_block.chime", player:getPos())
+	end
 	
 end
 
