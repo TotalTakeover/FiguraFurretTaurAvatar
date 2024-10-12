@@ -794,7 +794,7 @@
 			"uuid": "d1c0fad0-fa66-5069-8d9c-32cc1fc6853b"
 		},
 		{
-			"name": "cube",
+			"name": "Ear",
 			"box_uv": false,
 			"rescale": false,
 			"locked": false,
@@ -839,7 +839,7 @@
 			"uuid": "137f7ca5-1354-90ae-a19e-adafe4f783a9"
 		},
 		{
-			"name": "cube",
+			"name": "Ear",
 			"box_uv": false,
 			"rescale": false,
 			"locked": false,
@@ -1588,7 +1588,7 @@
 			"autouv": 0,
 			"children": [
 				{
-					"name": "ear_left",
+					"name": "LeftEar",
 					"origin": [-3, 8, 0],
 					"rotation": [35, 22.5, 52.5],
 					"color": 0,
@@ -1602,7 +1602,7 @@
 					"children": ["137f7ca5-1354-90ae-a19e-adafe4f783a9"]
 				},
 				{
-					"name": "ear_right",
+					"name": "RightEar",
 					"origin": [3, 8, 0],
 					"rotation": [35, -22.5, -52.5],
 					"color": 0,
