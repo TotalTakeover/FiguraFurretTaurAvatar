@@ -15,7 +15,7 @@
 	},
 	"elements": [
 		{
-			"name": "cube",
+			"name": "Neck",
 			"box_uv": false,
 			"rescale": false,
 			"locked": false,
@@ -708,7 +708,7 @@
 							"children": [
 								"343e137e-b9a5-92d0-cf54-16329b764cf6",
 								{
-									"name": "neck",
+									"name": "Neck",
 									"origin": [0, 5, -11],
 									"color": 0,
 									"uuid": "bbf97fc4-f8da-d830-9118-1c734d673b38",
@@ -1064,7 +1064,7 @@
 					]
 				},
 				"bbf97fc4-f8da-d830-9118-1c734d673b38": {
-					"name": "neck",
+					"name": "Neck",
 					"type": "bone",
 					"keyframes": [
 						{
@@ -1389,7 +1389,7 @@
 					]
 				},
 				"bbf97fc4-f8da-d830-9118-1c734d673b38": {
-					"name": "neck",
+					"name": "Neck",
 					"type": "bone",
 					"keyframes": [
 						{
