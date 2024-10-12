@@ -28,9 +28,12 @@ end
 
 function events.TICK()
 	
+	-- Variable
+	local vel = player:getVelocity()
+	
 	-- Animation states
-	local groundIdle = false
-	local isPose     = true
+	local groundIdle = vel.xz:length() == 0
+	local isPose     = vel.xz:length() ~= 0
 	
 	-- Animations
 	anims.ground_idle:playing(groundIdle)
