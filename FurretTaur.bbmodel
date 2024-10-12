@@ -1294,6 +1294,7 @@
 					"visibility": true,
 					"autouv": 0,
 					"children": [
+						"d676043c-5c2f-38f2-f1bb-15971942635c",
 						{
 							"name": "torso2",
 							"origin": [0, 5, -3.5],
@@ -1306,6 +1307,7 @@
 							"visibility": true,
 							"autouv": 0,
 							"children": [
+								"343e137e-b9a5-92d0-cf54-16329b764cf6",
 								{
 									"name": "neck",
 									"origin": [0, 5, -11],
@@ -1318,6 +1320,7 @@
 									"visibility": true,
 									"autouv": 0,
 									"children": [
+										"20a43c6b-d2a9-344e-e214-e16a47012472",
 										{
 											"name": "head",
 											"origin": [0, 5.5, -15.5],
@@ -1447,11 +1450,9 @@
 													]
 												}
 											]
-										},
-										"20a43c6b-d2a9-344e-e214-e16a47012472"
+										}
 									]
 								},
-								"343e137e-b9a5-92d0-cf54-16329b764cf6",
 								{
 									"name": "arm_left",
 									"origin": [-2, 2, -9],
@@ -1567,8 +1568,7 @@
 									]
 								}
 							]
-						},
-						"d676043c-5c2f-38f2-f1bb-15971942635c"
+						}
 					]
 				},
 				{
