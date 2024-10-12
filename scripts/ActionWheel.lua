@@ -57,7 +57,7 @@ local pageActs = {
 		:onLeftClick(function() descend(pages.avatar) end),
 	
 	furret = action_wheel:newAction()
-		:item(itemCheck("slime_block"))
+		:item(itemCheck("cobblemon:lucky_egg", "rabbit_hide"))
 		:onLeftClick(function() descend(pages.furret) end),
 	
 	anims = action_wheel:newAction()
