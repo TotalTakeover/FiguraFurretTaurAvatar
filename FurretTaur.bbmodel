@@ -15,7 +15,7 @@
 	},
 	"elements": [
 		{
-			"name": "Neck",
+			"name": "Neck_Shiny",
 			"box_uv": false,
 			"rescale": false,
 			"locked": false,
@@ -58,7 +58,7 @@
 			"uuid": "20a43c6b-d2a9-344e-e214-e16a47012472"
 		},
 		{
-			"name": "Torso",
+			"name": "Torso_Shiny",
 			"box_uv": false,
 			"rescale": false,
 			"locked": false,
@@ -102,7 +102,7 @@
 			"uuid": "343e137e-b9a5-92d0-cf54-16329b764cf6"
 		},
 		{
-			"name": "Torso",
+			"name": "Torso_Shiny",
 			"box_uv": false,
 			"rescale": false,
 			"locked": false,
@@ -144,7 +144,7 @@
 			"uuid": "d676043c-5c2f-38f2-f1bb-15971942635c"
 		},
 		{
-			"name": "Tail",
+			"name": "Tail_Shiny",
 			"box_uv": false,
 			"rescale": false,
 			"locked": false,
@@ -188,7 +188,7 @@
 			"uuid": "f1f19a74-b7b0-3177-1112-91c44ed9f565"
 		},
 		{
-			"name": "Tail",
+			"name": "Tail_Shiny",
 			"box_uv": false,
 			"rescale": false,
 			"locked": false,
@@ -231,7 +231,7 @@
 			"uuid": "1e80cd53-97af-856b-7971-e442a15f184f"
 		},
 		{
-			"name": "Tail",
+			"name": "Tail_Shiny",
 			"box_uv": false,
 			"rescale": false,
 			"locked": false,
@@ -274,7 +274,7 @@
 			"uuid": "c64a2cf5-a679-31dd-fa21-f6dee3857974"
 		},
 		{
-			"name": "Tail",
+			"name": "Tail_Shiny",
 			"box_uv": false,
 			"rescale": false,
 			"locked": false,
@@ -317,7 +317,7 @@
 			"uuid": "9f22454a-a7bc-a981-c6b2-b37c5fd7b92b"
 		},
 		{
-			"name": "Arm",
+			"name": "Arm_Shiny",
 			"box_uv": false,
 			"rescale": false,
 			"locked": false,
@@ -360,7 +360,7 @@
 			"uuid": "13dbec7f-d9e7-d7d9-a686-3956508a61f4"
 		},
 		{
-			"name": "Arm",
+			"name": "Arm_Shiny",
 			"box_uv": false,
 			"rescale": false,
 			"locked": false,
@@ -404,7 +404,7 @@
 			"uuid": "e1c9b12d-0a1f-dae2-cb05-7793cc951d81"
 		},
 		{
-			"name": "Arm",
+			"name": "Arm_Shiny",
 			"box_uv": false,
 			"rescale": false,
 			"locked": false,
@@ -447,7 +447,7 @@
 			"uuid": "d1b8fad2-3dfa-5b9b-0075-38f90aa71c7a"
 		},
 		{
-			"name": "Arm",
+			"name": "Arm_Shiny",
 			"box_uv": false,
 			"rescale": false,
 			"locked": false,
@@ -491,7 +491,7 @@
 			"uuid": "4f0e8585-eb99-5a58-e6a5-c92df1aa6a13"
 		},
 		{
-			"name": "Leg",
+			"name": "Leg_Shiny",
 			"box_uv": false,
 			"rescale": false,
 			"locked": false,
@@ -535,7 +535,7 @@
 			"uuid": "482c0176-06a1-edef-6fd0-54554e7f2aa6"
 		},
 		{
-			"name": "Leg",
+			"name": "Leg_Shiny",
 			"box_uv": false,
 			"rescale": false,
 			"locked": false,
@@ -579,7 +579,7 @@
 			"uuid": "d1c0fad0-fa66-5069-8d9c-32cc1fc6853b"
 		},
 		{
-			"name": "Ear",
+			"name": "Ear_Shiny",
 			"box_uv": false,
 			"rescale": false,
 			"locked": false,
@@ -624,7 +624,7 @@
 			"uuid": "137f7ca5-1354-90ae-a19e-adafe4f783a9"
 		},
 		{
-			"name": "Ear",
+			"name": "Ear_Shiny",
 			"box_uv": false,
 			"rescale": false,
 			"locked": false,
