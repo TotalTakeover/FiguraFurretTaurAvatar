@@ -58,7 +58,7 @@
 			"uuid": "20a43c6b-d2a9-344e-e214-e16a47012472"
 		},
 		{
-			"name": "cube",
+			"name": "Torso",
 			"box_uv": false,
 			"rescale": false,
 			"locked": false,
@@ -102,7 +102,7 @@
 			"uuid": "343e137e-b9a5-92d0-cf54-16329b764cf6"
 		},
 		{
-			"name": "cube",
+			"name": "Torso",
 			"box_uv": false,
 			"rescale": false,
 			"locked": false,
@@ -682,7 +682,7 @@
 			"autouv": 0,
 			"children": [
 				{
-					"name": "torso",
+					"name": "LowerTorso",
 					"origin": [0, 3, 1.5],
 					"color": 0,
 					"uuid": "18ff47bb-aa8a-ff2f-e4b6-e56867e76a69",
@@ -695,7 +695,7 @@
 					"children": [
 						"d676043c-5c2f-38f2-f1bb-15971942635c",
 						{
-							"name": "torso2",
+							"name": "UpperTorso",
 							"origin": [0, 5, -3.5],
 							"color": 0,
 							"uuid": "6b71dcbb-0184-7168-1b59-af90e0f31ec2",
@@ -996,7 +996,7 @@
 			"loop_delay": "",
 			"animators": {
 				"18ff47bb-aa8a-ff2f-e4b6-e56867e76a69": {
-					"name": "torso",
+					"name": "LowerTorso",
 					"type": "bone",
 					"keyframes": [
 						{
@@ -1030,7 +1030,7 @@
 					]
 				},
 				"6b71dcbb-0184-7168-1b59-af90e0f31ec2": {
-					"name": "torso2",
+					"name": "UpperTorso",
 					"type": "bone",
 					"keyframes": [
 						{
@@ -1369,7 +1369,7 @@
 			"loop_delay": "",
 			"animators": {
 				"6b71dcbb-0184-7168-1b59-af90e0f31ec2": {
-					"name": "torso2",
+					"name": "UpperTorso",
 					"type": "bone",
 					"keyframes": [
 						{
