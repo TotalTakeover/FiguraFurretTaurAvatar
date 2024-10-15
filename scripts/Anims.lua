@@ -1,7 +1,10 @@
 -- Required script
 require("lib.GSAnimBlend")
-local parts = require("lib.PartsAPI")
-local pose  = require("scripts.Posing")
+require("lib.Molang")
+local parts   = require("lib.PartsAPI")
+local ground  = require("lib.GroundCheck")
+local pose    = require("scripts.Posing")
+local effects = require("scripts.SyncedVariables")
 
 -- Animations setup
 local anims = animations.FurretTaur
@@ -30,15 +33,35 @@ end
 function events.TICK()
 	
 	-- Variable
-	local vel = player:getVelocity()
+	local vel       = player:getVelocity()
+	local sprinting = player:isSprinting()
+	local onGround  = ground()
+	
+	-- Animation variables
+	isSprinting = sprinting and not pose.crouch and not pose.swim
+	
+	-- Speed control
+	local walkSpeed   = math.min(vel.xz:length() * 5, 3)
+	local sprintSpeed = math.min(vel.xz:length() * 3.7, 1.5)
+	
+	-- Animation speeds
+	anims.walk:speed(walkSpeed)
+	anims.walkBounce:speed(walkSpeed)
+	anims.sprint:speed(sprintSpeed)
 	
 	-- Animation states
 	local groundIdle = vel.xz:length() == 0
-	local isPose     = vel.xz:length() ~= 0
+	local walk       = vel.xz:length() ~= 0 and (onGround or pose.swim or effects.cF) and not isSprinting
+	local walkBounce = walk and not pose.swim
+	local sprint     = vel.xz:length() ~= 0 and (onGround or effects.cF) and isSprinting
+	local jump       = vel.xz:length() ~= 0 and not onGround
 	
 	-- Animations
-	anims.ground_idle:playing(groundIdle)
-	anims.pose:playing(isPose)
+	anims.groundIdle:playing(groundIdle)
+	anims.walk:playing(walk)
+	anims.walkBounce:playing(walkBounce)
+	anims.sprint:playing(sprint)
+	anims.jump:playing(jump)
 	
 end
 
@@ -55,8 +78,10 @@ end
 
 -- GS Blending Setup
 local blendAnims = {
-	{ anim = anims.ground_idle, ticks = {7,7} },
-	{ anim = anims.pose,        ticks = {7,7} }
+	{ anim = anims.groundIdle, ticks = {7,7} },
+	{ anim = anims.walk,        ticks = {7,7} },
+	{ anim = anims.sprint,      ticks = {3,7} },
+	{ anim = anims.jump,        ticks = {7,7} },
 }
 
 -- Apply GS Blending
