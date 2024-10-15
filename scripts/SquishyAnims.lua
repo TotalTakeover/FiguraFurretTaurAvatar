@@ -11,6 +11,17 @@ local anims = animations.FurretTaur
 config:name("FurretTaur")
 local armsMove = config:load("SquapiArmsMove") or false
 
+-- Calculate parent's rotations
+local function calculateParentRot(m)
+	
+	local parent = m:getParent()
+	if not parent then
+		return m:getOffsetRot()
+	end
+	return calculateParentRot(parent) + m:getOffsetRot()
+	
+end
+
 -- Lerp tables
 local leftArmLerp  = lerp:new(0.5, armsMove and 1 or 0)
 local rightArmLerp = lerp:new(0.5, armsMove and 1 or 0)
@@ -68,6 +79,11 @@ local rightArm = squapi.arm:new(
 local leftArmStrength  = leftArm.strength
 local rightArmStrength = rightArm.strength
 
+-- Squishy taur
+local taur = squapi.taur:new(
+	parts.group.LowerBody
+)
+
 function events.TICK()
 	
 	-- Arm variables
@@ -92,6 +108,7 @@ function events.TICK()
 	-- Control targets based on variables
 	leftArmLerp.target  = (armsMove or armShouldMove or leftSwing  or bow or ((crossL or crossR) or (using and usingL ~= "NONE"))) and 1 or 0
 	rightArmLerp.target = (armsMove or armShouldMove or rightSwing or bow or ((crossL or crossR) or (using and usingR ~= "NONE"))) and 1 or 0
+	taur.target         = anims.ground_idle:isPlaying() and 0 or taur.target
 	
 end
 
@@ -128,6 +145,10 @@ function events.RENDER(delta, context)
 	parts.group.LeftArmFP:visible(firstPerson)
 	parts.group.RightArmFP:visible(firstPerson)
 	--]]
+	
+	-- Set upperbody to offset rot and crouching pivot point
+	parts.group.UpperBody
+		:rot(-parts.group.LowerBody:getRot())
 	
 end
 
