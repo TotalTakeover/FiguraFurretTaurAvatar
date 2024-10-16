@@ -3703,26 +3703,6 @@
 						}
 					]
 				},
-				"38d5cea8-3123-0042-3d03-a89976654b67": {
-					"name": "Player",
-					"type": "bone",
-					"keyframes": [
-						{
-							"channel": "position",
-							"data_points": [
-								{
-									"x": "0",
-									"y": "0",
-									"z": "0"
-								}
-							],
-							"uuid": "b5e39101-8850-9436-725c-86237db3d05d",
-							"time": 0,
-							"color": -1,
-							"interpolation": "linear"
-						}
-					]
-				},
 				"18ff47bb-aa8a-ff2f-e4b6-e56867e76a69": {
 					"name": "MiddleTorso",
 					"type": "bone",
