@@ -1365,24 +1365,24 @@
 					"texture": 3
 				},
 				"east": {
-					"uv": [0, 0, 0, 2],
-					"texture": 3
+					"uv": [0, 0, 0, 0],
+					"texture": null
 				},
 				"south": {
-					"uv": [2, 0, 4, 2],
-					"texture": 3
+					"uv": [0, 0, 0, 0],
+					"texture": null
 				},
 				"west": {
-					"uv": [2, 0, 2, 2],
-					"texture": 3
+					"uv": [0, 0, 0, 0],
+					"texture": null
 				},
 				"up": {
-					"uv": [2, 0, 0, 0],
-					"texture": 3
+					"uv": [0, 0, 0, 0],
+					"texture": null
 				},
 				"down": {
-					"uv": [4, 0, 2, 0],
-					"texture": 3
+					"uv": [0, 0, 0, 0],
+					"texture": null
 				}
 			},
 			"type": "cube",
