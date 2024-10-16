@@ -674,7 +674,7 @@
 			"from": [-4, 15.5, -19],
 			"to": [4, 23.5, -11],
 			"autouv": 0,
-			"color": 7,
+			"color": 0,
 			"origin": [0, 0, 0],
 			"faces": {
 				"north": {
@@ -716,7 +716,7 @@
 			"from": [-4, 15.5, -19],
 			"to": [4, 23.5, -11],
 			"autouv": 0,
-			"color": 9,
+			"color": 0,
 			"visibility": false,
 			"inflate": 0.5,
 			"origin": [0, 0, 0],
@@ -760,7 +760,7 @@
 			"from": [-4, 3.5, -17],
 			"to": [4, 15.5, -13],
 			"autouv": 0,
-			"color": 4,
+			"color": 0,
 			"origin": [0, 0, 0],
 			"faces": {
 				"north": {
@@ -802,7 +802,7 @@
 			"from": [-4, 3.5, -17],
 			"to": [4, 15.5, -13],
 			"autouv": 0,
-			"color": 8,
+			"color": 0,
 			"visibility": false,
 			"inflate": 0.25,
 			"origin": [0, 0, 0],
@@ -884,7 +884,7 @@
 			"from": [-8, 3.5, -17],
 			"to": [-4, 15.5, -13],
 			"autouv": 0,
-			"color": 1,
+			"color": 0,
 			"origin": [0, 0, 0],
 			"faces": {
 				"north": {
@@ -926,7 +926,7 @@
 			"from": [-8, 3.5, -17],
 			"to": [-4, 15.5, -13],
 			"autouv": 0,
-			"color": 8,
+			"color": 0,
 			"visibility": false,
 			"inflate": 0.25,
 			"origin": [0, 0, 0],
@@ -970,7 +970,7 @@
 			"from": [-7, 3.5, -17],
 			"to": [-4, 15.5, -13],
 			"autouv": 0,
-			"color": 1,
+			"color": 0,
 			"origin": [0, 0, 0],
 			"faces": {
 				"north": {
@@ -1012,7 +1012,7 @@
 			"from": [-7, 3.5, -17],
 			"to": [-4, 15.5, -13],
 			"autouv": 0,
-			"color": 8,
+			"color": 0,
 			"visibility": false,
 			"inflate": 0.25,
 			"origin": [0, 0, 0],
@@ -1056,7 +1056,7 @@
 			"from": [4, 3.5, -17],
 			"to": [8, 15.5, -13],
 			"autouv": 0,
-			"color": 6,
+			"color": 0,
 			"origin": [0, 0, 0],
 			"faces": {
 				"north": {
@@ -1098,7 +1098,7 @@
 			"from": [4, 3.5, -17],
 			"to": [8, 15.5, -13],
 			"autouv": 0,
-			"color": 4,
+			"color": 0,
 			"visibility": false,
 			"inflate": 0.25,
 			"origin": [0, 0, 0],
@@ -1142,7 +1142,7 @@
 			"from": [4, 3.5, -17],
 			"to": [7, 15.5, -13],
 			"autouv": 0,
-			"color": 6,
+			"color": 0,
 			"origin": [0, 0, 0],
 			"faces": {
 				"north": {
@@ -1184,7 +1184,7 @@
 			"from": [4, 3.5, -17],
 			"to": [7, 15.5, -13],
 			"autouv": 0,
-			"color": 4,
+			"color": 0,
 			"visibility": false,
 			"inflate": 0.25,
 			"origin": [0, 0, 0],
