@@ -60,6 +60,23 @@ local tail = squapi.tail:new(
 	20    -- Up Limit (20)
 )
 
+-- Head table
+local headParts = {
+	
+	parts.group.UpperTorso,
+	parts.group.UpperBody
+	
+}
+
+-- Squishy smooth torso
+local head = squapi.smoothHead:new(
+	headParts,
+	0.3,  -- Strength (0.3)
+	0.4,  -- Tilt (0.4)
+	1,    -- Speed (1)
+	false -- Keep Original Head Pos (false)
+)
+
 -- Squishy vanilla arms
 local leftArm = squapi.arm:new(
 	parts.group.LeftArm,
@@ -153,6 +170,14 @@ function events.RENDER(delta, context)
 	parts.group.UpperBody
 		:rot(-parts.group.LowerBody:getRot())
 		:offsetPivot(anims.crouch:isPlaying() and -parts.group.UpperBody:getAnimPos() or 0)
+	
+	-- Offset smooth torso in various parts
+	-- Note: acts strangely with `parts.group.body`
+	for _, group in ipairs(parts.group.UpperBody:getChildren()) do
+		if group ~= parts.group.Body then
+			group:rot(-calculateParentRot(group:getParent()))
+		end
+	end
 	
 end
 
