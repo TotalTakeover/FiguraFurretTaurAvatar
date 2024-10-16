@@ -15,26 +15,6 @@
 	},
 	"elements": [
 		{
-			"name": "bottom_particles",
-			"position": [0, 0, 0],
-			"rotation": [-180, 0, 0],
-			"ignore_inherited_scale": false,
-			"visibility": true,
-			"locked": false,
-			"uuid": "30087b30-c242-21ec-0927-b9c24558155f",
-			"type": "locator"
-		},
-		{
-			"name": "center_particles",
-			"position": [0, 4, 0],
-			"rotation": [180, 0, 0],
-			"ignore_inherited_scale": false,
-			"visibility": true,
-			"locked": false,
-			"uuid": "ae45bc30-eb03-7bc5-09c0-abeed146402d",
-			"type": "locator"
-		},
-		{
 			"name": "bottom",
 			"box_uv": false,
 			"rescale": false,
@@ -248,16 +228,6 @@
 			},
 			"type": "cube",
 			"uuid": "450174b0-962c-cf40-7f11-1fc2a3399e04"
-		},
-		{
-			"name": "beam",
-			"position": [0, 0.5, 0],
-			"rotation": [0, 0, 0],
-			"ignore_inherited_scale": false,
-			"visibility": true,
-			"locked": false,
-			"uuid": "0b0e3673-c1ff-c05c-1c0e-1f9fa2828247",
-			"type": "locator"
 		}
 	],
 	"outliner": [
@@ -285,8 +255,6 @@
 					"visibility": true,
 					"autouv": 0,
 					"children": [
-						"30087b30-c242-21ec-0927-b9c24558155f",
-						"ae45bc30-eb03-7bc5-09c0-abeed146402d",
 						{
 							"name": "bottom",
 							"origin": [0, 0, 0],
@@ -312,12 +280,7 @@
 									"locked": false,
 									"visibility": true,
 									"autouv": 0,
-									"children": [
-										"a348725b-21ab-4127-33f1-2e70fb0ecb99",
-										"98de12f5-752a-a01e-a86b-b060210f3aed",
-										"450174b0-962c-cf40-7f11-1fc2a3399e04",
-										"0b0e3673-c1ff-c05c-1c0e-1f9fa2828247"
-									]
+									"children": ["a348725b-21ab-4127-33f1-2e70fb0ecb99", "98de12f5-752a-a01e-a86b-b060210f3aed", "450174b0-962c-cf40-7f11-1fc2a3399e04"]
 								}
 							]
 						}
