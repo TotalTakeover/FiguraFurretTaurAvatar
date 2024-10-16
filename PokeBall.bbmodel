@@ -15,7 +15,7 @@
 	},
 	"elements": [
 		{
-			"name": "bottom",
+			"name": "Layer",
 			"box_uv": false,
 			"rescale": false,
 			"locked": false,
@@ -26,7 +26,7 @@
 			"to": [4, 4, 4],
 			"autouv": 0,
 			"color": 0,
-			"inflate": 0.25,
+			"inflate": 0.1,
 			"origin": [0, 0, 0],
 			"uv_offset": [32, 20],
 			"faces": {
@@ -59,7 +59,7 @@
 			"uuid": "d2f1f23c-5c94-1485-5842-0e4c65b65234"
 		},
 		{
-			"name": "bottom",
+			"name": "Base",
 			"box_uv": false,
 			"rescale": false,
 			"locked": false,
@@ -102,7 +102,7 @@
 			"uuid": "942c4135-dc04-970e-88ed-ede5661cf175"
 		},
 		{
-			"name": "lid",
+			"name": "Lid",
 			"box_uv": false,
 			"rescale": false,
 			"locked": false,
@@ -144,15 +144,15 @@
 			"uuid": "a348725b-21ab-4127-33f1-2e70fb0ecb99"
 		},
 		{
-			"name": "lid",
+			"name": "Button",
 			"box_uv": false,
 			"rescale": false,
 			"locked": false,
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [-1, 3, -4.255],
-			"to": [1, 5, -4.255],
+			"from": [-1, 3, -4.4],
+			"to": [1, 5, -4.4],
 			"autouv": 0,
 			"color": 0,
 			"origin": [0, 0, 0],
@@ -186,7 +186,7 @@
 			"uuid": "98de12f5-752a-a01e-a86b-b060210f3aed"
 		},
 		{
-			"name": "lid",
+			"name": "Layer",
 			"box_uv": false,
 			"rescale": false,
 			"locked": false,
@@ -197,7 +197,7 @@
 			"to": [4, 8, 4],
 			"autouv": 0,
 			"color": 0,
-			"inflate": 0.26,
+			"inflate": 0.1,
 			"origin": [0, 0, 0],
 			"uv_offset": [0, 20],
 			"faces": {
@@ -232,59 +232,42 @@
 	],
 	"outliner": [
 		{
-			"name": "poke_ball",
+			"name": "Ball",
 			"origin": [0, 0, 0],
 			"color": 0,
-			"uuid": "baa369cf-19fb-ae9c-b0a3-d82defe3fdfd",
+			"uuid": "ff79b518-a886-90bc-f959-babe490519b7",
 			"export": true,
 			"mirror_uv": false,
-			"isOpen": false,
+			"isOpen": true,
 			"locked": false,
 			"visibility": true,
 			"autouv": 0,
 			"children": [
 				{
-					"name": "ball",
-					"origin": [0, 4, 0],
+					"name": "Lid",
+					"origin": [0, 4, 4],
 					"color": 0,
-					"uuid": "ff79b518-a886-90bc-f959-babe490519b7",
+					"uuid": "76eb8285-8e32-81d7-5068-26ab79e74eac",
 					"export": true,
 					"mirror_uv": false,
 					"isOpen": false,
 					"locked": false,
 					"visibility": true,
 					"autouv": 0,
-					"children": [
-						{
-							"name": "bottom",
-							"origin": [0, 0, 0],
-							"color": 0,
-							"uuid": "04f52a03-2631-077b-d044-a86d911327e6",
-							"export": true,
-							"mirror_uv": false,
-							"isOpen": false,
-							"locked": false,
-							"visibility": true,
-							"autouv": 0,
-							"children": [
-								"d2f1f23c-5c94-1485-5842-0e4c65b65234",
-								"942c4135-dc04-970e-88ed-ede5661cf175",
-								{
-									"name": "lid",
-									"origin": [0, 4, 4],
-									"color": 0,
-									"uuid": "76eb8285-8e32-81d7-5068-26ab79e74eac",
-									"export": true,
-									"mirror_uv": false,
-									"isOpen": false,
-									"locked": false,
-									"visibility": true,
-									"autouv": 0,
-									"children": ["a348725b-21ab-4127-33f1-2e70fb0ecb99", "98de12f5-752a-a01e-a86b-b060210f3aed", "450174b0-962c-cf40-7f11-1fc2a3399e04"]
-								}
-							]
-						}
-					]
+					"children": ["a348725b-21ab-4127-33f1-2e70fb0ecb99", "450174b0-962c-cf40-7f11-1fc2a3399e04", "98de12f5-752a-a01e-a86b-b060210f3aed"]
+				},
+				{
+					"name": "Base",
+					"origin": [0, 0, 0],
+					"color": 0,
+					"uuid": "04f52a03-2631-077b-d044-a86d911327e6",
+					"export": true,
+					"mirror_uv": false,
+					"isOpen": false,
+					"locked": false,
+					"visibility": true,
+					"autouv": 0,
+					"children": ["942c4135-dc04-970e-88ed-ede5661cf175", "d2f1f23c-5c94-1485-5842-0e4c65b65234"]
 				}
 			]
 		}
@@ -334,7 +317,7 @@
 			"loop_delay": "",
 			"animators": {
 				"04f52a03-2631-077b-d044-a86d911327e6": {
-					"name": "bottom",
+					"name": "Base",
 					"type": "bone",
 					"keyframes": [
 						{
@@ -410,7 +393,7 @@
 					]
 				},
 				"76eb8285-8e32-81d7-5068-26ab79e74eac": {
-					"name": "lid",
+					"name": "Lid",
 					"type": "bone",
 					"keyframes": [
 						{
@@ -486,7 +469,7 @@
 					]
 				},
 				"ff79b518-a886-90bc-f959-babe490519b7": {
-					"name": "ball",
+					"name": "Ball",
 					"type": "bone",
 					"keyframes": [
 						{
@@ -619,7 +602,7 @@
 			"loop_delay": "",
 			"animators": {
 				"04f52a03-2631-077b-d044-a86d911327e6": {
-					"name": "bottom",
+					"name": "Base",
 					"type": "bone",
 					"keyframes": [
 						{
@@ -639,7 +622,7 @@
 					]
 				},
 				"76eb8285-8e32-81d7-5068-26ab79e74eac": {
-					"name": "lid",
+					"name": "Lid",
 					"type": "bone",
 					"keyframes": [
 						{
@@ -659,7 +642,7 @@
 					]
 				},
 				"ff79b518-a886-90bc-f959-babe490519b7": {
-					"name": "ball",
+					"name": "Ball",
 					"type": "bone",
 					"keyframes": [
 						{
@@ -708,7 +691,7 @@
 			"loop_delay": "",
 			"animators": {
 				"04f52a03-2631-077b-d044-a86d911327e6": {
-					"name": "bottom",
+					"name": "Base",
 					"type": "bone",
 					"keyframes": [
 						{
@@ -770,7 +753,7 @@
 					]
 				},
 				"76eb8285-8e32-81d7-5068-26ab79e74eac": {
-					"name": "lid",
+					"name": "Lid",
 					"type": "bone",
 					"keyframes": [
 						{
@@ -832,7 +815,7 @@
 					]
 				},
 				"ff79b518-a886-90bc-f959-babe490519b7": {
-					"name": "ball",
+					"name": "Ball",
 					"type": "bone",
 					"keyframes": [
 						{
@@ -1035,7 +1018,7 @@
 			"loop_delay": "",
 			"animators": {
 				"04f52a03-2631-077b-d044-a86d911327e6": {
-					"name": "bottom",
+					"name": "Base",
 					"type": "bone",
 					"keyframes": [
 						{
@@ -1055,7 +1038,7 @@
 					]
 				},
 				"76eb8285-8e32-81d7-5068-26ab79e74eac": {
-					"name": "lid",
+					"name": "Lid",
 					"type": "bone",
 					"keyframes": [
 						{
@@ -1090,7 +1073,7 @@
 			"loop_delay": "",
 			"animators": {
 				"04f52a03-2631-077b-d044-a86d911327e6": {
-					"name": "bottom",
+					"name": "Base",
 					"type": "bone",
 					"keyframes": [
 						{
@@ -1432,7 +1415,7 @@
 					]
 				},
 				"76eb8285-8e32-81d7-5068-26ab79e74eac": {
-					"name": "lid",
+					"name": "Lid",
 					"type": "bone",
 					"keyframes": [
 						{
@@ -1593,7 +1576,7 @@
 			"loop_delay": "",
 			"animators": {
 				"04f52a03-2631-077b-d044-a86d911327e6": {
-					"name": "bottom",
+					"name": "Base",
 					"type": "bone",
 					"keyframes": [
 						{
@@ -1656,7 +1639,7 @@
 			"loop_delay": "",
 			"animators": {
 				"04f52a03-2631-077b-d044-a86d911327e6": {
-					"name": "bottom",
+					"name": "Base",
 					"type": "bone",
 					"keyframes": [
 						{
@@ -1719,7 +1702,7 @@
 			"loop_delay": "",
 			"animators": {
 				"04f52a03-2631-077b-d044-a86d911327e6": {
-					"name": "bottom",
+					"name": "Base",
 					"type": "bone",
 					"keyframes": [
 						{
@@ -1838,7 +1821,7 @@
 			"loop_delay": "",
 			"animators": {
 				"04f52a03-2631-077b-d044-a86d911327e6": {
-					"name": "bottom",
+					"name": "Base",
 					"type": "bone",
 					"keyframes": [
 						{
@@ -1957,7 +1940,7 @@
 			"loop_delay": "",
 			"animators": {
 				"04f52a03-2631-077b-d044-a86d911327e6": {
-					"name": "bottom",
+					"name": "Base",
 					"type": "bone",
 					"keyframes": [
 						{
@@ -2286,7 +2269,7 @@
 			"loop_delay": "",
 			"animators": {
 				"04f52a03-2631-077b-d044-a86d911327e6": {
-					"name": "bottom",
+					"name": "Base",
 					"type": "bone",
 					"keyframes": [
 						{
@@ -2614,7 +2597,7 @@
 					]
 				},
 				"ff79b518-a886-90bc-f959-babe490519b7": {
-					"name": "ball",
+					"name": "Ball",
 					"type": "bone",
 					"keyframes": [
 						{
@@ -2677,7 +2660,7 @@
 			"loop_delay": "",
 			"animators": {
 				"04f52a03-2631-077b-d044-a86d911327e6": {
-					"name": "bottom",
+					"name": "Base",
 					"type": "bone",
 					"keyframes": [
 						{
@@ -2796,7 +2779,7 @@
 			"loop_delay": "",
 			"animators": {
 				"04f52a03-2631-077b-d044-a86d911327e6": {
-					"name": "bottom",
+					"name": "Base",
 					"type": "bone",
 					"keyframes": [
 						{
@@ -2830,7 +2813,7 @@
 					]
 				},
 				"ff79b518-a886-90bc-f959-babe490519b7": {
-					"name": "ball",
+					"name": "Ball",
 					"type": "bone",
 					"keyframes": [
 						{
@@ -2865,7 +2848,7 @@
 			"loop_delay": "",
 			"animators": {
 				"04f52a03-2631-077b-d044-a86d911327e6": {
-					"name": "bottom",
+					"name": "Base",
 					"type": "bone",
 					"keyframes": [
 						{
@@ -2885,7 +2868,7 @@
 					]
 				},
 				"ff79b518-a886-90bc-f959-babe490519b7": {
-					"name": "ball",
+					"name": "Ball",
 					"type": "bone",
 					"keyframes": [
 						{
@@ -2934,7 +2917,7 @@
 			"loop_delay": "",
 			"animators": {
 				"04f52a03-2631-077b-d044-a86d911327e6": {
-					"name": "bottom",
+					"name": "Base",
 					"type": "bone",
 					"keyframes": [
 						{
@@ -2955,7 +2938,7 @@
 					]
 				},
 				"ff79b518-a886-90bc-f959-babe490519b7": {
-					"name": "ball",
+					"name": "Ball",
 					"type": "bone",
 					"keyframes": [
 						{
@@ -3019,7 +3002,7 @@
 			"loop_delay": "",
 			"animators": {
 				"04f52a03-2631-077b-d044-a86d911327e6": {
-					"name": "bottom",
+					"name": "Base",
 					"type": "bone",
 					"keyframes": [
 						{
@@ -3054,7 +3037,7 @@
 					]
 				},
 				"ff79b518-a886-90bc-f959-babe490519b7": {
-					"name": "ball",
+					"name": "Ball",
 					"type": "bone",
 					"keyframes": [
 						{
@@ -3103,7 +3086,7 @@
 			"loop_delay": "",
 			"animators": {
 				"ff79b518-a886-90bc-f959-babe490519b7": {
-					"name": "ball",
+					"name": "Ball",
 					"type": "bone",
 					"keyframes": [
 						{
@@ -3151,7 +3134,7 @@
 					]
 				},
 				"04f52a03-2631-077b-d044-a86d911327e6": {
-					"name": "bottom",
+					"name": "Base",
 					"type": "bone",
 					"keyframes": [
 						{
@@ -3451,7 +3434,7 @@
 					]
 				},
 				"76eb8285-8e32-81d7-5068-26ab79e74eac": {
-					"name": "lid",
+					"name": "Lid",
 					"type": "bone",
 					"keyframes": [
 						{
@@ -3640,7 +3623,7 @@
 			"loop_delay": "",
 			"animators": {
 				"04f52a03-2631-077b-d044-a86d911327e6": {
-					"name": "bottom",
+					"name": "Base",
 					"type": "bone",
 					"keyframes": [
 						{
@@ -3730,7 +3713,7 @@
 					]
 				},
 				"76eb8285-8e32-81d7-5068-26ab79e74eac": {
-					"name": "lid",
+					"name": "Lid",
 					"type": "bone",
 					"keyframes": [
 						{
