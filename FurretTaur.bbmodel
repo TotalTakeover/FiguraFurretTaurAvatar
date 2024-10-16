@@ -3461,6 +3461,61 @@
 					]
 				}
 			}
+		},
+		{
+			"uuid": "66e83b04-f731-7da4-8f5d-d25a7806824e",
+			"name": "crouch",
+			"loop": "loop",
+			"override": false,
+			"length": 0,
+			"snapping": 24,
+			"selected": true,
+			"anim_time_update": "",
+			"blend_weight": "",
+			"start_delay": "",
+			"loop_delay": "",
+			"animators": {
+				"38d5cea8-3123-0042-3d03-a89976654b67": {
+					"name": "Player",
+					"type": "bone",
+					"keyframes": [
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "0",
+									"y": 2,
+									"z": "0"
+								}
+							],
+							"uuid": "f3078c3d-0d74-6c26-ea10-b67659c7c7c7",
+							"time": 0,
+							"color": -1,
+							"interpolation": "linear"
+						}
+					]
+				},
+				"db518952-bd07-cda0-708a-3744d847af20": {
+					"name": "UpperBody",
+					"type": "bone",
+					"keyframes": [
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": -5
+								}
+							],
+							"uuid": "563406d8-3304-3329-abcc-73edfc545db1",
+							"time": 0,
+							"color": -1,
+							"interpolation": "linear"
+						}
+					]
+				}
+			}
 		}
 	]
 }
