@@ -2659,8 +2659,8 @@
 						}
 					]
 				},
-				"38d5cea8-3123-0042-3d03-a89976654b67": {
-					"name": "Player",
+				"edeb736e-c3a8-844c-35d9-9edaedc7131b": {
+					"name": "LowerBody",
 					"type": "bone",
 					"keyframes": [
 						{
@@ -2672,7 +2672,7 @@
 									"z": 7.75
 								}
 							],
-							"uuid": "d210d7ac-71fc-5322-9f92-9b2b259590f3",
+							"uuid": "2c540f65-e693-3620-b20b-2c6a8295bf2d",
 							"time": 0,
 							"color": -1,
 							"interpolation": "linear"
@@ -3045,8 +3045,8 @@
 			"start_delay": "",
 			"loop_delay": "",
 			"animators": {
-				"38d5cea8-3123-0042-3d03-a89976654b67": {
-					"name": "Player",
+				"edeb736e-c3a8-844c-35d9-9edaedc7131b": {
+					"name": "LowerBody",
 					"type": "bone",
 					"keyframes": [
 						{
@@ -3058,7 +3058,7 @@
 									"z": "0"
 								}
 							],
-							"uuid": "797e61ff-e8f7-6632-927a-05803345ae25",
+							"uuid": "1e8aaeef-28e6-99da-c5bd-7265e5349025",
 							"time": 0,
 							"color": -1,
 							"interpolation": "linear"
@@ -3260,26 +3260,6 @@
 						}
 					]
 				},
-				"38d5cea8-3123-0042-3d03-a89976654b67": {
-					"name": "Player",
-					"type": "bone",
-					"keyframes": [
-						{
-							"channel": "position",
-							"data_points": [
-								{
-									"x": "0",
-									"y": "q(...) +\nMath.sin(q.anim_time*720-90)*3+3.25",
-									"z": "0"
-								}
-							],
-							"uuid": "b5e39101-8850-9436-725c-86237db3d05d",
-							"time": 0,
-							"color": -1,
-							"interpolation": "linear"
-						}
-					]
-				},
 				"18ff47bb-aa8a-ff2f-e4b6-e56867e76a69": {
 					"name": "MiddleTorso",
 					"type": "bone",
@@ -3462,6 +3442,26 @@
 								}
 							],
 							"uuid": "7abc48c5-6505-04ba-e918-548a7521c04f",
+							"time": 0,
+							"color": -1,
+							"interpolation": "linear"
+						}
+					]
+				},
+				"edeb736e-c3a8-844c-35d9-9edaedc7131b": {
+					"name": "LowerBody",
+					"type": "bone",
+					"keyframes": [
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "q(...) +\nMath.sin(q.anim_time*720-90)*3+3.25",
+									"z": "0"
+								}
+							],
+							"uuid": "413247b5-3a5b-e5f7-6b26-c768d9f6873b",
 							"time": 0,
 							"color": -1,
 							"interpolation": "linear"
