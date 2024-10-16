@@ -3,7 +3,7 @@ local parts = require("lib.PartsAPI")
 local pose  = require("scripts.Posing")
 
 -- Config setup
-config:name("Centaur")
+config:name("FurretTaur")
 local camPos       = config:load("CameraPos") or false
 local savedServers = config:load("CameraServers") or {}
 
