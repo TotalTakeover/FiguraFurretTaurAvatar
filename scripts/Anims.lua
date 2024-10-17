@@ -79,9 +79,9 @@ end
 -- GS Blending Setup
 local blendAnims = {
 	{ anim = anims.groundIdle, ticks = {7,7} },
-	{ anim = anims.walk,        ticks = {7,7} },
-	{ anim = anims.sprint,      ticks = {3,7} },
-	{ anim = anims.jump,        ticks = {7,7} },
+	{ anim = anims.walk,       ticks = {7,7} },
+	{ anim = anims.sprint,     ticks = {3,7} },
+	{ anim = anims.jump,       ticks = {7,7} }
 }
 
 -- Apply GS Blending
