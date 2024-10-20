@@ -2236,7 +2236,7 @@
 			"folder": "",
 			"namespace": "",
 			"id": "1",
-			"group": "c9136dff-877c-aa67-3ed8-f0e23a9dc091",
+			"group": "78ae67b2-0096-9dc4-2fcb-139cd02057e7",
 			"width": 64,
 			"height": 32,
 			"uv_width": 64,
@@ -2263,6 +2263,10 @@
 		{
 			"uuid": "c9136dff-877c-aa67-3ed8-f0e23a9dc091",
 			"name": "Main"
+		},
+		{
+			"uuid": "78ae67b2-0096-9dc4-2fcb-139cd02057e7",
+			"name": "Pokeball"
 		},
 		{
 			"uuid": "2b59bbae-fb3b-7cb0-1fbc-5b3fb45efdbc",
