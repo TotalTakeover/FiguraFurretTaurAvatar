@@ -2101,6 +2101,7 @@
 		{
 			"name": "PokeBall",
 			"origin": [0, 0, 0],
+			"rotation": [10, 0, 0],
 			"color": 0,
 			"uuid": "ff79b518-a886-90bc-f959-babe490519b7",
 			"export": true,
