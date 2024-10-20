@@ -50,11 +50,12 @@ function events.TICK()
 	anims.sprint:speed(sprintSpeed)
 	
 	-- Animation states
-	local groundIdle = vel.xz:length() == 0
-	local walk       = vel.xz:length() ~= 0 and (onGround or pose.swim or effects.cF) and not isSprinting
+	local groundIdle = vel.xz:length() == 0 and not player:getVehicle()
+	local walk       = vel.xz:length() ~= 0 and (onGround or pose.swim or effects.cF) and not isSprinting and not player:getVehicle()
 	local walkBounce = walk and not pose.swim
-	local sprint     = vel.xz:length() ~= 0 and (onGround or effects.cF) and isSprinting
-	local jump       = vel.xz:length() ~= 0 and not onGround
+	local sprint     = vel.xz:length() ~= 0 and (onGround or effects.cF) and isSprinting and not player:getVehicle()
+	local jump       = vel.xz:length() ~= 0 and not onGround and not player:getVehicle()
+	local ride       = player:getVehicle()
 	
 	-- Animations
 	anims.groundIdle:playing(groundIdle)
@@ -62,6 +63,7 @@ function events.TICK()
 	anims.walkBounce:playing(walkBounce)
 	anims.sprint:playing(sprint)
 	anims.jump:playing(jump)
+	anims.ride:playing(ride)
 	
 end
 
@@ -81,7 +83,8 @@ local blendAnims = {
 	{ anim = anims.groundIdle, ticks = {7,7} },
 	{ anim = anims.walk,       ticks = {7,7} },
 	{ anim = anims.sprint,     ticks = {3,7} },
-	{ anim = anims.jump,       ticks = {7,7} }
+	{ anim = anims.jump,       ticks = {7,7} },
+	{ anim = anims.ride,       ticks = {7,7} },
 }
 
 -- Apply GS Blending
