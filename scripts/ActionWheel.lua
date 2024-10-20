@@ -22,6 +22,9 @@ if not s then anims = {} end
 local s, squapi = pcall(require, "scripts.SquishyAnims")
 if not s then squapi = {} end
 
+local s, pokeball = pcall(require, "scripts.Pokeball")
+if not s then pokeball = {} end
+
 -- Logs pages for navigation
 local navigation = {}
 
@@ -157,6 +160,7 @@ pages.camera
 
 -- Furret actions
 pages.furret
+	:action( -1, pokeball.toggleAct)
 	:action( -1, colorActs.shinyAct)
 	:action( -1, backAct)
 
