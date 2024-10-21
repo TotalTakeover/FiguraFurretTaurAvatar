@@ -57,9 +57,7 @@ function events.RENDER(delta, context)
 	end
 	
 	-- Cape textures
-	--[[
 	parts.group.Cape:primaryTexture(vanillaSkin and "CAPE" or "PRIMARY")
-	--]]
 	
 	-- Layer toggling
 	for layerType, parts in pairs(layerParts) do
