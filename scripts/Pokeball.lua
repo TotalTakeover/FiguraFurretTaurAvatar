@@ -113,10 +113,8 @@ function events.RENDER(delta, context)
 		:visible(not renderer:isFirstPerson())
 		:light(world.getLightLevel(player:getPos(delta) + vec(0, 0.5, 0)))
 	
-	-- Determine color based on time into animations
-	local pokeColor = 
-		isInBall and math.map(closeAnim:getTime() / closeAnim:getLength(), 0, 1, 1, 0)
-		or openAnim:getTime() / openAnim:getLength()
+	-- Determine color based on player scale
+	local pokeColor = parts.group.Player:getAnimScale():lengthSquared() / 3
 	
 	-- Apply Color
 	parts.group.Player:color(1, pokeColor, pokeColor)
