@@ -83,8 +83,7 @@ function events.RENDER(delta, context)
 	local menu = context == "FIGURA_GUI" or context == "MINECRAFT_GUI" or context == "PAPERDOLL"
 	
 	-- Pokeball state
-	isInBall =
-		toggle and not hasRider
+	isInBall = toggle and not hasRider
 	
 	-- Activate pokeball
 	if isInBall ~= wasInBall then
