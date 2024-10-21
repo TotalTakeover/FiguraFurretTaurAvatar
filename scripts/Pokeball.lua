@@ -1,5 +1,5 @@
 -- Required script
-local parts  = require("lib.PartsAPI")
+local parts = require("lib.PartsAPI")
 
 -- Pokeball part
 local pokeBall = parts.group.PokeBall
