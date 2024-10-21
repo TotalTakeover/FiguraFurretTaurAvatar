@@ -9,7 +9,6 @@ local effects = require("scripts.SyncedVariables")
 -- Animations setup
 local anims = animations.FurretTaur
 
---[[
 -- Parrot pivots
 local parrots = {
 	
@@ -17,7 +16,6 @@ local parrots = {
 	parts.group.RightParrotPivot
 	
 }
---]]
 
 -- Calculate parent's rotations
 local function calculateParentRot(m)
@@ -69,12 +67,10 @@ end
 
 function events.RENDER(delta, context)
 	
-	--[[
 	-- Parrot rot offset
 	for _, parrot in pairs(parrots) do
 		parrot:rot(-calculateParentRot(parrot:getParent()) - vanilla_model.BODY:getOriginRot())
 	end
-	--]]
 	
 end
 
