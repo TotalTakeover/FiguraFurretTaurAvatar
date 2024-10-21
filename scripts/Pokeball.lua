@@ -93,6 +93,7 @@ function events.RENDER(delta, context)
 		
 		pokeballSound(isInBall)
 		
+		-- Set pokeball rotation
 		if isInBall then 
 			staticYaw = -player:getBodyYaw(delta) + 180
 		end
