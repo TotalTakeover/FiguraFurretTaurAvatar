@@ -70,6 +70,12 @@ local worldBall = deepCopy(parts.group.PokeBall)
 -- Set pokeball copy to world
 worldPart:addChild(worldBall)
 
+function events.ENTITY_INIT()
+	
+	staticYaw = -player:getBodyYaw() + 180
+	
+end
+
 function events.RENDER(delta, context)
 	
 	-- Variables
