@@ -163,7 +163,7 @@ function events.RENDER(delta, context)
 	end
 	
 	-- Hide ears when wearing helmet
-	parts.group.Ears:visible(player:getItem(6).id == "minecraft:air")
+	parts.group.Ears:visible(not (helmet and player:getItem(6).id ~= "minecraft:air"))
 	
 end
 
