@@ -2792,6 +2792,94 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
+			"from": [-4, 0, 0],
+			"to": [4, 8, 0],
+			"autouv": 0,
+			"color": 0,
+			"visibility": false,
+			"origin": [0, 0, 0],
+			"faces": {
+				"north": {
+					"uv": [8, 8, 16, 16],
+					"texture": 0
+				},
+				"east": {
+					"uv": [0, 0, 0, 0],
+					"texture": null
+				},
+				"south": {
+					"uv": [0, 0, 0, 0],
+					"texture": null
+				},
+				"west": {
+					"uv": [0, 0, 0, 0],
+					"texture": null
+				},
+				"up": {
+					"uv": [0, 0, 0, 0],
+					"texture": null
+				},
+				"down": {
+					"uv": [0, 0, 0, 0],
+					"texture": null
+				}
+			},
+			"type": "cube",
+			"uuid": "6075b955-f685-d7c0-7514-d94dc1f66427"
+		},
+		{
+			"name": "HAT_Skin",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [-4, 0, 0],
+			"to": [4, 8, 0],
+			"autouv": 0,
+			"color": 0,
+			"visibility": false,
+			"inflate": 0.5,
+			"origin": [0, 0, 0],
+			"uv_offset": [64, 0],
+			"faces": {
+				"north": {
+					"uv": [40, 8, 48, 16],
+					"texture": 0
+				},
+				"east": {
+					"uv": [0, 0, 0, 0],
+					"texture": null
+				},
+				"south": {
+					"uv": [0, 0, 0, 0],
+					"texture": null
+				},
+				"west": {
+					"uv": [0, 0, 0, 0],
+					"texture": null
+				},
+				"up": {
+					"uv": [0, 0, 0, 0],
+					"texture": null
+				},
+				"down": {
+					"uv": [0, 0, 0, 0],
+					"texture": null
+				}
+			},
+			"type": "cube",
+			"uuid": "7cdc66f9-14b1-c78f-1930-9c5667a0ba4f"
+		},
+		{
+			"name": "Head_Skin",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
 			"from": [-4, 0, -4],
 			"to": [4, 8, 4],
 			"autouv": 0,
@@ -3852,6 +3940,19 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Portrait",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"uuid": "d9846843-73d7-e995-93df-616a8e425432",
+			"export": true,
+			"mirror_uv": false,
+			"isOpen": false,
+			"locked": false,
+			"visibility": false,
+			"autouv": 0,
+			"children": ["6075b955-f685-d7c0-7514-d94dc1f66427", "7cdc66f9-14b1-c78f-1930-9c5667a0ba4f"]
 		}
 	],
 	"textures": [
