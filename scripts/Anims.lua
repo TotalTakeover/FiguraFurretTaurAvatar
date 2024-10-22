@@ -49,8 +49,8 @@ function events.TICK()
 	
 	-- Animation states
 	local groundIdle = vel.xz:length() == 0 and not player:getVehicle() and not pose.sleep
-	local walk       = vel.xz:length() ~= 0 and (onGround or pose.swim or effects.cF) and not isSprinting and not player:getVehicle() and not pose.sleep
-	local walkBounce = walk and not pose.swim
+	local walk       = vel.xz:length() ~= 0 and (onGround or player:isInWater() or effects.cF) and not isSprinting and not player:getVehicle() and not pose.sleep
+	local walkBounce = walk and onGround and not pose.swim
 	local sprint     = vel.xz:length() ~= 0 and (onGround or effects.cF) and isSprinting and not player:getVehicle() and not pose.sleep
 	local jump       = vel.xz:length() ~= 0 and not onGround and not player:getVehicle() and not pose.sleep
 	local ride       = player:getVehicle()
