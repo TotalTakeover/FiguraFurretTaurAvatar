@@ -3499,7 +3499,7 @@
 			"uuid": "784f6298-1772-ff7b-b525-d5744ae8bef9"
 		},
 		{
-			"name": "LOWER_LAYER",
+			"name": "LEFT_SLEEVE",
 			"box_uv": false,
 			"rescale": false,
 			"locked": false,
@@ -3544,7 +3544,7 @@
 			"uuid": "38d6a7f1-6b5f-531c-820b-eca1cd7dccec"
 		},
 		{
-			"name": "LOWER_LAYER",
+			"name": "LEFT_SLEEVE",
 			"box_uv": false,
 			"rescale": false,
 			"locked": false,
@@ -3589,7 +3589,7 @@
 			"uuid": "f5362cdf-1fe4-3e2c-11ca-c16ffc55d23e"
 		},
 		{
-			"name": "LOWER_LAYER",
+			"name": "RIGHT_SLEEVE",
 			"box_uv": false,
 			"rescale": false,
 			"locked": false,
@@ -3634,7 +3634,7 @@
 			"uuid": "35461b7a-c1ba-616a-710f-d032ef8c7549"
 		},
 		{
-			"name": "LOWER_LAYER",
+			"name": "RIGHT_SLEEVE",
 			"box_uv": false,
 			"rescale": false,
 			"locked": false,
@@ -3723,7 +3723,7 @@
 			"uuid": "b871c55f-4f47-e04b-b78f-7c4e79bb5d2b"
 		},
 		{
-			"name": "LOWER_LAYER",
+			"name": "LEFT_PANTS_LEG",
 			"box_uv": false,
 			"rescale": false,
 			"locked": false,
@@ -3768,7 +3768,7 @@
 			"uuid": "c1a5fa76-c413-b98b-ff06-3b8c81f11118"
 		},
 		{
-			"name": "LOWER_LAYER",
+			"name": "RIGHT_PANTS_LEG",
 			"box_uv": false,
 			"rescale": false,
 			"locked": false,
