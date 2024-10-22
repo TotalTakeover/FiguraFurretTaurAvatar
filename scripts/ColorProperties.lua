@@ -1,5 +1,5 @@
 -- Required scripts
-local parts  = require("lib.PartsAPI")
+local parts = require("lib.PartsAPI")
 
 -- Config setup
 config:name("FurretTaur")
