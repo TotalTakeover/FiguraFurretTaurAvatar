@@ -19,7 +19,7 @@ local slimParts    = parts:createTable(function(part) return part:getName():find
 local skinParts = parts:createTable(function(part) return part:getName():find("_[sS]kin") end)
 
 -- Layer parts
-local layerTypes = {"HAT", "JACKET", "LEFT_SLEEVE", "RIGHT_SLEEVE", "LEFT_PANTS_LEG", "RIGHT_PANTS_LEG", "CAPE", "TAIL_LAYER"}
+local layerTypes = {"HAT", "JACKET", "LEFT_SLEEVE", "RIGHT_SLEEVE", "LEFT_PANTS_LEG", "RIGHT_PANTS_LEG", "CAPE", "LOWER_LAYER"}
 local layerParts = {}
 for _, type in pairs(layerTypes) do
 	layerParts[type] = parts:createTable(function(part) return part:getName():find(type) end)
@@ -62,7 +62,7 @@ function events.RENDER(delta, context)
 	-- Layer toggling
 	for layerType, parts in pairs(layerParts) do
 		local enabled
-		if layerType == "TAIL_LAYER" then
+		if layerType == "LOWER_LAYER" then
 			enabled = player:isSkinLayerVisible("RIGHT_PANTS_LEG") or player:isSkinLayerVisible("LEFT_PANTS_LEG")
 		else
 			enabled = player:isSkinLayerVisible(layerType)
