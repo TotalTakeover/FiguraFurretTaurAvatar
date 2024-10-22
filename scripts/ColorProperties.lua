@@ -8,6 +8,9 @@ local shiny = config:load("ColorShiny") or false
 -- All shiny parts
 local shinyParts = parts:createTable(function(part) return part:getName():find("_[sS]hiny") end)
 
+-- Variable
+local wasShiny = not shiny
+
 -- Textures
 local normalTex = textures["textures.furret"]       or textures["FurretTaur.furret"]
 local shinyTex  = textures["textures.furret_shiny"] or textures["FurretTaur.furret_shiny"]
@@ -15,9 +18,14 @@ local shinyTex  = textures["textures.furret_shiny"] or textures["FurretTaur.furr
 function events.RENDER(delta, context)
 	
 	-- Shiny textures
-	for _, part in ipairs(shinyParts) do
-		part:primaryTexture("CUSTOM", shiny and shinyTex or normalTex)
+	if shiny ~= wasShiny then
+		for _, part in ipairs(shinyParts) do
+			part:primaryTexture("CUSTOM", shiny and shinyTex or normalTex)
+		end
 	end
+	
+	-- Store data
+	wasShiny = shiny
 	
 	-- Glowing outline
 	renderer:outlineColor(shiny and vectors.hexToRGB("FF8EBC") or vectors.hexToRGB("A77962"))
