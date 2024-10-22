@@ -1,4 +1,4 @@
--- Required scripts
+-- Required script
 local parts = require("lib.PartsAPI")
 
 -- Config setup
