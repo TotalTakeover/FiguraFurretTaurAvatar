@@ -72,6 +72,9 @@ function events.RENDER(delta, context)
 		end
 	end
 	
+	-- Shadow size
+	renderer:shadowRadius(math.map(parts.group.Player:getAnimScale():lengthSquared() / 3, 0, 1, 0.25, 0.5))
+	
 end
 
 -- Vanilla skin toggle
