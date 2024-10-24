@@ -24,5 +24,4 @@ This Figura avatar is a template designed around turning the user into a Furret 
 
 ## Features
 Section under construction
-
-[<img src="https://img.youtube.com/vi/<IdHere>/maxresdefault.jpg" alt="image" width="300" height="auto">](https://youtu.be/<IdHere>)
+[<img src="https://img.youtube.com/vi/_zxTJ890m9g/maxresdefault.jpg" alt="image" width="300" height="auto">](https://youtu.be/_zxTJ890m9g)
