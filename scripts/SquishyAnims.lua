@@ -9,7 +9,9 @@ local anims = animations.FurretTaur
 
 -- Config setup
 config:name("FurretTaur")
+local earFlick = config:load("SquapiEarFlick")
 local armsMove = config:load("SquapiArmsMove") or false
+if earFlick == nil then earFlick = true end
 
 -- Calculate parent's rotations
 local function calculateParentRot(m)
@@ -30,13 +32,13 @@ local rightArmLerp = lerp:new(0.5, armsMove and 1 or 0)
 local ears = squapi.ear:new(
 	parts.group.LeftEar,
 	parts.group.RightEar,
-	0.25,  -- Range Multiplier (0.25)
-	false, -- Horizontal (false)
-	2,     -- Bend Strength (2)
-	true,  -- Do Flick (true)
-	400,   -- Flick Chance (400)
-	0.1,   -- Stiffness (0.1)
-	0.9    -- Bounce (0.9)
+	0.25,     -- Range Multiplier (0.25)
+	false,    -- Horizontal (false)
+	2,        -- Bend Strength (2)
+	earFlick, -- Do Flick (earFlick)
+	400,      -- Flick Chance (400)
+	0.1,      -- Stiffness (0.1)
+	0.9       -- Bounce (0.9)
 )
 
 -- Tails table
@@ -130,6 +132,9 @@ function events.TICK()
 	rightArmLerp.target = (armsMove or armShouldMove or rightSwing or bow or ((crossL or crossR) or (using and usingR ~= "NONE"))) and 1 or 0
 	taur.target         = anims.groundIdle:isPlaying() and 0 or taur.target
 	
+	-- Control ear flick based on variables
+	ears.doEarFlick = earFlick
+	
 end
 
 function events.RENDER(delta, context)
@@ -179,6 +184,14 @@ function events.RENDER(delta, context)
 	
 end
 
+-- Ear flick toggle
+function pings.setSquapiEarFlick(boolean)
+	
+	earFlick = boolean
+	config:save("SquapiEarFlick", earFlick)
+	
+end
+
 -- Arm movement toggle
 function pings.setSquapiArmsMove(boolean)
 	
@@ -188,9 +201,10 @@ function pings.setSquapiArmsMove(boolean)
 end
 
 -- Sync variable
-function pings.syncSquapi(a)
+function pings.syncSquapi(a, b)
 	
-	armsMove = a
+	earFlick = a
+	armsMove = b
 	
 end
 
@@ -206,7 +220,7 @@ if not s then color = {} end
 function events.TICK()
 	
 	if world.getTime() % 200 == 0 then
-		pings.syncSquapi(armsMove)
+		pings.syncSquapi(earFlick, armsMove)
 	end
 	
 end
@@ -214,17 +228,30 @@ end
 -- Table setup
 local t = {}
 
--- Action
+-- Actions
+t.earsAct = action_wheel:newAction()
+	:item(itemCheck("bone"))
+	:toggleItem(itemCheck("feather"))
+	:onToggle(pings.setSquapiEarFlick)
+	:toggled(earFlick)
+
 t.armsAct = action_wheel:newAction()
 	:item(itemCheck("red_dye"))
 	:toggleItem(itemCheck("rabbit_foot"))
 	:onToggle(pings.setSquapiArmsMove)
 	:toggled(armsMove)
 
--- Update action
+-- Update actions
 function events.RENDER(delta, context)
 	
 	if action_wheel:isEnabled() then
+		t.earsAct
+			:title(toJson
+				{"",
+				{text = "Ear Flick Toggle\n\n", bold = true, color = color.primary},
+				{text = "Toggles the ability for the ears to flick.", color = color.secondary}}
+			)
+		
 		t.armsAct
 			:title(toJson
 				{"",
