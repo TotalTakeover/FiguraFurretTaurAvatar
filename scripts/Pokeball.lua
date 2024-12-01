@@ -268,13 +268,15 @@ function events.RENDER(delta, context)
 	
 	if action_wheel:isEnabled() then
 		t.toggleAct
-			:title(toJson
-				{"",
-				{text = "Toggle Pokeball\n\n", bold = true, color = c.primary},
-				{text = "Toggle the usage of your pokeball.\n\n", color = c.secondary},
-				{text = "Notice:\n", bold = true, color = "gold"},
-				{text = "Various factors can prevent this feature from being active.\nAdditionally, when inside your pokeball, you are unable to move or preform actions.", color = "yellow"}}
-			)
+			:title(toJson(
+				{
+					"",
+					{text = "Toggle Pokeball\n\n", bold = true, color = c.primary},
+					{text = "Toggle the usage of your pokeball.\n\n", color = c.secondary},
+					{text = "Notice:\n", bold = true, color = "gold"},
+					{text = "Various factors can prevent this feature from being active.\nAdditionally, when inside your pokeball, you are unable to move or preform actions.", color = "yellow"}
+				}
+			))
 			:toggled(toggle)
 		
 		for _, page in pairs(t) do

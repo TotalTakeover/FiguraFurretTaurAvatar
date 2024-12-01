@@ -101,11 +101,13 @@ function events.RENDER(delta, context)
 	
 	if action_wheel:isEnabled() then
 		t.shinyAct
-			:title(toJson
-				{"",
-				{text = "Toggle Shiny Textures\n\n", bold = true, color = c.primary},
-				{text = "Toggles the usage of shiny textures for your pokemon parts.", color = c.secondary}}
-			)
+			:title(toJson(
+				{
+					"",
+					{text = "Toggle Shiny Textures\n\n", bold = true, color = c.primary},
+					{text = "Toggles the usage of shiny textures for your pokemon parts.", color = c.secondary}
+				}
+			))
 			:toggled(shiny)
 		
 		for _, page in pairs(t) do
