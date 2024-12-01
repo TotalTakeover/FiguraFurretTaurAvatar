@@ -190,8 +190,8 @@ if not host:isHost() then return end
 
 -- Required scripts
 local itemCheck = require("lib.ItemCheck")
-local s, color = pcall(require, "scripts.ColorProperties")
-if not s then color = {} end
+local s, c = pcall(require, "scripts.ColorProperties")
+if not s then c = {} end
 
 -- Check if any bob animations are playing
 local function checkBob()
@@ -270,15 +270,15 @@ function events.RENDER(delta, context)
 		t.toggleAct
 			:title(toJson
 				{"",
-				{text = "Toggle Pokeball\n\n", bold = true, color = color.primary},
-				{text = "Toggle the usage of your pokeball.\n\n", color = color.secondary},
+				{text = "Toggle Pokeball\n\n", bold = true, color = c.primary},
+				{text = "Toggle the usage of your pokeball.\n\n", color = c.secondary},
 				{text = "Notice:\n", bold = true, color = "gold"},
 				{text = "Various factors can prevent this feature from being active.\nAdditionally, when inside your pokeball, you are unable to move or preform actions.", color = "yellow"}}
 			)
 			:toggled(toggle)
 		
 		for _, page in pairs(t) do
-			page:hoverColor(color.hover):toggleColor(color.active)
+			page:hoverColor(c.hover):toggleColor(c.active)
 		end
 		
 	end

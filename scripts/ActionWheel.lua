@@ -13,8 +13,8 @@ if not s then armor = {} end
 local s, camera = pcall(require, "scripts.CameraControl")
 if not s then camera = {} end
 
-local s, color, colorActs = pcall(require, "scripts.ColorProperties")
-if not s then color = {} colorActs = {} end
+local s, c, colorActs = pcall(require, "scripts.ColorProperties")
+if not s then c = {} colorActs = {} end
 
 local s, anims = pcall(require, "scripts.Anims")
 if not s then anims = {} end
@@ -86,31 +86,31 @@ function events.RENDER(delta, context)
 	if action_wheel:isEnabled() then
 		pageActs.avatar
 			:title(toJson
-				{text = "Avatar Settings", bold = true, color = color.primary}
+				{text = "Avatar Settings", bold = true, color = c.primary}
 			)
 		
 		pageActs.furret
 			:title(toJson
-				{text = "Furret Settings", bold = true, color = color.primary}
+				{text = "Furret Settings", bold = true, color = c.primary}
 			)
 		
 		pageActs.anims
 			:title(toJson
-				{text = "Animations", bold = true, color = color.primary}
+				{text = "Animations", bold = true, color = c.primary}
 			)
 		
 		pageActs.armor
 			:title(toJson
-				{text = "Armor Settings", bold = true, color = color.primary}
+				{text = "Armor Settings", bold = true, color = c.primary}
 			)
 		
 		pageActs.camera
 			:title(toJson
-				{text = "Camera Settings", bold = true, color = color.primary}
+				{text = "Camera Settings", bold = true, color = c.primary}
 			)
 		
 		for _, page in pairs(pageActs) do
-			page:hoverColor(color.hover)
+			page:hoverColor(c.hover)
 		end
 		
 	end
