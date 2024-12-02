@@ -13,9 +13,6 @@ if not s then armor = {} end
 local s, camera = pcall(require, "scripts.CameraControl")
 if not s then camera = {} end
 
-local s, c, colorActs = pcall(require, "scripts.ColorProperties")
-if not s then c = {} colorActs = {} end
-
 local s, anims = pcall(require, "scripts.Anims")
 if not s then anims = {} end
 
@@ -24,6 +21,12 @@ if not s then squapi = {} end
 
 local s, pokeball = pcall(require, "scripts.Pokeball")
 if not s then pokeball = {} end
+
+local s, shiny = pcall(require, "scripts.Shiny")
+if not s then shiny = {} end
+
+local s, c = pcall(require, "scripts.ColorProperties")
+if not s then c = {} end
 
 -- Logs pages for navigation
 local navigation = {}
@@ -161,7 +164,7 @@ pages.camera
 -- Furret actions
 pages.furret
 	:action( -1, pokeball.toggleAct)
-	:action( -1, colorActs.shinyAct)
+	:action( -1, shiny.shinyAct)
 	:action( -1, backAct)
 
 -- Animation actions
