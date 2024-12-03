@@ -22,35 +22,35 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [-3.5, 2.5, -16],
-			"to": [3.5, 7.5, -10],
+			"from": [-4, 3, -19],
+			"to": [4, 9, -12],
 			"autouv": 0,
 			"color": 0,
 			"origin": [0, 0, 0],
 			"uv_offset": [0, 46],
 			"faces": {
 				"north": {
-					"uv": [10, 6, 17, 11],
+					"uv": [13, 7, 21, 13],
 					"texture": 1
 				},
 				"east": {
-					"uv": [4, 6, 10, 11],
+					"uv": [6, 7, 13, 13],
 					"texture": 1
 				},
 				"south": {
-					"uv": [23, 6, 30, 11],
+					"uv": [28, 7, 36, 13],
 					"texture": 1
 				},
 				"west": {
-					"uv": [17, 6, 23, 11],
+					"uv": [21, 7, 28, 13],
 					"texture": 1
 				},
 				"up": {
-					"uv": [17, 6, 10, 0],
+					"uv": [21, 7, 13, 0],
 					"texture": 1
 				},
 				"down": {
-					"uv": [24, 0, 17, 6],
+					"uv": [29, 0, 21, 7],
 					"texture": 1
 				}
 			},
@@ -65,8 +65,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [-4, 1.5, -11],
-			"to": [4, 8.5, -3],
+			"from": [-5, 2, -13],
+			"to": [5, 10, -3],
 			"autouv": 0,
 			"color": 0,
 			"inflate": 0.01,
@@ -74,27 +74,27 @@
 			"uv_offset": [0, 16],
 			"faces": {
 				"north": {
-					"uv": [9, 19, 17, 26],
+					"uv": [11, 23, 21, 31],
 					"texture": 1
 				},
 				"east": {
-					"uv": [1, 19, 9, 26],
+					"uv": [1, 23, 11, 31],
 					"texture": 1
 				},
 				"south": {
-					"uv": [25, 19, 33, 26],
+					"uv": [31, 23, 41, 31],
 					"texture": 1
 				},
 				"west": {
-					"uv": [17, 19, 25, 26],
+					"uv": [21, 23, 31, 31],
 					"texture": 1
 				},
 				"up": {
-					"uv": [17, 19, 9, 11],
+					"uv": [21, 23, 11, 13],
 					"texture": 1
 				},
 				"down": {
-					"uv": [25, 11, 17, 19],
+					"uv": [31, 13, 21, 23],
 					"texture": 1
 				}
 			},
@@ -109,34 +109,34 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [-4, 1.5, -5.5],
-			"to": [4, 8.5, 3.5],
+			"from": [-5, 2, -7],
+			"to": [5, 10, 4],
 			"autouv": 0,
 			"color": 0,
 			"origin": [0, 0, 0],
 			"faces": {
 				"north": {
-					"uv": [9, 35, 17, 42],
+					"uv": [11, 42, 21, 50],
 					"texture": 1
 				},
 				"east": {
-					"uv": [0, 35, 9, 42],
+					"uv": [0, 42, 11, 50],
 					"texture": 1
 				},
 				"south": {
-					"uv": [26, 35, 34, 42],
+					"uv": [32, 42, 42, 50],
 					"texture": 1
 				},
 				"west": {
-					"uv": [17, 35, 26, 42],
+					"uv": [21, 42, 32, 50],
 					"texture": 1
 				},
 				"up": {
-					"uv": [17, 35, 9, 26],
+					"uv": [21, 42, 11, 31],
 					"texture": 1
 				},
 				"down": {
-					"uv": [25, 26, 17, 35],
+					"uv": [31, 31, 21, 42],
 					"texture": 1
 				}
 			},
@@ -151,8 +151,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [-3.5, 1.5, 1],
-			"to": [3.5, 8.5, 9],
+			"from": [-4, 2.25, 1.5],
+			"to": [4, 10.25, 11.5],
 			"autouv": 0,
 			"color": 0,
 			"inflate": 0.01,
@@ -160,27 +160,27 @@
 			"uv_offset": [0, 31],
 			"faces": {
 				"north": {
-					"uv": [42, 8, 49, 15],
+					"uv": [13, 60, 21, 68],
 					"texture": 1
 				},
 				"east": {
-					"uv": [34, 8, 42, 15],
+					"uv": [3, 60, 13, 68],
 					"texture": 1
 				},
 				"south": {
-					"uv": [57, 8, 64, 15],
+					"uv": [31, 60, 39, 68],
 					"texture": 1
 				},
 				"west": {
-					"uv": [49, 8, 57, 15],
+					"uv": [21, 60, 31, 68],
 					"texture": 1
 				},
 				"up": {
-					"uv": [49, 8, 42, 0],
+					"uv": [21, 60, 13, 50],
 					"texture": 1
 				},
 				"down": {
-					"uv": [56, 0, 49, 8],
+					"uv": [29, 50, 21, 60],
 					"texture": 1
 				}
 			},
@@ -195,35 +195,35 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [-3.5, 1.5, 6.5],
-			"to": [3.5, 8.5, 14.5],
+			"from": [-4, 2.25, 8],
+			"to": [4, 10.25, 18],
 			"autouv": 0,
 			"color": 0,
 			"origin": [0, 0, 0],
 			"uv_offset": [26, 8],
 			"faces": {
 				"north": {
-					"uv": [42, 23, 49, 30],
+					"uv": [13, 78, 21, 86],
 					"texture": 1
 				},
 				"east": {
-					"uv": [34, 23, 42, 30],
+					"uv": [3, 78, 13, 86],
 					"texture": 1
 				},
 				"south": {
-					"uv": [57, 23, 64, 30],
+					"uv": [31, 78, 39, 86],
 					"texture": 1
 				},
 				"west": {
-					"uv": [49, 23, 57, 30],
+					"uv": [21, 78, 31, 86],
 					"texture": 1
 				},
 				"up": {
-					"uv": [49, 23, 42, 15],
+					"uv": [21, 78, 13, 68],
 					"texture": 1
 				},
 				"down": {
-					"uv": [56, 15, 49, 23],
+					"uv": [29, 68, 21, 78],
 					"texture": 1
 				}
 			},
@@ -238,35 +238,35 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [-3, 2, 12.5],
-			"to": [3, 8, 19.5],
+			"from": [-3.5, 2.75, 16],
+			"to": [3.5, 9.75, 24],
 			"autouv": 0,
 			"color": 0,
 			"origin": [0, 0, 0],
 			"uv_offset": [30, 38],
 			"faces": {
 				"north": {
-					"uv": [43, 37, 49, 43],
+					"uv": [14, 94, 21, 101],
 					"texture": 1
 				},
 				"east": {
-					"uv": [36, 37, 43, 43],
+					"uv": [6, 94, 14, 101],
 					"texture": 1
 				},
 				"south": {
-					"uv": [56, 37, 62, 43],
+					"uv": [29, 94, 36, 101],
 					"texture": 1
 				},
 				"west": {
-					"uv": [49, 37, 56, 43],
+					"uv": [21, 94, 29, 101],
 					"texture": 1
 				},
 				"up": {
-					"uv": [49, 37, 43, 30],
+					"uv": [21, 94, 14, 86],
 					"texture": 1
 				},
 				"down": {
-					"uv": [55, 30, 49, 37],
+					"uv": [28, 86, 21, 94],
 					"texture": 1
 				}
 			},
@@ -281,8 +281,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [0, 2.5, 18.5],
-			"to": [0, 7.5, 25.5],
+			"from": [0, 3.25, 23],
+			"to": [0, 9.25, 31],
 			"autouv": 0,
 			"color": 0,
 			"origin": [0, 0, 0],
@@ -293,7 +293,7 @@
 					"texture": null
 				},
 				"east": {
-					"uv": [29, 51, 22, 56],
+					"uv": [55, 48, 47, 54],
 					"texture": 1
 				},
 				"south": {
@@ -301,7 +301,7 @@
 					"texture": null
 				},
 				"west": {
-					"uv": [22, 51, 29, 56],
+					"uv": [47, 48, 55, 54],
 					"texture": 1
 				},
 				"up": {
@@ -324,35 +324,35 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [-3.5, 0, -10],
-			"to": [-0.5, 3, -8],
+			"from": [-4.5, 0.25, -12],
+			"to": [-0.5, 4.25, -9],
 			"autouv": 0,
 			"color": 0,
 			"origin": [0, 0, 0],
 			"uv_offset": [20, 46],
 			"faces": {
 				"north": {
-					"uv": [16, 44, 19, 47],
+					"uv": [47, 11, 51, 15],
 					"texture": 1
 				},
 				"east": {
-					"uv": [14, 44, 16, 47],
+					"uv": [44, 11, 47, 15],
 					"texture": 1
 				},
 				"south": {
-					"uv": [21, 44, 24, 47],
+					"uv": [54, 11, 58, 15],
 					"texture": 1
 				},
 				"west": {
-					"uv": [19, 44, 21, 47],
+					"uv": [51, 11, 54, 15],
 					"texture": 1
 				},
 				"up": {
-					"uv": [19, 44, 16, 42],
+					"uv": [51, 11, 47, 8],
 					"texture": 1
 				},
 				"down": {
-					"uv": [22, 42, 19, 44],
+					"uv": [55, 8, 51, 11],
 					"texture": 1
 				}
 			},
@@ -367,8 +367,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [-3.5, -1.5, -10],
-			"to": [-0.5, 0.5, -8],
+			"from": [-4.5, -2.25, -12],
+			"to": [-0.5, 0.75, -9],
 			"autouv": 0,
 			"color": 0,
 			"inflate": 0.01,
@@ -376,27 +376,27 @@
 			"uv_offset": [48, 10],
 			"faces": {
 				"north": {
-					"uv": [16, 49, 19, 51],
+					"uv": [47, 18, 51, 21],
 					"texture": 1
 				},
 				"east": {
-					"uv": [14, 49, 16, 51],
+					"uv": [44, 18, 47, 21],
 					"texture": 1
 				},
 				"south": {
-					"uv": [21, 49, 24, 51],
+					"uv": [54, 18, 58, 21],
 					"texture": 1
 				},
 				"west": {
-					"uv": [19, 49, 21, 51],
+					"uv": [51, 18, 54, 21],
 					"texture": 1
 				},
 				"up": {
-					"uv": [19, 49, 16, 47],
+					"uv": [51, 18, 47, 15],
 					"texture": 1
 				},
 				"down": {
-					"uv": [22, 47, 19, 49],
+					"uv": [55, 15, 51, 18],
 					"texture": 1
 				}
 			},
@@ -411,35 +411,35 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [0.5, 0, -10],
-			"to": [3.5, 3, -8],
+			"from": [0.5, 0.25, -12],
+			"to": [4.5, 4.25, -9],
 			"autouv": 0,
 			"color": 0,
 			"origin": [0, 0, 0],
 			"uv_offset": [45, 0],
 			"faces": {
 				"north": {
-					"uv": [26, 44, 29, 47],
+					"uv": [47, 24, 51, 28],
 					"texture": 1
 				},
 				"east": {
-					"uv": [24, 44, 26, 47],
+					"uv": [44, 24, 47, 28],
 					"texture": 1
 				},
 				"south": {
-					"uv": [31, 44, 34, 47],
+					"uv": [54, 24, 58, 28],
 					"texture": 1
 				},
 				"west": {
-					"uv": [29, 44, 31, 47],
+					"uv": [51, 24, 54, 28],
 					"texture": 1
 				},
 				"up": {
-					"uv": [29, 44, 26, 42],
+					"uv": [51, 24, 47, 21],
 					"texture": 1
 				},
 				"down": {
-					"uv": [32, 42, 29, 44],
+					"uv": [55, 21, 51, 24],
 					"texture": 1
 				}
 			},
@@ -454,8 +454,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [0.5, -1.5, -10],
-			"to": [3.5, 0.5, -8],
+			"from": [0.5, -2.25, -12],
+			"to": [4.5, 0.75, -9],
 			"autouv": 0,
 			"color": 0,
 			"inflate": 0.01,
@@ -463,27 +463,27 @@
 			"uv_offset": [48, 6],
 			"faces": {
 				"north": {
-					"uv": [26, 49, 29, 51],
+					"uv": [47, 31, 51, 34],
 					"texture": 1
 				},
 				"east": {
-					"uv": [24, 49, 26, 51],
+					"uv": [44, 31, 47, 34],
 					"texture": 1
 				},
 				"south": {
-					"uv": [31, 49, 34, 51],
+					"uv": [54, 31, 58, 34],
 					"texture": 1
 				},
 				"west": {
-					"uv": [29, 49, 31, 51],
+					"uv": [51, 31, 54, 34],
 					"texture": 1
 				},
 				"up": {
-					"uv": [29, 49, 26, 47],
+					"uv": [51, 31, 47, 28],
 					"texture": 1
 				},
 				"down": {
-					"uv": [32, 47, 29, 49],
+					"uv": [55, 28, 51, 31],
 					"texture": 1
 				}
 			},
@@ -498,8 +498,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [-4, 0, -2],
-			"to": [-1, 2, 2],
+			"from": [-4.8, 0, -2],
+			"to": [-0.8, 2, 3],
 			"autouv": 0,
 			"color": 0,
 			"inflate": 0.01,
@@ -507,27 +507,27 @@
 			"uv_offset": [35, 2],
 			"faces": {
 				"north": {
-					"uv": [4, 46, 7, 48],
+					"uv": [47, 39, 51, 41],
 					"texture": 1
 				},
 				"east": {
-					"uv": [0, 46, 4, 48],
+					"uv": [42, 39, 47, 41],
 					"texture": 1
 				},
 				"south": {
-					"uv": [11, 46, 14, 48],
+					"uv": [56, 39, 60, 41],
 					"texture": 1
 				},
 				"west": {
-					"uv": [7, 46, 11, 48],
+					"uv": [51, 39, 56, 41],
 					"texture": 1
 				},
 				"up": {
-					"uv": [7, 46, 4, 42],
+					"uv": [51, 39, 47, 34],
 					"texture": 1
 				},
 				"down": {
-					"uv": [10, 42, 7, 46],
+					"uv": [55, 34, 51, 39],
 					"texture": 1
 				}
 			},
@@ -542,8 +542,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [1, 0, -2],
-			"to": [4, 2, 2],
+			"from": [0.8, 0, -2],
+			"to": [4.8, 2, 3],
 			"autouv": 0,
 			"color": 0,
 			"inflate": 0.01,
@@ -551,27 +551,27 @@
 			"uv_offset": [25, 0],
 			"faces": {
 				"north": {
-					"uv": [4, 52, 7, 54],
+					"uv": [47, 46, 51, 48],
 					"texture": 1
 				},
 				"east": {
-					"uv": [0, 52, 4, 54],
+					"uv": [42, 46, 47, 48],
 					"texture": 1
 				},
 				"south": {
-					"uv": [11, 52, 14, 54],
+					"uv": [56, 46, 60, 48],
 					"texture": 1
 				},
 				"west": {
-					"uv": [7, 52, 11, 54],
+					"uv": [51, 46, 56, 48],
 					"texture": 1
 				},
 				"up": {
-					"uv": [7, 52, 4, 48],
+					"uv": [51, 46, 47, 41],
 					"texture": 1
 				},
 				"down": {
-					"uv": [10, 48, 7, 52],
+					"uv": [55, 41, 51, 46],
 					"texture": 1
 				}
 			},
@@ -586,15 +586,15 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [-5, 21, -15],
-			"to": [-1, 28, -15],
+			"from": [-5, 22, -18],
+			"to": [0, 30, -18],
 			"autouv": 0,
 			"color": 0,
 			"origin": [0, 0, 0],
 			"uv_offset": [0, 16],
 			"faces": {
 				"north": {
-					"uv": [14, 51, 18, 58],
+					"uv": [46, 0, 51, 8],
 					"texture": 1
 				},
 				"east": {
@@ -602,7 +602,7 @@
 					"texture": null
 				},
 				"south": {
-					"uv": [18, 51, 14, 58],
+					"uv": [51, 0, 46, 8],
 					"texture": 1
 				},
 				"west": {
@@ -629,14 +629,14 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [1, 21, -15],
-			"to": [5, 28, -15],
+			"from": [0, 22, -18],
+			"to": [5, 30, -18],
 			"autouv": 0,
 			"color": 0,
 			"origin": [0, 0, 0],
 			"faces": {
 				"north": {
-					"uv": [18, 51, 22, 58],
+					"uv": [51, 0, 56, 8],
 					"texture": 1
 				},
 				"east": {
@@ -644,7 +644,7 @@
 					"texture": null
 				},
 				"south": {
-					"uv": [22, 51, 18, 58],
+					"uv": [56, 0, 51, 8],
 					"texture": 1
 				},
 				"west": {
@@ -671,8 +671,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [-4, 15.5, -19],
-			"to": [4, 23.5, -11],
+			"from": [-4, 16, -22],
+			"to": [4, 24, -14],
 			"autouv": 0,
 			"color": 0,
 			"origin": [0, 0, 0],
@@ -713,8 +713,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [-4, 15.5, -19],
-			"to": [4, 23.5, -11],
+			"from": [-4, 16, -22],
+			"to": [4, 24, -14],
 			"autouv": 0,
 			"color": 0,
 			"visibility": false,
@@ -757,8 +757,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [-4, 3.5, -17],
-			"to": [4, 15.5, -13],
+			"from": [-4, 4, -20],
+			"to": [4, 16, -16],
 			"autouv": 0,
 			"color": 0,
 			"origin": [0, 0, 0],
@@ -799,8 +799,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [-4, 3.5, -17],
-			"to": [4, 15.5, -13],
+			"from": [-4, 4, -20],
+			"to": [4, 16, -16],
 			"autouv": 0,
 			"color": 0,
 			"visibility": false,
@@ -843,13 +843,13 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [-5, -0.5, -13],
-			"to": [5, 15.5, -12],
+			"from": [-5, 0, -16],
+			"to": [5, 16, -15],
 			"autouv": 0,
 			"color": 0,
 			"visibility": false,
 			"rotation": [0, -180, 0],
-			"origin": [0, 15.5, -12.5],
+			"origin": [0, 16, -15.5],
 			"faces": {
 				"north": {
 					"uv": [1, 1, 11, 17],
@@ -887,8 +887,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [-8, 3.5, -17],
-			"to": [-4, 15.5, -13],
+			"from": [-8, 4, -20],
+			"to": [-4, 16, -16],
 			"autouv": 0,
 			"color": 0,
 			"origin": [0, 0, 0],
@@ -929,8 +929,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [-8, 3.5, -17],
-			"to": [-4, 15.5, -13],
+			"from": [-8, 4, -20],
+			"to": [-4, 16, -16],
 			"autouv": 0,
 			"color": 0,
 			"visibility": false,
@@ -973,8 +973,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [-7, 3.5, -17],
-			"to": [-4, 15.5, -13],
+			"from": [-7, 4, -20],
+			"to": [-4, 16, -16],
 			"autouv": 0,
 			"color": 0,
 			"origin": [0, 0, 0],
@@ -1015,8 +1015,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [-7, 3.5, -17],
-			"to": [-4, 15.5, -13],
+			"from": [-7, 4, -20],
+			"to": [-4, 16, -16],
 			"autouv": 0,
 			"color": 0,
 			"visibility": false,
@@ -1059,8 +1059,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [4, 3.5, -17],
-			"to": [8, 15.5, -13],
+			"from": [4, 4, -20],
+			"to": [8, 16, -16],
 			"autouv": 0,
 			"color": 0,
 			"origin": [0, 0, 0],
@@ -1101,8 +1101,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [4, 3.5, -17],
-			"to": [8, 15.5, -13],
+			"from": [4, 4, -20],
+			"to": [8, 16, -16],
 			"autouv": 0,
 			"color": 0,
 			"visibility": false,
@@ -1145,8 +1145,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [4, 3.5, -17],
-			"to": [7, 15.5, -13],
+			"from": [4, 4, -20],
+			"to": [7, 16, -16],
 			"autouv": 0,
 			"color": 0,
 			"origin": [0, 0, 0],
@@ -1187,8 +1187,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [4, 3.5, -17],
-			"to": [7, 15.5, -13],
+			"from": [4, 4, -20],
+			"to": [7, 16, -16],
 			"autouv": 0,
 			"color": 0,
 			"visibility": false,
@@ -1451,8 +1451,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [-3.5, 2.5, -16],
-			"to": [3.5, 7.5, -10],
+			"from": [-4, 3, -19],
+			"to": [4, 9, -12],
 			"autouv": 0,
 			"color": 0,
 			"visibility": false,
@@ -1461,27 +1461,27 @@
 			"uv_offset": [0, 46],
 			"faces": {
 				"north": {
-					"uv": [10, 6, 17, 11],
+					"uv": [13, 7, 21, 13],
 					"texture": 5
 				},
 				"east": {
-					"uv": [4, 6, 10, 11],
+					"uv": [6, 7, 13, 13],
 					"texture": 5
 				},
 				"south": {
-					"uv": [23, 6, 30, 11],
+					"uv": [28, 7, 36, 13],
 					"texture": 5
 				},
 				"west": {
-					"uv": [17, 6, 23, 11],
+					"uv": [21, 7, 28, 13],
 					"texture": 5
 				},
 				"up": {
-					"uv": [17, 6, 10, 0],
+					"uv": [21, 7, 13, 0],
 					"texture": 5
 				},
 				"down": {
-					"uv": [24, 0, 17, 6],
+					"uv": [29, 0, 21, 7],
 					"texture": 5
 				}
 			},
@@ -1496,8 +1496,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [-3.5, 2.5, -16],
-			"to": [3.5, 7.5, -10],
+			"from": [-4, 3, -19],
+			"to": [4, 9, -12],
 			"autouv": 0,
 			"color": 0,
 			"visibility": false,
@@ -1506,27 +1506,27 @@
 			"uv_offset": [0, 46],
 			"faces": {
 				"north": {
-					"uv": [10, 6, 17, 11],
+					"uv": [13, 7, 21, 13],
 					"texture": 11
 				},
 				"east": {
-					"uv": [4, 6, 10, 11],
+					"uv": [6, 7, 13, 13],
 					"texture": 11
 				},
 				"south": {
-					"uv": [23, 6, 30, 11],
+					"uv": [28, 7, 36, 13],
 					"texture": 11
 				},
 				"west": {
-					"uv": [17, 6, 23, 11],
+					"uv": [21, 7, 28, 13],
 					"texture": 11
 				},
 				"up": {
-					"uv": [17, 6, 10, 0],
+					"uv": [21, 7, 13, 0],
 					"texture": 11
 				},
 				"down": {
-					"uv": [24, 0, 17, 6],
+					"uv": [29, 0, 21, 7],
 					"texture": 11
 				}
 			},
@@ -1541,8 +1541,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [-3.5, 2.5, -16],
-			"to": [3.5, 7.5, -10],
+			"from": [-4, 3, -19],
+			"to": [4, 9, -12],
 			"autouv": 0,
 			"color": 0,
 			"visibility": false,
@@ -1551,27 +1551,27 @@
 			"uv_offset": [0, 46],
 			"faces": {
 				"north": {
-					"uv": [10, 6, 17, 11],
+					"uv": [13, 7, 21, 13],
 					"texture": 12
 				},
 				"east": {
-					"uv": [4, 6, 10, 11],
+					"uv": [6, 7, 13, 13],
 					"texture": 12
 				},
 				"south": {
-					"uv": [23, 6, 30, 11],
+					"uv": [28, 7, 36, 13],
 					"texture": 12
 				},
 				"west": {
-					"uv": [17, 6, 23, 11],
+					"uv": [21, 7, 28, 13],
 					"texture": 12
 				},
 				"up": {
-					"uv": [17, 6, 10, 0],
+					"uv": [21, 7, 13, 0],
 					"texture": 12
 				},
 				"down": {
-					"uv": [24, 0, 17, 6],
+					"uv": [29, 0, 21, 7],
 					"texture": 12
 				}
 			},
@@ -1586,8 +1586,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [-4, 1.5, -11],
-			"to": [4, 8.5, -3],
+			"from": [-5, 2, -13],
+			"to": [5, 10, -3],
 			"autouv": 0,
 			"color": 0,
 			"visibility": false,
@@ -1596,27 +1596,27 @@
 			"uv_offset": [0, 16],
 			"faces": {
 				"north": {
-					"uv": [9, 19, 17, 26],
+					"uv": [11, 23, 21, 31],
 					"texture": 5
 				},
 				"east": {
-					"uv": [1, 19, 9, 26],
+					"uv": [1, 23, 11, 31],
 					"texture": 5
 				},
 				"south": {
-					"uv": [25, 19, 33, 26],
+					"uv": [31, 23, 41, 31],
 					"texture": 5
 				},
 				"west": {
-					"uv": [17, 19, 25, 26],
+					"uv": [21, 23, 31, 31],
 					"texture": 5
 				},
 				"up": {
-					"uv": [17, 19, 9, 11],
+					"uv": [21, 23, 11, 13],
 					"texture": 5
 				},
 				"down": {
-					"uv": [25, 11, 17, 19],
+					"uv": [31, 13, 21, 23],
 					"texture": 5
 				}
 			},
@@ -1631,8 +1631,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [-4, 1.5, -11],
-			"to": [4, 8.5, -3],
+			"from": [-5, 2, -13],
+			"to": [5, 10, -3],
 			"autouv": 0,
 			"color": 0,
 			"visibility": false,
@@ -1641,27 +1641,27 @@
 			"uv_offset": [0, 16],
 			"faces": {
 				"north": {
-					"uv": [9, 19, 17, 26],
+					"uv": [11, 23, 21, 31],
 					"texture": 11
 				},
 				"east": {
-					"uv": [1, 19, 9, 26],
+					"uv": [1, 23, 11, 31],
 					"texture": 11
 				},
 				"south": {
-					"uv": [25, 19, 33, 26],
+					"uv": [31, 23, 41, 31],
 					"texture": 11
 				},
 				"west": {
-					"uv": [17, 19, 25, 26],
+					"uv": [21, 23, 31, 31],
 					"texture": 11
 				},
 				"up": {
-					"uv": [17, 19, 9, 11],
+					"uv": [21, 23, 11, 13],
 					"texture": 11
 				},
 				"down": {
-					"uv": [25, 11, 17, 19],
+					"uv": [31, 13, 21, 23],
 					"texture": 11
 				}
 			},
@@ -1676,8 +1676,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [-4, 1.5, -11],
-			"to": [4, 8.5, -3],
+			"from": [-5, 2, -13],
+			"to": [5, 10, -3],
 			"autouv": 0,
 			"color": 0,
 			"visibility": false,
@@ -1686,27 +1686,27 @@
 			"uv_offset": [0, 16],
 			"faces": {
 				"north": {
-					"uv": [9, 19, 17, 26],
+					"uv": [11, 23, 21, 31],
 					"texture": 12
 				},
 				"east": {
-					"uv": [1, 19, 9, 26],
+					"uv": [1, 23, 11, 31],
 					"texture": 12
 				},
 				"south": {
-					"uv": [25, 19, 33, 26],
+					"uv": [31, 23, 41, 31],
 					"texture": 12
 				},
 				"west": {
-					"uv": [17, 19, 25, 26],
+					"uv": [21, 23, 31, 31],
 					"texture": 12
 				},
 				"up": {
-					"uv": [17, 19, 9, 11],
+					"uv": [21, 23, 11, 13],
 					"texture": 12
 				},
 				"down": {
-					"uv": [25, 11, 17, 19],
+					"uv": [31, 13, 21, 23],
 					"texture": 12
 				}
 			},
@@ -1721,8 +1721,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [-4, 1.5, -5.5],
-			"to": [4, 8.5, 3.5],
+			"from": [-5, 2, -7],
+			"to": [5, 10, 4],
 			"autouv": 0,
 			"color": 0,
 			"visibility": false,
@@ -1730,27 +1730,27 @@
 			"origin": [0, 0, 0],
 			"faces": {
 				"north": {
-					"uv": [9, 35, 17, 42],
+					"uv": [11, 42, 21, 50],
 					"texture": 5
 				},
 				"east": {
-					"uv": [0, 35, 9, 42],
+					"uv": [0, 42, 11, 50],
 					"texture": 5
 				},
 				"south": {
-					"uv": [26, 35, 34, 42],
+					"uv": [32, 42, 42, 50],
 					"texture": 5
 				},
 				"west": {
-					"uv": [17, 35, 26, 42],
+					"uv": [21, 42, 32, 50],
 					"texture": 5
 				},
 				"up": {
-					"uv": [17, 35, 9, 26],
+					"uv": [21, 42, 11, 31],
 					"texture": 5
 				},
 				"down": {
-					"uv": [25, 26, 17, 35],
+					"uv": [31, 31, 21, 42],
 					"texture": 5
 				}
 			},
@@ -1765,8 +1765,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [-4, 1.5, -5.5],
-			"to": [4, 8.5, 3.5],
+			"from": [-5, 2, -7],
+			"to": [5, 10, 4],
 			"autouv": 0,
 			"color": 0,
 			"visibility": false,
@@ -1774,27 +1774,27 @@
 			"origin": [0, 0, 0],
 			"faces": {
 				"north": {
-					"uv": [9, 35, 17, 42],
+					"uv": [11, 42, 21, 50],
 					"texture": 11
 				},
 				"east": {
-					"uv": [0, 35, 9, 42],
+					"uv": [0, 42, 11, 50],
 					"texture": 11
 				},
 				"south": {
-					"uv": [26, 35, 34, 42],
+					"uv": [32, 42, 42, 50],
 					"texture": 11
 				},
 				"west": {
-					"uv": [17, 35, 26, 42],
+					"uv": [21, 42, 32, 50],
 					"texture": 11
 				},
 				"up": {
-					"uv": [17, 35, 9, 26],
+					"uv": [21, 42, 11, 31],
 					"texture": 11
 				},
 				"down": {
-					"uv": [25, 26, 17, 35],
+					"uv": [31, 31, 21, 42],
 					"texture": 11
 				}
 			},
@@ -1809,8 +1809,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [-4, 1.5, -5.5],
-			"to": [4, 8.5, 3.5],
+			"from": [-5, 2, -7],
+			"to": [5, 10, 4],
 			"autouv": 0,
 			"color": 0,
 			"visibility": false,
@@ -1818,27 +1818,27 @@
 			"origin": [0, 0, 0],
 			"faces": {
 				"north": {
-					"uv": [9, 35, 17, 42],
+					"uv": [11, 42, 21, 50],
 					"texture": 12
 				},
 				"east": {
-					"uv": [0, 35, 9, 42],
+					"uv": [0, 42, 11, 50],
 					"texture": 12
 				},
 				"south": {
-					"uv": [26, 35, 34, 42],
+					"uv": [32, 42, 42, 50],
 					"texture": 12
 				},
 				"west": {
-					"uv": [17, 35, 26, 42],
+					"uv": [21, 42, 32, 50],
 					"texture": 12
 				},
 				"up": {
-					"uv": [17, 35, 9, 26],
+					"uv": [21, 42, 11, 31],
 					"texture": 12
 				},
 				"down": {
-					"uv": [25, 26, 17, 35],
+					"uv": [31, 31, 21, 42],
 					"texture": 12
 				}
 			},
@@ -1853,8 +1853,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [-3.5, 1.5, 1],
-			"to": [3.5, 8.5, 9],
+			"from": [-4, 2.25, 1.5],
+			"to": [4, 10.25, 11.5],
 			"autouv": 0,
 			"color": 0,
 			"visibility": false,
@@ -1863,27 +1863,27 @@
 			"uv_offset": [0, 31],
 			"faces": {
 				"north": {
-					"uv": [42, 8, 49, 15],
+					"uv": [52, 10, 60, 18],
 					"texture": 5
 				},
 				"east": {
-					"uv": [34, 8, 42, 15],
+					"uv": [42, 10, 52, 18],
 					"texture": 5
 				},
 				"south": {
-					"uv": [57, 8, 64, 15],
+					"uv": [70, 10, 78, 18],
 					"texture": 5
 				},
 				"west": {
-					"uv": [49, 8, 57, 15],
+					"uv": [60, 10, 70, 18],
 					"texture": 5
 				},
 				"up": {
-					"uv": [49, 8, 42, 0],
+					"uv": [60, 10, 52, 0],
 					"texture": 5
 				},
 				"down": {
-					"uv": [56, 0, 49, 8],
+					"uv": [68, 0, 60, 10],
 					"texture": 5
 				}
 			},
@@ -1898,8 +1898,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [-3.5, 1.5, 1],
-			"to": [3.5, 8.5, 9],
+			"from": [-4, 2.25, 1.5],
+			"to": [4, 10.25, 11.5],
 			"autouv": 0,
 			"color": 0,
 			"visibility": false,
@@ -1908,27 +1908,27 @@
 			"uv_offset": [0, 31],
 			"faces": {
 				"north": {
-					"uv": [42, 8, 49, 15],
+					"uv": [52, 10, 60, 18],
 					"texture": 11
 				},
 				"east": {
-					"uv": [34, 8, 42, 15],
+					"uv": [42, 10, 52, 18],
 					"texture": 11
 				},
 				"south": {
-					"uv": [57, 8, 64, 15],
+					"uv": [70, 10, 78, 18],
 					"texture": 11
 				},
 				"west": {
-					"uv": [49, 8, 57, 15],
+					"uv": [60, 10, 70, 18],
 					"texture": 11
 				},
 				"up": {
-					"uv": [49, 8, 42, 0],
+					"uv": [60, 10, 52, 0],
 					"texture": 11
 				},
 				"down": {
-					"uv": [56, 0, 49, 8],
+					"uv": [68, 0, 60, 10],
 					"texture": 11
 				}
 			},
@@ -1943,8 +1943,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [-3.5, 1.5, 1],
-			"to": [3.5, 8.5, 9],
+			"from": [-4, 2.25, 1.5],
+			"to": [4, 10.25, 11.5],
 			"autouv": 0,
 			"color": 0,
 			"visibility": false,
@@ -1953,27 +1953,27 @@
 			"uv_offset": [0, 31],
 			"faces": {
 				"north": {
-					"uv": [42, 8, 49, 15],
+					"uv": [52, 10, 60, 18],
 					"texture": 12
 				},
 				"east": {
-					"uv": [34, 8, 42, 15],
+					"uv": [42, 10, 52, 18],
 					"texture": 12
 				},
 				"south": {
-					"uv": [57, 8, 64, 15],
+					"uv": [70, 10, 78, 18],
 					"texture": 12
 				},
 				"west": {
-					"uv": [49, 8, 57, 15],
+					"uv": [60, 10, 70, 18],
 					"texture": 12
 				},
 				"up": {
-					"uv": [49, 8, 42, 0],
+					"uv": [60, 10, 52, 0],
 					"texture": 12
 				},
 				"down": {
-					"uv": [56, 0, 49, 8],
+					"uv": [68, 0, 60, 10],
 					"texture": 12
 				}
 			},
@@ -1988,8 +1988,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [-4, 0, -2],
-			"to": [-1, 2, 2],
+			"from": [-4.8, 0, -2],
+			"to": [-0.8, 2, 3],
 			"autouv": 0,
 			"color": 0,
 			"visibility": false,
@@ -1998,27 +1998,27 @@
 			"uv_offset": [35, 2],
 			"faces": {
 				"north": {
-					"uv": [4, 46, 7, 48],
+					"uv": [83, 31, 87, 33],
 					"texture": 5
 				},
 				"east": {
-					"uv": [0, 46, 4, 48],
+					"uv": [78, 31, 83, 33],
 					"texture": 5
 				},
 				"south": {
-					"uv": [11, 46, 14, 48],
+					"uv": [92, 31, 96, 33],
 					"texture": 5
 				},
 				"west": {
-					"uv": [7, 46, 11, 48],
+					"uv": [87, 31, 92, 33],
 					"texture": 5
 				},
 				"up": {
-					"uv": [7, 46, 4, 42],
+					"uv": [87, 31, 83, 26],
 					"texture": 5
 				},
 				"down": {
-					"uv": [10, 42, 7, 46],
+					"uv": [91, 26, 87, 31],
 					"texture": 5
 				}
 			},
@@ -2033,8 +2033,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [-4, 0, -2],
-			"to": [-1, 2, 2],
+			"from": [-4.8, 0, -2],
+			"to": [-0.8, 2, 3],
 			"autouv": 0,
 			"color": 0,
 			"visibility": false,
@@ -2043,27 +2043,27 @@
 			"uv_offset": [35, 2],
 			"faces": {
 				"north": {
-					"uv": [4, 46, 7, 48],
+					"uv": [83, 31, 87, 33],
 					"texture": 11
 				},
 				"east": {
-					"uv": [0, 46, 4, 48],
+					"uv": [78, 31, 83, 33],
 					"texture": 11
 				},
 				"south": {
-					"uv": [11, 46, 14, 48],
+					"uv": [92, 31, 96, 33],
 					"texture": 11
 				},
 				"west": {
-					"uv": [7, 46, 11, 48],
+					"uv": [87, 31, 92, 33],
 					"texture": 11
 				},
 				"up": {
-					"uv": [7, 46, 4, 42],
+					"uv": [87, 31, 83, 26],
 					"texture": 11
 				},
 				"down": {
-					"uv": [10, 42, 7, 46],
+					"uv": [91, 26, 87, 31],
 					"texture": 11
 				}
 			},
@@ -2078,8 +2078,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [-4, 0, -2],
-			"to": [-1, 2, 2],
+			"from": [-4.8, 0, -2],
+			"to": [-0.8, 2, 3],
 			"autouv": 0,
 			"color": 0,
 			"visibility": false,
@@ -2088,27 +2088,27 @@
 			"uv_offset": [35, 2],
 			"faces": {
 				"north": {
-					"uv": [4, 46, 7, 48],
+					"uv": [83, 31, 87, 33],
 					"texture": 12
 				},
 				"east": {
-					"uv": [0, 46, 4, 48],
+					"uv": [78, 31, 83, 33],
 					"texture": 12
 				},
 				"south": {
-					"uv": [11, 46, 14, 48],
+					"uv": [92, 31, 96, 33],
 					"texture": 12
 				},
 				"west": {
-					"uv": [7, 46, 11, 48],
+					"uv": [87, 31, 92, 33],
 					"texture": 12
 				},
 				"up": {
-					"uv": [7, 46, 4, 42],
+					"uv": [87, 31, 83, 26],
 					"texture": 12
 				},
 				"down": {
-					"uv": [10, 42, 7, 46],
+					"uv": [91, 26, 87, 31],
 					"texture": 12
 				}
 			},
@@ -2123,8 +2123,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [1, 0, -2],
-			"to": [4, 2, 2],
+			"from": [0.8, 0, -2],
+			"to": [4.8, 2, 3],
 			"autouv": 0,
 			"color": 0,
 			"visibility": false,
@@ -2133,27 +2133,27 @@
 			"uv_offset": [25, 0],
 			"faces": {
 				"north": {
-					"uv": [4, 52, 7, 54],
+					"uv": [83, 38, 87, 40],
 					"texture": 5
 				},
 				"east": {
-					"uv": [0, 52, 4, 54],
+					"uv": [78, 38, 83, 40],
 					"texture": 5
 				},
 				"south": {
-					"uv": [11, 52, 14, 54],
+					"uv": [92, 38, 96, 40],
 					"texture": 5
 				},
 				"west": {
-					"uv": [7, 52, 11, 54],
+					"uv": [87, 38, 92, 40],
 					"texture": 5
 				},
 				"up": {
-					"uv": [7, 52, 4, 48],
+					"uv": [87, 38, 83, 33],
 					"texture": 5
 				},
 				"down": {
-					"uv": [10, 48, 7, 52],
+					"uv": [91, 33, 87, 38],
 					"texture": 5
 				}
 			},
@@ -2168,8 +2168,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [1, 0, -2],
-			"to": [4, 2, 2],
+			"from": [0.8, 0, -2],
+			"to": [4.8, 2, 3],
 			"autouv": 0,
 			"color": 0,
 			"visibility": false,
@@ -2178,27 +2178,27 @@
 			"uv_offset": [25, 0],
 			"faces": {
 				"north": {
-					"uv": [4, 52, 7, 54],
+					"uv": [83, 38, 87, 40],
 					"texture": 11
 				},
 				"east": {
-					"uv": [0, 52, 4, 54],
+					"uv": [78, 38, 83, 40],
 					"texture": 11
 				},
 				"south": {
-					"uv": [11, 52, 14, 54],
+					"uv": [92, 38, 96, 40],
 					"texture": 11
 				},
 				"west": {
-					"uv": [7, 52, 11, 54],
+					"uv": [87, 38, 92, 40],
 					"texture": 11
 				},
 				"up": {
-					"uv": [7, 52, 4, 48],
+					"uv": [87, 38, 83, 33],
 					"texture": 11
 				},
 				"down": {
-					"uv": [10, 48, 7, 52],
+					"uv": [91, 33, 87, 38],
 					"texture": 11
 				}
 			},
@@ -2213,8 +2213,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [1, 0, -2],
-			"to": [4, 2, 2],
+			"from": [0.8, 0, -2],
+			"to": [4.8, 2, 3],
 			"autouv": 0,
 			"color": 0,
 			"visibility": false,
@@ -2223,27 +2223,27 @@
 			"uv_offset": [25, 0],
 			"faces": {
 				"north": {
-					"uv": [4, 52, 7, 54],
+					"uv": [83, 38, 87, 40],
 					"texture": 12
 				},
 				"east": {
-					"uv": [0, 52, 4, 54],
+					"uv": [78, 38, 83, 40],
 					"texture": 12
 				},
 				"south": {
-					"uv": [11, 52, 14, 54],
+					"uv": [92, 38, 96, 40],
 					"texture": 12
 				},
 				"west": {
-					"uv": [7, 52, 11, 54],
+					"uv": [87, 38, 92, 40],
 					"texture": 12
 				},
 				"up": {
-					"uv": [7, 52, 4, 48],
+					"uv": [87, 38, 83, 33],
 					"texture": 12
 				},
 				"down": {
-					"uv": [10, 48, 7, 52],
+					"uv": [91, 33, 87, 38],
 					"texture": 12
 				}
 			},
@@ -2258,8 +2258,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [0.5, 0, -10],
-			"to": [3.5, 3, -8],
+			"from": [0.5, 0.25, -12],
+			"to": [4.5, 4.25, -9],
 			"autouv": 0,
 			"color": 0,
 			"visibility": false,
@@ -2268,27 +2268,27 @@
 			"uv_offset": [45, 0],
 			"faces": {
 				"north": {
-					"uv": [26, 44, 29, 47],
+					"uv": [83, 16, 87, 20],
 					"texture": 5
 				},
 				"east": {
-					"uv": [24, 44, 26, 47],
+					"uv": [80, 16, 83, 20],
 					"texture": 5
 				},
 				"south": {
-					"uv": [31, 44, 34, 47],
+					"uv": [90, 16, 94, 20],
 					"texture": 5
 				},
 				"west": {
-					"uv": [29, 44, 31, 47],
+					"uv": [87, 16, 90, 20],
 					"texture": 5
 				},
 				"up": {
-					"uv": [29, 44, 26, 42],
+					"uv": [87, 16, 83, 13],
 					"texture": 5
 				},
 				"down": {
-					"uv": [32, 42, 29, 44],
+					"uv": [91, 13, 87, 16],
 					"texture": 5
 				}
 			},
@@ -2303,8 +2303,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [0.5, 0, -10],
-			"to": [3.5, 3, -8],
+			"from": [0.5, 0.25, -12],
+			"to": [4.5, 4.25, -9],
 			"autouv": 0,
 			"color": 0,
 			"visibility": false,
@@ -2313,27 +2313,27 @@
 			"uv_offset": [45, 0],
 			"faces": {
 				"north": {
-					"uv": [26, 44, 29, 47],
+					"uv": [83, 16, 87, 20],
 					"texture": 11
 				},
 				"east": {
-					"uv": [24, 44, 26, 47],
+					"uv": [80, 16, 83, 20],
 					"texture": 11
 				},
 				"south": {
-					"uv": [31, 44, 34, 47],
+					"uv": [90, 16, 94, 20],
 					"texture": 11
 				},
 				"west": {
-					"uv": [29, 44, 31, 47],
+					"uv": [87, 16, 90, 20],
 					"texture": 11
 				},
 				"up": {
-					"uv": [29, 44, 26, 42],
+					"uv": [87, 16, 83, 13],
 					"texture": 11
 				},
 				"down": {
-					"uv": [32, 42, 29, 44],
+					"uv": [91, 13, 87, 16],
 					"texture": 11
 				}
 			},
@@ -2348,8 +2348,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [0.5, 0, -10],
-			"to": [3.5, 3, -8],
+			"from": [0.5, 0.25, -12],
+			"to": [4.5, 4.25, -9],
 			"autouv": 0,
 			"color": 0,
 			"visibility": false,
@@ -2358,27 +2358,27 @@
 			"uv_offset": [45, 0],
 			"faces": {
 				"north": {
-					"uv": [26, 44, 29, 47],
+					"uv": [83, 16, 87, 20],
 					"texture": 12
 				},
 				"east": {
-					"uv": [24, 44, 26, 47],
+					"uv": [80, 16, 83, 20],
 					"texture": 12
 				},
 				"south": {
-					"uv": [31, 44, 34, 47],
+					"uv": [90, 16, 94, 20],
 					"texture": 12
 				},
 				"west": {
-					"uv": [29, 44, 31, 47],
+					"uv": [87, 16, 90, 20],
 					"texture": 12
 				},
 				"up": {
-					"uv": [29, 44, 26, 42],
+					"uv": [87, 16, 83, 13],
 					"texture": 12
 				},
 				"down": {
-					"uv": [32, 42, 29, 44],
+					"uv": [91, 13, 87, 16],
 					"texture": 12
 				}
 			},
@@ -2393,8 +2393,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [0.5, -1.5, -10],
-			"to": [3.5, 0.5, -8],
+			"from": [0.5, -2.25, -12],
+			"to": [4.5, 0.75, -9],
 			"autouv": 0,
 			"color": 0,
 			"visibility": false,
@@ -2403,27 +2403,27 @@
 			"uv_offset": [48, 6],
 			"faces": {
 				"north": {
-					"uv": [26, 49, 29, 51],
+					"uv": [83, 23, 87, 26],
 					"texture": 5
 				},
 				"east": {
-					"uv": [24, 49, 26, 51],
+					"uv": [80, 23, 83, 26],
 					"texture": 5
 				},
 				"south": {
-					"uv": [31, 49, 34, 51],
+					"uv": [90, 23, 94, 26],
 					"texture": 5
 				},
 				"west": {
-					"uv": [29, 49, 31, 51],
+					"uv": [87, 23, 90, 26],
 					"texture": 5
 				},
 				"up": {
-					"uv": [29, 49, 26, 47],
+					"uv": [87, 23, 83, 20],
 					"texture": 5
 				},
 				"down": {
-					"uv": [32, 47, 29, 49],
+					"uv": [91, 20, 87, 23],
 					"texture": 5
 				}
 			},
@@ -2438,8 +2438,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [0.5, -1.5, -10],
-			"to": [3.5, 0.5, -8],
+			"from": [0.5, -2.25, -12],
+			"to": [4.5, 0.75, -9],
 			"autouv": 0,
 			"color": 0,
 			"visibility": false,
@@ -2448,27 +2448,27 @@
 			"uv_offset": [48, 6],
 			"faces": {
 				"north": {
-					"uv": [26, 49, 29, 51],
+					"uv": [83, 23, 87, 26],
 					"texture": 11
 				},
 				"east": {
-					"uv": [24, 49, 26, 51],
+					"uv": [80, 23, 83, 26],
 					"texture": 11
 				},
 				"south": {
-					"uv": [31, 49, 34, 51],
+					"uv": [90, 23, 94, 26],
 					"texture": 11
 				},
 				"west": {
-					"uv": [29, 49, 31, 51],
+					"uv": [87, 23, 90, 26],
 					"texture": 11
 				},
 				"up": {
-					"uv": [29, 49, 26, 47],
+					"uv": [87, 23, 83, 20],
 					"texture": 11
 				},
 				"down": {
-					"uv": [32, 47, 29, 49],
+					"uv": [91, 20, 87, 23],
 					"texture": 11
 				}
 			},
@@ -2483,8 +2483,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [0.5, -1.5, -10],
-			"to": [3.5, 0.5, -8],
+			"from": [0.5, -2.25, -12],
+			"to": [4.5, 0.75, -9],
 			"autouv": 0,
 			"color": 0,
 			"visibility": false,
@@ -2493,27 +2493,27 @@
 			"uv_offset": [48, 6],
 			"faces": {
 				"north": {
-					"uv": [26, 49, 29, 51],
+					"uv": [83, 23, 87, 26],
 					"texture": 12
 				},
 				"east": {
-					"uv": [24, 49, 26, 51],
+					"uv": [80, 23, 83, 26],
 					"texture": 12
 				},
 				"south": {
-					"uv": [31, 49, 34, 51],
+					"uv": [90, 23, 94, 26],
 					"texture": 12
 				},
 				"west": {
-					"uv": [29, 49, 31, 51],
+					"uv": [87, 23, 90, 26],
 					"texture": 12
 				},
 				"up": {
-					"uv": [29, 49, 26, 47],
+					"uv": [87, 23, 83, 20],
 					"texture": 12
 				},
 				"down": {
-					"uv": [32, 47, 29, 49],
+					"uv": [91, 20, 87, 23],
 					"texture": 12
 				}
 			},
@@ -2528,8 +2528,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [-3.5, 0, -10],
-			"to": [-0.5, 3, -8],
+			"from": [-4.5, 0.25, -12],
+			"to": [-0.5, 4.25, -9],
 			"autouv": 0,
 			"color": 0,
 			"visibility": false,
@@ -2538,27 +2538,27 @@
 			"uv_offset": [20, 46],
 			"faces": {
 				"north": {
-					"uv": [16, 44, 19, 47],
+					"uv": [83, 3, 87, 7],
 					"texture": 5
 				},
 				"east": {
-					"uv": [14, 44, 16, 47],
+					"uv": [80, 3, 83, 7],
 					"texture": 5
 				},
 				"south": {
-					"uv": [21, 44, 24, 47],
+					"uv": [90, 3, 94, 7],
 					"texture": 5
 				},
 				"west": {
-					"uv": [19, 44, 21, 47],
+					"uv": [87, 3, 90, 7],
 					"texture": 5
 				},
 				"up": {
-					"uv": [19, 44, 16, 42],
+					"uv": [87, 3, 83, 0],
 					"texture": 5
 				},
 				"down": {
-					"uv": [22, 42, 19, 44],
+					"uv": [91, 0, 87, 3],
 					"texture": 5
 				}
 			},
@@ -2573,8 +2573,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [-3.5, 0, -10],
-			"to": [-0.5, 3, -8],
+			"from": [-4.5, 0.25, -12],
+			"to": [-0.5, 4.25, -9],
 			"autouv": 0,
 			"color": 0,
 			"visibility": false,
@@ -2583,27 +2583,27 @@
 			"uv_offset": [20, 46],
 			"faces": {
 				"north": {
-					"uv": [16, 44, 19, 47],
+					"uv": [83, 3, 87, 7],
 					"texture": 11
 				},
 				"east": {
-					"uv": [14, 44, 16, 47],
+					"uv": [80, 3, 83, 7],
 					"texture": 11
 				},
 				"south": {
-					"uv": [21, 44, 24, 47],
+					"uv": [90, 3, 94, 7],
 					"texture": 11
 				},
 				"west": {
-					"uv": [19, 44, 21, 47],
+					"uv": [87, 3, 90, 7],
 					"texture": 11
 				},
 				"up": {
-					"uv": [19, 44, 16, 42],
+					"uv": [87, 3, 83, 0],
 					"texture": 11
 				},
 				"down": {
-					"uv": [22, 42, 19, 44],
+					"uv": [91, 0, 87, 3],
 					"texture": 11
 				}
 			},
@@ -2618,8 +2618,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [-3.5, 0, -10],
-			"to": [-0.5, 3, -8],
+			"from": [-4.5, 0.25, -12],
+			"to": [-0.5, 4.25, -9],
 			"autouv": 0,
 			"color": 0,
 			"visibility": false,
@@ -2628,27 +2628,27 @@
 			"uv_offset": [20, 46],
 			"faces": {
 				"north": {
-					"uv": [16, 44, 19, 47],
+					"uv": [83, 3, 87, 7],
 					"texture": 12
 				},
 				"east": {
-					"uv": [14, 44, 16, 47],
+					"uv": [80, 3, 83, 7],
 					"texture": 12
 				},
 				"south": {
-					"uv": [21, 44, 24, 47],
+					"uv": [90, 3, 94, 7],
 					"texture": 12
 				},
 				"west": {
-					"uv": [19, 44, 21, 47],
+					"uv": [87, 3, 90, 7],
 					"texture": 12
 				},
 				"up": {
-					"uv": [19, 44, 16, 42],
+					"uv": [87, 3, 83, 0],
 					"texture": 12
 				},
 				"down": {
-					"uv": [22, 42, 19, 44],
+					"uv": [91, 0, 87, 3],
 					"texture": 12
 				}
 			},
@@ -2663,8 +2663,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [-3.5, -1.5, -10],
-			"to": [-0.5, 0.5, -8],
+			"from": [-4.5, -2.25, -12],
+			"to": [-0.5, 0.75, -9],
 			"autouv": 0,
 			"color": 0,
 			"visibility": false,
@@ -2673,27 +2673,27 @@
 			"uv_offset": [48, 10],
 			"faces": {
 				"north": {
-					"uv": [16, 49, 19, 51],
+					"uv": [83, 10, 87, 13],
 					"texture": 5
 				},
 				"east": {
-					"uv": [14, 49, 16, 51],
+					"uv": [80, 10, 83, 13],
 					"texture": 5
 				},
 				"south": {
-					"uv": [21, 49, 24, 51],
+					"uv": [90, 10, 94, 13],
 					"texture": 5
 				},
 				"west": {
-					"uv": [19, 49, 21, 51],
+					"uv": [87, 10, 90, 13],
 					"texture": 5
 				},
 				"up": {
-					"uv": [19, 49, 16, 47],
+					"uv": [87, 10, 83, 7],
 					"texture": 5
 				},
 				"down": {
-					"uv": [22, 47, 19, 49],
+					"uv": [91, 7, 87, 10],
 					"texture": 5
 				}
 			},
@@ -2708,8 +2708,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [-3.5, -1.5, -10],
-			"to": [-0.5, 0.5, -8],
+			"from": [-4.5, -2.25, -12],
+			"to": [-0.5, 0.75, -9],
 			"autouv": 0,
 			"color": 0,
 			"visibility": false,
@@ -2718,27 +2718,27 @@
 			"uv_offset": [48, 10],
 			"faces": {
 				"north": {
-					"uv": [16, 49, 19, 51],
+					"uv": [83, 10, 87, 13],
 					"texture": 11
 				},
 				"east": {
-					"uv": [14, 49, 16, 51],
+					"uv": [80, 10, 83, 13],
 					"texture": 11
 				},
 				"south": {
-					"uv": [21, 49, 24, 51],
+					"uv": [90, 10, 94, 13],
 					"texture": 11
 				},
 				"west": {
-					"uv": [19, 49, 21, 51],
+					"uv": [87, 10, 90, 13],
 					"texture": 11
 				},
 				"up": {
-					"uv": [19, 49, 16, 47],
+					"uv": [87, 10, 83, 7],
 					"texture": 11
 				},
 				"down": {
-					"uv": [22, 47, 19, 49],
+					"uv": [91, 7, 87, 10],
 					"texture": 11
 				}
 			},
@@ -2753,8 +2753,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [-3.5, -1.5, -10],
-			"to": [-0.5, 0.5, -8],
+			"from": [-4.5, -2.25, -12],
+			"to": [-0.5, 0.75, -9],
 			"autouv": 0,
 			"color": 0,
 			"visibility": false,
@@ -2763,27 +2763,27 @@
 			"uv_offset": [48, 10],
 			"faces": {
 				"north": {
-					"uv": [16, 49, 19, 51],
+					"uv": [83, 10, 87, 13],
 					"texture": 12
 				},
 				"east": {
-					"uv": [14, 49, 16, 51],
+					"uv": [80, 10, 83, 13],
 					"texture": 12
 				},
 				"south": {
-					"uv": [21, 49, 24, 51],
+					"uv": [90, 10, 94, 13],
 					"texture": 12
 				},
 				"west": {
-					"uv": [19, 49, 21, 51],
+					"uv": [87, 10, 90, 13],
 					"texture": 12
 				},
 				"up": {
-					"uv": [19, 49, 16, 47],
+					"uv": [87, 10, 83, 7],
 					"texture": 12
 				},
 				"down": {
-					"uv": [22, 47, 19, 49],
+					"uv": [91, 7, 87, 10],
 					"texture": 12
 				}
 			},
@@ -2973,8 +2973,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [-5, 5.5, 0],
-			"to": [-1, 12.5, 0],
+			"from": [-5, 6, 0],
+			"to": [0, 14, 0],
 			"autouv": 0,
 			"color": 0,
 			"visibility": false,
@@ -2982,7 +2982,7 @@
 			"uv_offset": [0, 16],
 			"faces": {
 				"north": {
-					"uv": [14, 51, 18, 58],
+					"uv": [46, 0, 51, 8],
 					"texture": 1
 				},
 				"east": {
@@ -2990,7 +2990,7 @@
 					"texture": null
 				},
 				"south": {
-					"uv": [18, 51, 14, 58],
+					"uv": [51, 0, 46, 8],
 					"texture": 1
 				},
 				"west": {
@@ -3017,15 +3017,15 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [1, 5.5, 0],
-			"to": [5, 12.5, 0],
+			"from": [0, 6, 0],
+			"to": [5, 14, 0],
 			"autouv": 0,
 			"color": 0,
 			"visibility": false,
 			"origin": [0, 0, 0],
 			"faces": {
 				"north": {
-					"uv": [18, 51, 22, 58],
+					"uv": [51, 0, 56, 8],
 					"texture": 1
 				},
 				"east": {
@@ -3033,7 +3033,7 @@
 					"texture": null
 				},
 				"south": {
-					"uv": [22, 51, 18, 58],
+					"uv": [56, 0, 51, 8],
 					"texture": 1
 				},
 				"west": {
@@ -3416,8 +3416,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [-3.5, 2.5, -16],
-			"to": [3.5, 7.5, -10],
+			"from": [-4, 3, -19],
+			"to": [4, 9, -12],
 			"autouv": 0,
 			"color": 0,
 			"visibility": false,
@@ -3426,27 +3426,27 @@
 			"uv_offset": [0, 46],
 			"faces": {
 				"north": {
-					"uv": [74, 6, 81, 11],
+					"uv": [77, 7, 85, 13],
 					"texture": 1
 				},
 				"east": {
-					"uv": [68, 6, 74, 11],
+					"uv": [70, 7, 77, 13],
 					"texture": 1
 				},
 				"south": {
-					"uv": [87, 6, 94, 11],
+					"uv": [92, 7, 100, 13],
 					"texture": 1
 				},
 				"west": {
-					"uv": [81, 6, 87, 11],
+					"uv": [85, 7, 92, 13],
 					"texture": 1
 				},
 				"up": {
-					"uv": [81, 6, 74, 0],
+					"uv": [85, 7, 77, 0],
 					"texture": 1
 				},
 				"down": {
-					"uv": [88, 0, 81, 6],
+					"uv": [93, 0, 85, 7],
 					"texture": 1
 				}
 			},
@@ -3461,8 +3461,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [-4, 1.5, -11],
-			"to": [4, 8.5, -3],
+			"from": [-5, 2, -13],
+			"to": [5, 10, -3],
 			"autouv": 0,
 			"color": 0,
 			"visibility": false,
@@ -3471,27 +3471,27 @@
 			"uv_offset": [0, 16],
 			"faces": {
 				"north": {
-					"uv": [73, 19, 81, 26],
+					"uv": [75, 23, 85, 31],
 					"texture": 1
 				},
 				"east": {
-					"uv": [65, 19, 73, 26],
+					"uv": [65, 23, 75, 31],
 					"texture": 1
 				},
 				"south": {
-					"uv": [89, 19, 97, 26],
+					"uv": [95, 23, 105, 31],
 					"texture": 1
 				},
 				"west": {
-					"uv": [81, 19, 89, 26],
+					"uv": [85, 23, 95, 31],
 					"texture": 1
 				},
 				"up": {
-					"uv": [81, 19, 73, 11],
+					"uv": [85, 23, 75, 13],
 					"texture": 1
 				},
 				"down": {
-					"uv": [89, 11, 81, 19],
+					"uv": [95, 13, 85, 23],
 					"texture": 1
 				}
 			},
@@ -3506,8 +3506,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [-3.5, 0, -10],
-			"to": [-0.5, 3, -8],
+			"from": [-4.5, 0.25, -12],
+			"to": [-0.5, 4.25, -9],
 			"autouv": 0,
 			"color": 0,
 			"visibility": false,
@@ -3516,27 +3516,27 @@
 			"uv_offset": [20, 46],
 			"faces": {
 				"north": {
-					"uv": [80, 44, 83, 47],
+					"uv": [111, 11, 115, 15],
 					"texture": 1
 				},
 				"east": {
-					"uv": [78, 44, 80, 47],
+					"uv": [108, 11, 111, 15],
 					"texture": 1
 				},
 				"south": {
-					"uv": [85, 44, 88, 47],
+					"uv": [118, 11, 122, 15],
 					"texture": 1
 				},
 				"west": {
-					"uv": [83, 44, 85, 47],
+					"uv": [115, 11, 118, 15],
 					"texture": 1
 				},
 				"up": {
-					"uv": [83, 44, 80, 42],
+					"uv": [115, 11, 111, 8],
 					"texture": 1
 				},
 				"down": {
-					"uv": [86, 42, 83, 44],
+					"uv": [119, 8, 115, 11],
 					"texture": 1
 				}
 			},
@@ -3551,8 +3551,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [-3.5, -1.5, -10],
-			"to": [-0.5, 0.5, -8],
+			"from": [-4.5, -2.25, -12],
+			"to": [-0.5, 0.75, -9],
 			"autouv": 0,
 			"color": 0,
 			"visibility": false,
@@ -3561,27 +3561,27 @@
 			"uv_offset": [48, 10],
 			"faces": {
 				"north": {
-					"uv": [80, 49, 83, 51],
+					"uv": [111, 18, 115, 21],
 					"texture": 1
 				},
 				"east": {
-					"uv": [78, 49, 80, 51],
+					"uv": [108, 18, 111, 21],
 					"texture": 1
 				},
 				"south": {
-					"uv": [85, 49, 88, 51],
+					"uv": [118, 18, 122, 21],
 					"texture": 1
 				},
 				"west": {
-					"uv": [83, 49, 85, 51],
+					"uv": [115, 18, 118, 21],
 					"texture": 1
 				},
 				"up": {
-					"uv": [83, 49, 80, 47],
+					"uv": [115, 18, 111, 15],
 					"texture": 1
 				},
 				"down": {
-					"uv": [86, 47, 83, 49],
+					"uv": [119, 15, 115, 18],
 					"texture": 1
 				}
 			},
@@ -3596,8 +3596,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [0.5, -1.5, -10],
-			"to": [3.5, 0.5, -8],
+			"from": [0.5, -2.25, -12],
+			"to": [4.5, 0.75, -9],
 			"autouv": 0,
 			"color": 0,
 			"visibility": false,
@@ -3606,27 +3606,27 @@
 			"uv_offset": [48, 6],
 			"faces": {
 				"north": {
-					"uv": [90, 49, 93, 51],
+					"uv": [111, 31, 115, 34],
 					"texture": 1
 				},
 				"east": {
-					"uv": [88, 49, 90, 51],
+					"uv": [108, 31, 111, 34],
 					"texture": 1
 				},
 				"south": {
-					"uv": [95, 49, 98, 51],
+					"uv": [118, 31, 122, 34],
 					"texture": 1
 				},
 				"west": {
-					"uv": [93, 49, 95, 51],
+					"uv": [115, 31, 118, 34],
 					"texture": 1
 				},
 				"up": {
-					"uv": [93, 49, 90, 47],
+					"uv": [115, 31, 111, 28],
 					"texture": 1
 				},
 				"down": {
-					"uv": [96, 47, 93, 49],
+					"uv": [119, 28, 115, 31],
 					"texture": 1
 				}
 			},
@@ -3641,8 +3641,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [0.5, 0, -10],
-			"to": [3.5, 3, -8],
+			"from": [0.5, 0.25, -12],
+			"to": [4.5, 4.25, -9],
 			"autouv": 0,
 			"color": 0,
 			"visibility": false,
@@ -3651,27 +3651,27 @@
 			"uv_offset": [45, 0],
 			"faces": {
 				"north": {
-					"uv": [90, 44, 93, 47],
+					"uv": [111, 24, 115, 28],
 					"texture": 1
 				},
 				"east": {
-					"uv": [88, 44, 90, 47],
+					"uv": [108, 24, 111, 28],
 					"texture": 1
 				},
 				"south": {
-					"uv": [95, 44, 98, 47],
+					"uv": [118, 24, 122, 28],
 					"texture": 1
 				},
 				"west": {
-					"uv": [93, 44, 95, 47],
+					"uv": [115, 24, 118, 28],
 					"texture": 1
 				},
 				"up": {
-					"uv": [93, 44, 90, 42],
+					"uv": [115, 24, 111, 21],
 					"texture": 1
 				},
 				"down": {
-					"uv": [96, 42, 93, 44],
+					"uv": [119, 21, 115, 24],
 					"texture": 1
 				}
 			},
@@ -3686,8 +3686,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [-4, 1.5, -5.5],
-			"to": [4, 8.5, 3.5],
+			"from": [-5, 2, -7],
+			"to": [5, 10, 4],
 			"autouv": 0,
 			"color": 0,
 			"visibility": false,
@@ -3695,27 +3695,27 @@
 			"origin": [0, 0, 0],
 			"faces": {
 				"north": {
-					"uv": [73, 35, 81, 42],
+					"uv": [75, 42, 85, 50],
 					"texture": 1
 				},
 				"east": {
-					"uv": [64, 35, 73, 42],
+					"uv": [64, 42, 75, 50],
 					"texture": 1
 				},
 				"south": {
-					"uv": [90, 35, 98, 42],
+					"uv": [96, 42, 106, 50],
 					"texture": 1
 				},
 				"west": {
-					"uv": [81, 35, 90, 42],
+					"uv": [85, 42, 96, 50],
 					"texture": 1
 				},
 				"up": {
-					"uv": [81, 35, 73, 26],
+					"uv": [85, 42, 75, 31],
 					"texture": 1
 				},
 				"down": {
-					"uv": [89, 26, 81, 35],
+					"uv": [95, 31, 85, 42],
 					"texture": 1
 				}
 			},
@@ -3730,8 +3730,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [1, 0, -2],
-			"to": [4, 2, 2],
+			"from": [0.8, 0, -2],
+			"to": [4.8, 2, 3],
 			"autouv": 0,
 			"color": 0,
 			"visibility": false,
@@ -3740,27 +3740,27 @@
 			"uv_offset": [25, 0],
 			"faces": {
 				"north": {
-					"uv": [68, 52, 71, 54],
+					"uv": [111, 46, 115, 48],
 					"texture": 1
 				},
 				"east": {
-					"uv": [64, 52, 68, 54],
+					"uv": [106, 46, 111, 48],
 					"texture": 1
 				},
 				"south": {
-					"uv": [75, 52, 78, 54],
+					"uv": [120, 46, 124, 48],
 					"texture": 1
 				},
 				"west": {
-					"uv": [71, 52, 75, 54],
+					"uv": [115, 46, 120, 48],
 					"texture": 1
 				},
 				"up": {
-					"uv": [71, 52, 68, 48],
+					"uv": [115, 46, 111, 41],
 					"texture": 1
 				},
 				"down": {
-					"uv": [74, 48, 71, 52],
+					"uv": [119, 41, 115, 46],
 					"texture": 1
 				}
 			},
@@ -3775,8 +3775,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [-4, 0, -2],
-			"to": [-1, 2, 2],
+			"from": [-4.8, 0, -2],
+			"to": [-0.8, 2, 3],
 			"autouv": 0,
 			"color": 0,
 			"visibility": false,
@@ -3785,27 +3785,27 @@
 			"uv_offset": [35, 2],
 			"faces": {
 				"north": {
-					"uv": [68, 46, 71, 48],
+					"uv": [111, 39, 115, 41],
 					"texture": 1
 				},
 				"east": {
-					"uv": [64, 46, 68, 48],
+					"uv": [106, 39, 111, 41],
 					"texture": 1
 				},
 				"south": {
-					"uv": [75, 46, 78, 48],
+					"uv": [120, 39, 124, 41],
 					"texture": 1
 				},
 				"west": {
-					"uv": [71, 46, 75, 48],
+					"uv": [115, 39, 120, 41],
 					"texture": 1
 				},
 				"up": {
-					"uv": [71, 46, 68, 42],
+					"uv": [115, 39, 111, 34],
 					"texture": 1
 				},
 				"down": {
-					"uv": [74, 42, 71, 46],
+					"uv": [119, 34, 115, 39],
 					"texture": 1
 				}
 			},
@@ -3820,8 +3820,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [-3.5, 1.5, 1],
-			"to": [3.5, 8.5, 9],
+			"from": [-4, 2.25, 1.5],
+			"to": [4, 10.25, 11.5],
 			"autouv": 0,
 			"color": 0,
 			"visibility": false,
@@ -3830,27 +3830,27 @@
 			"uv_offset": [0, 31],
 			"faces": {
 				"north": {
-					"uv": [106, 8, 113, 15],
+					"uv": [77, 60, 85, 68],
 					"texture": 1
 				},
 				"east": {
-					"uv": [98, 8, 106, 15],
+					"uv": [67, 60, 77, 68],
 					"texture": 1
 				},
 				"south": {
-					"uv": [121, 8, 128, 15],
+					"uv": [95, 60, 103, 68],
 					"texture": 1
 				},
 				"west": {
-					"uv": [113, 8, 121, 15],
+					"uv": [85, 60, 95, 68],
 					"texture": 1
 				},
 				"up": {
-					"uv": [113, 8, 106, 0],
+					"uv": [85, 60, 77, 50],
 					"texture": 1
 				},
 				"down": {
-					"uv": [120, 0, 113, 8],
+					"uv": [93, 50, 85, 60],
 					"texture": 1
 				}
 			},
@@ -3865,8 +3865,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [-3.5, 1.5, 6.5],
-			"to": [3.5, 8.5, 14.5],
+			"from": [-4, 2.25, 8],
+			"to": [4, 10.25, 18],
 			"autouv": 0,
 			"color": 0,
 			"visibility": false,
@@ -3875,27 +3875,27 @@
 			"uv_offset": [26, 8],
 			"faces": {
 				"north": {
-					"uv": [106, 23, 113, 30],
+					"uv": [77, 78, 85, 86],
 					"texture": 1
 				},
 				"east": {
-					"uv": [98, 23, 106, 30],
+					"uv": [67, 78, 77, 86],
 					"texture": 1
 				},
 				"south": {
-					"uv": [121, 23, 128, 30],
+					"uv": [95, 78, 103, 86],
 					"texture": 1
 				},
 				"west": {
-					"uv": [113, 23, 121, 30],
+					"uv": [85, 78, 95, 86],
 					"texture": 1
 				},
 				"up": {
-					"uv": [113, 23, 106, 15],
+					"uv": [85, 78, 77, 68],
 					"texture": 1
 				},
 				"down": {
-					"uv": [120, 15, 113, 23],
+					"uv": [93, 68, 85, 78],
 					"texture": 1
 				}
 			},
@@ -3910,8 +3910,8 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [-3, 2, 12.5],
-			"to": [3, 8, 19.5],
+			"from": [-3.5, 2.75, 16],
+			"to": [3.5, 9.75, 24],
 			"autouv": 0,
 			"color": 0,
 			"visibility": false,
@@ -3920,27 +3920,27 @@
 			"uv_offset": [30, 38],
 			"faces": {
 				"north": {
-					"uv": [107, 37, 113, 43],
+					"uv": [78, 94, 85, 101],
 					"texture": 1
 				},
 				"east": {
-					"uv": [100, 37, 107, 43],
+					"uv": [70, 94, 78, 101],
 					"texture": 1
 				},
 				"south": {
-					"uv": [120, 37, 126, 43],
+					"uv": [93, 94, 100, 101],
 					"texture": 1
 				},
 				"west": {
-					"uv": [113, 37, 120, 43],
+					"uv": [85, 94, 93, 101],
 					"texture": 1
 				},
 				"up": {
-					"uv": [113, 37, 107, 30],
+					"uv": [85, 94, 78, 86],
 					"texture": 1
 				},
 				"down": {
-					"uv": [119, 30, 113, 37],
+					"uv": [92, 86, 85, 94],
 					"texture": 1
 				}
 			},
@@ -3963,7 +3963,7 @@
 			"children": [
 				{
 					"name": "LowerBody",
-					"origin": [0, 5, -9],
+					"origin": [0, 6, -11],
 					"color": 0,
 					"uuid": "edeb736e-c3a8-844c-35d9-9edaedc7131b",
 					"export": true,
@@ -3975,7 +3975,7 @@
 					"children": [
 						{
 							"name": "UpperTorso",
-							"origin": [0, 5, -11],
+							"origin": [0, 6, -13],
 							"color": 0,
 							"uuid": "bbf97fc4-f8da-d830-9118-1c734d673b38",
 							"export": true,
@@ -4002,7 +4002,7 @@
 								},
 								{
 									"name": "UpperBody",
-									"origin": [0, 4.5, -15],
+									"origin": [0, 5, -18],
 									"color": 0,
 									"uuid": "db518952-bd07-cda0-708a-3744d847af20",
 									"export": true,
@@ -4014,7 +4014,7 @@
 									"children": [
 										{
 											"name": "Head",
-											"origin": [0, 15.5, -15],
+											"origin": [0, 16, -18],
 											"color": 0,
 											"uuid": "5538e42d-1380-5a8a-1b41-956907102995",
 											"export": true,
@@ -4028,7 +4028,7 @@
 												"7713b504-8871-54e8-8a32-c6a4c0bf2807",
 												{
 													"name": "Ears",
-													"origin": [0, 0, 0],
+													"origin": [0, 0.5, -3],
 													"color": 0,
 													"uuid": "c6db286f-fc93-fad4-299c-0b0888c6f933",
 													"export": true,
@@ -4040,7 +4040,7 @@
 													"children": [
 														{
 															"name": "LeftEar",
-															"origin": [-3, 22, -15],
+															"origin": [-2.5, 22, -18],
 															"rotation": [35, 22.5, 52.5],
 															"color": 0,
 															"uuid": "6d7562c5-5d2a-9430-af96-8e66aba75c2e",
@@ -4054,7 +4054,7 @@
 														},
 														{
 															"name": "RightEar",
-															"origin": [3, 22, -15],
+															"origin": [2.5, 22, -18],
 															"rotation": [35, -22.5, -52.5],
 															"color": 0,
 															"uuid": "b9bd37be-12c4-9d06-f4bd-21ef3c26d54e",
@@ -4070,7 +4070,7 @@
 												},
 												{
 													"name": "HelmetPivot",
-													"origin": [0, 15.5, -15],
+													"origin": [0, 16, -18],
 													"color": 0,
 													"uuid": "1124092a-0c77-862a-00be-4883ec181487",
 													"export": true,
@@ -4083,7 +4083,7 @@
 												},
 												{
 													"name": "HelmetItemPivot",
-													"origin": [0, 15.5, -15],
+													"origin": [0, 16, -18],
 													"color": 0,
 													"uuid": "d761dd56-22d0-0597-4c44-7cd6b5ab7375",
 													"export": true,
@@ -4098,7 +4098,7 @@
 										},
 										{
 											"name": "Body",
-											"origin": [0, 15.5, -15],
+											"origin": [0, 16, -18],
 											"color": 0,
 											"uuid": "966fdfb8-19b1-9b67-3878-65bbe9f84752",
 											"export": true,
@@ -4124,7 +4124,7 @@
 													"children": [
 														{
 															"name": "LeftElytraPivot",
-															"origin": [0, 15.5, -15],
+															"origin": [0, 16, -18],
 															"color": 0,
 															"uuid": "729a2b74-24ab-f0cc-df0b-aef97fc60d23",
 															"export": true,
@@ -4137,7 +4137,7 @@
 														},
 														{
 															"name": "RightElytraPivot",
-															"origin": [0, 15.5, -15],
+															"origin": [0, 16, -18],
 															"color": 0,
 															"uuid": "3245f009-d4b6-52fa-7e11-9f3a6d605cc5",
 															"export": true,
@@ -4152,7 +4152,7 @@
 												},
 												{
 													"name": "Cape",
-													"origin": [0, 15.5, -13],
+													"origin": [0, 16, -16],
 													"color": 0,
 													"uuid": "09f49ed6-87c0-cf28-060e-dfb3c31be4fb",
 													"export": true,
@@ -4165,7 +4165,7 @@
 												},
 												{
 													"name": "ChestplatePivot",
-													"origin": [0, 15.5, -15],
+													"origin": [0, 16, -18],
 													"color": 0,
 													"uuid": "9038b794-b248-7efc-8213-a9526949b0b1",
 													"export": true,
@@ -4178,7 +4178,7 @@
 												},
 												{
 													"name": "LeggingsPivot",
-													"origin": [0, 3.5, -15],
+													"origin": [0, 4, -18],
 													"color": 0,
 													"uuid": "57cbf375-61d5-1748-332a-9d8a20940bc7",
 													"export": true,
@@ -4191,7 +4191,7 @@
 												},
 												{
 													"name": "LeftParrotPivot",
-													"origin": [-6, 15.5, -15],
+													"origin": [-6, 16, -18],
 													"color": 0,
 													"uuid": "2ffddcf8-d75a-6ea3-e1f2-380197c07c85",
 													"export": true,
@@ -4204,7 +4204,7 @@
 												},
 												{
 													"name": "RightParrotPivot",
-													"origin": [6, 15.5, -15],
+													"origin": [6, 16, -18],
 													"color": 0,
 													"uuid": "c2f655d5-db98-8ff5-f859-b7af3bdcaa0e",
 													"export": true,
@@ -4219,7 +4219,7 @@
 										},
 										{
 											"name": "LeftArm",
-											"origin": [-5, 13.5, -15],
+											"origin": [-5, 14, -18],
 											"color": 0,
 											"uuid": "aa56357e-1cf2-5ba0-080a-621e9971e2a6",
 											"export": true,
@@ -4257,7 +4257,7 @@
 												},
 												{
 													"name": "LeftShoulderPivot",
-													"origin": [-6, 15.5, -15],
+													"origin": [-6, 16, -18],
 													"color": 0,
 													"uuid": "19ea15de-8f30-041b-a3eb-01f12bc63b24",
 													"export": true,
@@ -4270,7 +4270,7 @@
 												},
 												{
 													"name": "LeftItemPivot",
-													"origin": [-6, 3.5, -17],
+													"origin": [-6, 4, -20],
 													"color": 0,
 													"uuid": "7c3deb87-0bc0-67fa-32c9-b754ca3ac014",
 													"export": true,
@@ -4285,7 +4285,7 @@
 										},
 										{
 											"name": "RightArm",
-											"origin": [5, 13.5, -15],
+											"origin": [5, 14, -18],
 											"color": 0,
 											"uuid": "f8798af1-2d1e-de2e-506b-ffcc9ddee8be",
 											"export": true,
@@ -4323,7 +4323,7 @@
 												},
 												{
 													"name": "RightShoulderPivot",
-													"origin": [6, 15.5, -15],
+													"origin": [6, 16, -18],
 													"color": 0,
 													"uuid": "12989c28-4244-b374-4ed3-92926ecc8e68",
 													"export": true,
@@ -4336,7 +4336,7 @@
 												},
 												{
 													"name": "RightItemPivot",
-													"origin": [6, 3.5, -17],
+													"origin": [6, 4, -20],
 													"color": 0,
 													"uuid": "25301b94-935a-cec3-9ccc-20b43016ca1c",
 													"export": true,
@@ -4351,7 +4351,7 @@
 										},
 										{
 											"name": "Spyglass",
-											"origin": [0, 15.5, -15],
+											"origin": [0, 16, -18],
 											"color": 0,
 											"uuid": "6c2c4546-594c-c63f-4350-6ae518018734",
 											"export": true,
@@ -4363,7 +4363,7 @@
 											"children": [
 												{
 													"name": "LeftSpyglassPivot",
-													"origin": [-2, 18.5, -19],
+													"origin": [-2, 19, -22],
 													"color": 0,
 													"uuid": "3425f2bf-d032-e357-2a06-4026e7503173",
 													"export": true,
@@ -4376,7 +4376,7 @@
 												},
 												{
 													"name": "RightSpyglassPivot",
-													"origin": [2, 18.5, -19],
+													"origin": [2, 19, -22],
 													"color": 0,
 													"uuid": "f14bf209-06b9-f59e-9146-e4fe3cc854bd",
 													"export": true,
@@ -4395,7 +4395,7 @@
 						},
 						{
 							"name": "MiddleTorso",
-							"origin": [0, 5, -11],
+							"origin": [0, 6, -13],
 							"color": 0,
 							"uuid": "18ff47bb-aa8a-ff2f-e4b6-e56867e76a69",
 							"export": true,
@@ -4422,7 +4422,7 @@
 								},
 								{
 									"name": "LowerTorso",
-									"origin": [0, 5, -3.5],
+									"origin": [0, 6, -4],
 									"color": 0,
 									"uuid": "6b71dcbb-0184-7168-1b59-af90e0f31ec2",
 									"export": true,
@@ -4449,7 +4449,7 @@
 										},
 										{
 											"name": "Tail",
-											"origin": [0, 5, 1.5],
+											"origin": [0, 6.25, 2],
 											"color": 0,
 											"uuid": "b9b8d09e-cef5-92cf-4647-3bd772dee9f8",
 											"export": true,
@@ -4476,7 +4476,7 @@
 												},
 												{
 													"name": "Tail2",
-													"origin": [0, 5, 7],
+													"origin": [0, 6.25, 9],
 													"color": 0,
 													"uuid": "82a2d74b-9f3a-fc9c-f73b-e9b89f73e634",
 													"export": true,
@@ -4490,7 +4490,7 @@
 														"d8d64246-0e14-cc7e-660e-8635c3cdfaba",
 														{
 															"name": "Tail3",
-															"origin": [0, 5, 13],
+															"origin": [0, 6.25, 17],
 															"color": 0,
 															"uuid": "eae06fd0-9604-ce1b-f921-b441dac102c5",
 															"export": true,
@@ -4504,7 +4504,7 @@
 																"3961e078-259d-5934-3b8a-6210d3112f7f",
 																{
 																	"name": "Tail4",
-																	"origin": [0, 5, 19],
+																	"origin": [0, 6.25, 24],
 																	"color": 0,
 																	"uuid": "f05dcc43-42bb-2489-b8dc-989d3cfb04d3",
 																	"export": true,
@@ -4523,7 +4523,7 @@
 										},
 										{
 											"name": "leftLeg",
-											"origin": [-2.5, 1.5, 0.5],
+											"origin": [-3, 1.5, 1],
 											"color": 0,
 											"uuid": "049c3529-0f13-cf39-d865-ed2a47e6531f",
 											"export": true,
@@ -4550,7 +4550,7 @@
 												},
 												{
 													"name": "BackLeftGround",
-													"origin": [-2.5, -0.25, 0.5],
+													"origin": [-3, 0, 1],
 													"color": 0,
 													"uuid": "da6959fd-2486-17a6-97e9-13cf74d4a0fc",
 													"export": true,
@@ -4565,7 +4565,7 @@
 										},
 										{
 											"name": "rightLeg",
-											"origin": [2.5, 1.5, 0.5],
+											"origin": [3, 1.5, 1],
 											"color": 0,
 											"uuid": "ffdd0755-d5b7-3d5f-06a4-f79796ea28c9",
 											"export": true,
@@ -4592,7 +4592,7 @@
 												},
 												{
 													"name": "BackRightGround",
-													"origin": [2.5, -0.25, 0.5],
+													"origin": [3, 0, 1],
 													"color": 0,
 													"uuid": "5bb2d636-d1c9-98d4-c486-60b651de9105",
 													"export": true,
@@ -4609,7 +4609,7 @@
 								},
 								{
 									"name": "LowerLeftArm",
-									"origin": [-2, 2, -9],
+									"origin": [-2.5, 2.5, -11],
 									"color": 0,
 									"uuid": "1e499f40-f640-5694-a243-770cc61540b0",
 									"export": true,
@@ -4636,7 +4636,7 @@
 										},
 										{
 											"name": "LowerLeftArm2",
-											"origin": [-2, 0.5, -9],
+											"origin": [-2.5, 0.75, -11],
 											"color": 0,
 											"uuid": "1c5dfe24-ea99-5e52-0e7e-f1ed368b555d",
 											"export": true,
@@ -4663,7 +4663,7 @@
 												},
 												{
 													"name": "FrontLeftGround",
-													"origin": [-2, -1.75, -9],
+													"origin": [-2.5, -2.25, -10.5],
 													"color": 0,
 													"uuid": "cecd4e75-4fc6-d923-118b-4b51609a067a",
 													"export": true,
@@ -4680,7 +4680,7 @@
 								},
 								{
 									"name": "LowerRightArm",
-									"origin": [2, 2, -9],
+									"origin": [2.5, 2.5, -11],
 									"color": 0,
 									"uuid": "de3c61a8-c2c8-bea9-3d42-8c23dba9c050",
 									"export": true,
@@ -4707,7 +4707,7 @@
 										},
 										{
 											"name": "LowerRightArm2",
-											"origin": [2, 0.5, -9],
+											"origin": [2.5, 0.75, -11],
 											"color": 0,
 											"uuid": "efae0449-c2ff-0ae9-bc54-3d525828ee02",
 											"export": true,
@@ -4734,7 +4734,7 @@
 												},
 												{
 													"name": "FrontRightGround",
-													"origin": [2, -1.75, -9],
+													"origin": [2.5, -2.25, -10.5],
 													"color": 0,
 													"uuid": "c6a2ca2c-1322-54e0-006c-6b759e28ee42",
 													"export": true,
@@ -4751,7 +4751,7 @@
 								},
 								{
 									"name": "Seat1",
-									"origin": [0, 9, -4],
+									"origin": [0, 11, -5],
 									"color": 0,
 									"uuid": "96551387-6d8b-a6a4-94c2-41d620820fcf",
 									"export": true,
@@ -4969,7 +4969,7 @@
 					"children": [
 						{
 							"name": "LeftEarSkull",
-							"origin": [-3, 6.5, 0],
+							"origin": [-2.5, 6, 0],
 							"rotation": [35, 22.5, 52.5],
 							"color": 0,
 							"uuid": "3d9100c6-5bd0-fb28-2376-4a718be58af0",
@@ -4983,7 +4983,7 @@
 						},
 						{
 							"name": "RightEarSkull",
-							"origin": [3, 6.5, 0],
+							"origin": [2.5, 6, 0],
 							"rotation": [35, -22.5, -52.5],
 							"color": 0,
 							"uuid": "f5120858-bc7c-6bab-24d0-74417bfd115f",
@@ -5050,9 +5050,9 @@
 			"id": "2",
 			"group": "c9136dff-877c-aa67-3ed8-f0e23a9dc091",
 			"width": 128,
-			"height": 64,
+			"height": 128,
 			"uv_width": 128,
-			"uv_height": 64,
+			"uv_height": 128,
 			"particle": false,
 			"use_as_default": false,
 			"layers_enabled": false,
@@ -5068,7 +5068,7 @@
 			"saved": true,
 			"uuid": "c71ee590-ba59-acec-6480-12600648cbb3",
 			"relative_path": "textures/furret.png",
-			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAABACAYAAADS1n9/AAAAAXNSR0IArs4c6QAACfNJREFUeF7tXT2IXUUUvgHrBbO4vkK0EAuNJptCkVgILuanCCRgoQYTUBAthEhQEUGxEJEYFCwUQSGRqIWQQIr8sYKFIWCRTTSRYCVYrCsbYWth5Zt3v9nzzp65c97LvWRfdm6z9907f3fOd86cv5ndUDmvt/bMLKNob+rOWGN+4d9wv+/A81Xv7qlq410b47sb/9yo5v9eqDbvfWmDs4vGYldOfLU8Pz9f9Xq9lf7r33Nzc8m6+9//rJX+2/iGtdiGe3IObHt0uTc1sQoA8wtL1eGP3w3EBgh48ffUtt3uPpom6NznH0QAAAQAAwGBv6mrAKAZdm7iQAKQ+3uTE9X84lJoGVIAEoAXQADi82pLAgCAsY+piQrAi2Crx2J96tnr193fuBY5tOsxuSfnk5ef6S8BkxOrJn5m167AjeF9zZ28bwsAACCITikE4PH33O9/JeepAKBlCaABAELM7Hgq2cv2V99xg6xpqE1LEKVRkQDDyws3caQEwITLZWDT1q2dA+DYe68tQ7poJbBp/cegig4wpASwRK3U/FPNQRKgnBTNK2v2asvho5OzbvChHSiBkvhx/a+VwaIEDs/9qLGKCDS3RmtupRaJZXEo3g2rGwAA1Csk8XEv+5A6SJEAeSquAgA5LSdam5rWRLDKat2AwDv+zcmg6EHBm3n68QGRnwKABMTs+Yux/r4X9sT6KR/CsEDMT+l4lTAlALnKQ0j5uSyvRbXmUNTRE0/gHTn8RSAgriblMjXNs2d/DK8AoENvvDIgHQggOZ62lNTxIvvKaE0ASFt+GElAwsv6Xg8hRbyUAOBgzblJHaT2Cur6OcIUAORmqFbAtPiVa68kkl778c6jiVPLBwFD24tL1b5nt69aAqT3z5I0x78/F30VBJA1do7fMzbHFI1tEZcmTi+cdAVT2w+TW4vs/n1f42ecAPcejZ+uXhKQAJDES63jEoy6vmU5SGoVCeDALp0wVlGstdMP3xcIrs1FPnv9yx+yQCMAoMTRsQMJoC/tB9DvAYAAmsmJASUyZY0UADgAoH0D5HC6YhELsNZqPvNo2lgC0C4JiHsLAJQIKd3EU19+clkCnACQ4p1VZDg4vBfRwACSOijkAUBuGDATdfvsA+FgbbHw93oncG5es6IZDcAN3CTiEQwicZgTgHwAEqgtAGiQEWAlHyBH5vR7FwB0KDgQVoSDD715MPQgE0LwmyBoIycgFw2UsQnqABhjiQY2g8MFACsSJ/UAJIR0DYASDRydy5tqBgBAA6f9TZNOBnb66/9gNpAEgHxPvYAJG7DFeaU8hB5NXJqiKzpInZRSEkJGRkcAADRwaT4RBDLrhkSWPaXe47k25aKXsM7poxbvdRRBCUx9JdPD9Hv06QHXyLN3G1SMEuDIp8eC7aw5Vmb6WN9rZQKhHCQKQHDo4P5QrclM9BCpJIV2g7YoARhFYwDG8qBpH7/M/YtiuU4NQ1CGET05dCtM7DHVGCtoAqH1ztN2N1M7Hq0OLAGQAIyghewbkeBp2eCBs2tbn2XJ6YjqSXdu03SASBTxx49+GxM+MRZKj9x0Eljol8uVTlbVbbSZtp4b31p9b0oAEl8T2OQ+AQCWBwgsCZBSAgkA1Lt66VLMKpLLkXcCGQ2EEotUNdmnTltHm234KLxjW4vlIgCuXr4WfPlw6vDSXJ+y86P4F+ngs6dPB0Ju2vJQnyNr5S8VLWQsAOOgEkn9QS8v1pLCZ9RloMiib92vrAvAefSPtUi4tsbk8gOk8vEonnM5A551mGs8JQfapgTItS8BJs1ZmVCSchUXADigZOXjybU5ZSnwuRcAYek4f7G/7tcWhIf4UWL1ehUlAJ5ZKWX6cwsAHACwnDCBSPXuHJkmzn0D8pnHHSujgXTrpqKBTUO28gn0kiFB5QGnY4rGtohrCeDG0CBqjYQP6RCynEhHL/yS7ccKB0MHGEUCkBoSQCVaaGM0SxhUy0UDrb0AlBAAhCcjyMNCCxdOLVuKKMw5DZRRUs89Y7jdyrgAIFPFpRZPrrKyfrsQswAACKBDznOXrwx4GumLWO/ruwesbgBITZsNSyLfrKvXM1grKYSOKBkPCH6METafeMZwu5VxAyCVXGmJXmkh4L4tTsxJAK3stdXv7UZ0+T1uADRJAHK/5enzRvs8k0x3MR1UuYyg9a7he+Z0g96QQReqVblpx48sn3LnNkkRD7fqiCCBl0oJKwDIQyAAAIRBEIaXdKHmmxgsEfz5l6/Fh8wY5oObSQrRDimZU2CNswAgT70NckeO3JRpifxccySI3qDpySkgsbjO84whqeRpEFnWB6OSMo5hmY5t5Cnm5mMc3sclgC5UncSR4lzLEogh2Tq5RLYlFUMdEJKZOwRAKF/b99qJk1qeoi6i0tNRXpuOBQD9WYwSAAAIXF9nBVkeOI8OEJaTOhsI7WlvXlNIGOWlBLBAJs1NbXo2hX6l4oj7AgABANzKTZUIoqQ438rokdyNexnQadreZTmLpK1PCWCJ+pQEsnIZArBrqdDmZpVxEPG5MQYJIAGg4+iSy1Lcq7lSxvS9AR3qADr501L0LBDm4v7ag7neE0EIjFV+ACqFes1OmWmaYOQ0LWJlOcmNmhDS1JPevRySpcSizpCSVsVLuDKbSQBIP79U0jQhKLL1SaEWACwNvazFXmh3U848Iyismb1exU2XFsdojrYyhPWQ9Smi8n0Ryd0QONeqKQGmp6cHiI9GLFEdxa46I5hKl8wYjkqbyBuU5QoAcqTq5n1UAuV6SQDgr9S2p7dsDj/PnD1X4Z3lbOGG0KBD1AdIaxuc76R2XpaCbgicazX6AajJ468GADVxAADEx0WtXaaL4cze6QfvqfBXp4Fxd28g/uJSslxuwOV9uzOQ1AEkICTBdffy+BgQfueTj1Rzv/1Z6TQwppUxfQzHypz56deyfbtdeg7dWvKkUAkAywrQx7frnkloeYBU4H5xzHvUIVpMGxt6BtZ5hcajYqUpqCNr5HzJ9TwsKuoN4nh3SAVyPZYJDZC28gbXOT2H/vxGK4BKIKSB5Qj674+fl+944ImBNvhMZ+/ockOPtFToZAZiPgBbh+0vzcAgtsW/ZNm5o390G7R2EBtaPzV4Zu2C2DKqh/K0BAoQOqHjyI3GcDDNQA0ArQyiJ4Bg9tSJamb33vD3uQ+/DlLgu7dfXOYz/CXhaRoWEIxMp84qunICrd5B7CAdFpfiqaBIJ+POoE2PPRGq6Q2mxd7vjJYjNXxTAJDEX9Ho+yCYvPf+PgDEOQPF2zcSjTqtNDIA+C9k5JnAgeD11jHP8bCdfllp3DUDIwOAZwfKAyTlv40pZp1r/m95oZEBcMtHXgbQygwUALQyjePbSAHA+NKulZEXALQyjePbSAHA+NKulZEXALQyjePbyP+kxDKqpBiCHwAAAABJRU5ErkJggg=="
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAAAXNSR0IArs4c6QAADLlJREFUeF7tXU2oJUcVvgOuB5Ihz7cQXLkwvy8LQeJC8GF+FoEEskgUE1AQXQiRQUUExYVIiMGACyWgMAmTZCFkIItkRp6QRYLgIi/RKMGV4OL6JBmYtfDk1O2v33fPraruqu4uq3vO3bx3+9bvOV+dc+qcU9XnVhmfHzxyeCrV9vdu2aq9Prnuvn/1qa+s9j+5t7r1tlu3fv/4Px+v1v8+Wd396DfOZXS7U+W//3j79BOf+YK3rdhvY/S9lDayGPHUfZ873d877wXA+uTG6tlf/NgxWkDAHzzbu+/hrH410YXJ8kyDIPR8KUwbcx5ZjBAJgNW/f+G8G8/6oxubvyfXnQTAByAQ5uMzlgR45YdfPz18+NHV0euvrZ74+e/cXHzPxiTY0tqaLQCE0WCGgO+7L/zezeWX33zsFKCU7wDG0hg31nyyACBEdjZAs/qZEfL/4UMPrdbrtXu8v7+/kQz0fQwJYAAYBwJZAIAK8AFAVMDhA1+Kju7+b/8oq19uVADAaod/Y/VkEiAOlCxGsAQAEwQM+P+Oe++dHAAYA+wOHwDkGVTDOOtlea0EASCrXCx6sfadKN+7xRl4eusXIgmXlf+5LbTHdbGFfObKUS9QQgqhHsbF3+X/vu0tj7X9ZhQk9vuv/fYUertfU92ltD2ga8jvKfaBjHGnDdp6jrXd7J7ZfEsEAXDt1z87FYaMBYK+baXYBwaA4cCbPQDYz6AdTyYBugESVQF6+5YqDXjVQ/xjSLot/N6lAvSq9zmafNPuarebVMssEQWAEJc9eDkAANm4rSFxghAAtgzKxuvI4DAA+AHcy+JGVbELnAXfOHe2iN44eiA1uIzP+BMwPfnTXyX1L20bAMaVREkMkCDQZgt3tjV0DG+igLLV49/b1d9EDVEOz3O2aACA1vcceZSoo5YIJgFGkAA1AICngfEw6I7//q/VwWc/tZK/Vz/8MAng466tebSWRCCEgWNTEylwcOeno04jOImGeukMAMNBlgQAeAex4tj7xuJfwsGi4322AtsIQ8WyBqSM5823/rJ68It3rY7/+s/VpXf+nDS/4eScXwtJBEIm0AYA/mwg+Q35AFpPgzzYWeQAQK967WLe0v2NTSLPDAwj2AASgNG+95apjSEowJBwMDMfBhobZ7mpYQwAUTWy0mGU6ilCKhkAwpIpSQLUBACkpLHIF0DwruQMnDdMAgQwkAQATgVzakClg4H4F7//tOtOJ4ViDJAEQ121MZ9AroSZnxYfNuIkALDRFbIBkBRqABjGmFK1HQDEw3f5pSttnz5HD1v5oZwAxP2xS4CxqB1FzlD82iNn/Xk8i06aNN7FUIRQJIAFg4ZBxQHgxZ985/Tyq9fOGHJBUr433r6NWN94+PDpY3TpstIGMoYcAB6/3xVJdRlbMGgYw3XtVgI89/yLG4ZcOL+1OsEkneQZGkYoGVTKQ8oIEC4+/eQGXD38BSwBQq5gDlq14GuSQ8weCIOmlQBHf/jTBgB759ukzpAjR4dgu0KyAMXR1T+2EuXwy5/fGVUoY4iDRgaACSSAqIC5AODkndddQMrnW2hVlgoHy/OhO45xyV5Pazs2gKiAi9/71pZo1rH82PAhilkqQMw/9+xvNhLgoxutDdCHFKGwMbum0S4CQfI3J9rYZzxLKhNUASKO2ZunGRu0ATyrT+oKCEIqIBYzkH4MANNBrgXAB+/9rbEBNq5c/sRi71xOx+HdqqQzgUdvvNHYANdXd9xz+6Y/2gKmJo5wbAI7FfEGwjs4NNo4HdnraTnJEYRM4agKWK97ZxLnZAQx01ud35xf0NtV/C6GrakDP9eSAaBXLTcLa79ry4jfxwQAAkO+aRoAwks2CQA6I0g3ixUoRh4fFdMxA/yWk7HDl1NIJJBFfiw1zSTACBKgBgDwNGT7yjYEZy3L85RDJvVo5bIjSZIAWv/q83isk7eMyMatrHX00CQNBgDOILD6MQB0gykJAMgHiAWDcIi0K1NnDL1sAOhmcFeJJADo84K+yx9kBYZO/ejnOUYgTwjnFGCYHh8ft9vK1IOmXYRa6u/JAOizC3D7/8QgTw6BJS4gTD84OFiB+WwT5OQc5oxjznVmAwAR9+2+vnEeCbMZAAIEvS09uOfu9tGbV69lnUaaM4O7xp4MgJDbtjUA6YiYZphWASlGGut7SJcQALgfAYAwHp+haqeLoHP7PRkAfVQAM8hHENgJQ5nBNgD6ZOYPbX9uzMwZ7zkQEckayLaN3fPTFbzxDeSDd991p4WwFeyTEsZSxSct+BYTDQDzA/SDgwOAEOvypZe3akiwpkvc9+tiYxAi2IQ6OD2k1YRuM5YXaADoy4FwuXPQrSwBZJVyxk4uEFgcS8KJSBeWAF0xA5YAPnGu7zHiCylyj58PJ+m8WmhVAOcEcs6eTEe7WGNTDJWV9jk+gJzAUPt93LoCXmwBfTuAFCNzXmwbb7SzAYDP+NRbQAYN///gA5sMZPlYatg2eFoVAAngCN1kButtW199rfHpbIyXrmylhYsE6CNZfGoCKskHAHZA6fELEAwAHgDII5wLQOhWZ+367IBQFq8W6/IdSac4G4BzAT6w+Or7bABOEA29N2A8YbnMlpwE0AAQY03vAnhldW0DtRsYuwA+HBICQIjMMQBwHckWNjD0B2uSIwjNwvrWQADjRTTHPmM5aFgCcD6igWBiAIjvQHv74N3jrVjKau4/5LOSMQBIKZME3VTNkgC1AMB3SmjI7SPd5FpeiSwA+C5n4mwfPgTqI1lOLqCvHb63EIdXLAScBtIsAPBV8vqiKDEg5Yq22GcsAKRN1Ur7KJAFgK63hpWSAMbS4RTIAgDiB75dQMh5xEMdaxcwfPrWggHgJsdAFgBiR8SwHSzhB7jJeTfK9LMBIL37VIA89/n4LVNnFH6N3sgWADi+LsEbxO8RF9AMDwEAowTTORcAmUAcRwh5FG1LNzq/dxrcAgCLdrnMAZdBdb0HsGuYfC+AXD6hpQRLE5YUFs/vouzw33cAgCZZAmDV6iBPrHsu62urz9ANAH2oNKzMFgA49Zpv9PJd6YZV3CXKpZyEmhFmZjD57AhWH7ZdHMbcPrUNAH2otOAyOyoAOhirVl/o1LXifUkivrb6JJqaCpgeeUEAiOXeN3tHW/162JxtpHcUsbQzA0BhAPD5O746Npa9E0sLaw1KuoY2JRPIbIDCAOjbHV/SrOtIPB4ndfXqRrKIMbYvpacvl+UJ7LqutVRK2PTkWX4PBoDl8zg6wywA9EkI4VNAGMGQ28Fucj5NNv0sAFhCyGT8KN5wNgCcF49eKuE8g82LJSwjqDgfszvMAoB+a8fOTiByXayd28/m1SQVDQCTkHU+jWYDwBcZLH0yaD5krnekWQDgu3l8U+tKDDVHUD2A2MkIat23l15ujTokcThDz3MLmG86HOzBm0LEaMR7hdutYfNiJ59H0TKCpgdKMCWML3XiC51yhoSEEDlEgsunGCD6hRR2vCuHynl1gtFAudQJx7n5Ohd0k3J5BK6HwbFzt4Wkyx5DasSigXlMTakVTAmTPD7flW45KoAvoNL5hb7TxHhmAEhhZV5ZA0Ae3RZTK5oQ4ow+9ZbPlJlDzEMFSN1QirmvXZMAKdTOK7uTE9juAppEztR3/PmGEUov47K+xBLbLuYxNaVWFABoiN/zm9I4SwDU0xlBMRvAAJBC7byyWY4g6UquZ8HrW7lruasHL4rUQxJm294+j1FT1RoEABkUgwAXNR2/9/7OCyPgJja9PhUr89rNBkAoLxBOHH1KWFa/SYA8Jk1ZKxsA+i3eMkgtAXwqwCTAlOxMb9sAkE6zRdXIBkDsirZYVrBZ9nXhZxAAfFfCip43ANTF5NhosgHAd/ShA8QJYvECkwB1gSMIABh5YtUjXMsWPqbBYV3f1TBcl8O+IR+CXedeFiCdAJDhMOP73AUsdVCuDft6Ej98PgQDQGUAAPO1mHfAUG8H1d937hQiELBkAchEQhgADADZdklZ0i2jtyCx2dMX8+5pMmg7QKsAlihsE1ga2P8HUFEAhJjrM/agErRxGLoJJKQ+LFhUFghRAIBJfbZ3oWFz7h8z3bdVtFhBWeZLb6Zvy9O8qh4NAFWxo/xgDADlaV5VjwaAqthRfjAGgPI0r6pHA0BV7Cg/GANAeZpX1aMBoCp2lB+MAaA8zavq0QBQFTvKD8YAUJ7mVfVoAKiKHeUHYwAoT/OqejQAVMWO8oMxAJSneVU9GgCqYkf5wRgAytO8qh4NAFWxo/xgDADlaV5VjwaAqthRfjAGgPI0r6pHA0BV7Cg/GANAeZpX1aMBoCp2lB+MAaA8zavq0QBQFTvKD8YAUJ7mVfX4P15Q4fl6k9brAAAAAElFTkSuQmCC"
 		},
 		{
 			"path": "D:\\Total\\OneDrive\\Documents\\Misc Docs\\Video Game Assets\\Modding Assets\\Minecraft Assets\\Figura Avatars\\avatars\\GitHubRepos\\FiguraFurretTaurAvatar\\textures\\furret_shiny.png",
@@ -5078,9 +5078,9 @@
 			"id": "2",
 			"group": "c9136dff-877c-aa67-3ed8-f0e23a9dc091",
 			"width": 128,
-			"height": 64,
+			"height": 128,
 			"uv_width": 128,
-			"uv_height": 64,
+			"uv_height": 128,
 			"particle": false,
 			"use_as_default": false,
 			"layers_enabled": false,
@@ -5096,7 +5096,7 @@
 			"saved": true,
 			"uuid": "26ad0617-015e-1a83-d9f5-398678d2c394",
 			"relative_path": "textures/furret_shiny.png",
-			"source": "data:image/png;base64,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"
+			"source": "data:image/png;base64,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"
 		},
 		{
 			"path": "D:\\Total\\OneDrive\\Documents\\Misc Docs\\Video Game Assets\\Modding Assets\\Minecraft Assets\\Figura Avatars\\avatars\\GitHubRepos\\FiguraFurretTaurAvatar\\textures\\misc\\cape.png",
@@ -5161,9 +5161,9 @@
 			"namespace": "",
 			"id": "4",
 			"group": "2b59bbae-fb3b-7cb0-1fbc-5b3fb45efdbc",
-			"width": 64,
+			"width": 128,
 			"height": 64,
-			"uv_width": 64,
+			"uv_width": 128,
 			"uv_height": 64,
 			"particle": false,
 			"use_as_default": false,
@@ -5180,7 +5180,7 @@
 			"saved": true,
 			"uuid": "4ba010fd-f168-6351-a7c1-95e92b91fc41",
 			"relative_path": "textures/armor/leatherArmor.png",
-			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAIRJREFUeF7t1QERADAMArHi33SFfOagHBm7+Fv8/hOABsQTQCBeAJ8gAgjEE0AgXgArgAAC8QQQiBfACiCAQDwBBOIFsAIIIBBPAIF4AawAAgjEE0AgXgArgAAC8QQQiBfACiCAQDwBBOIFsAIIIBBPAIF4AawAAgjEE0AgXgArgECdwANo2ABBrP9ggQAAAABJRU5ErkJggg=="
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAABACAYAAADS1n9/AAAAAXNSR0IArs4c6QAAAPVJREFUeF7t1AENAAAMg7DPv+kLKXMAIds12sBo+uCvAPAICqAAcAM4fg9QALgBHL8HKADcAI7fAxQAbgDH7wEKADeA4/cABYAbwPF7gALADeD4PUAB4AZw/B6gAHADOH4PUAC4ARy/BygA3ACO3wMUAG4Ax+8BCgA3gOP3AAWAG8Dxe4ACwA3g+D1AAeAGcPweoABwAzh+D1AAuAEcvwcoANwAjt8DFABuAMfvAQoAN4Dj9wAFgBvA8XuAAsAN4Pg9QAHgBnD8HqAAcAM4fg9QALgBHL8HKADcAI7fAxQAbgDH7wEKADeA4/cABYAbwPF7ADyAB8lQAEGIEzzJAAAAAElFTkSuQmCC"
 		},
 		{
 			"path": "D:\\Total\\OneDrive\\Documents\\Misc Docs\\Video Game Assets\\Modding Assets\\Minecraft Assets\\Figura Avatars\\avatars\\GitHubRepos\\FiguraFurretTaurAvatar\\textures\\armor\\chainmailArmor.png",
@@ -5189,9 +5189,9 @@
 			"namespace": "",
 			"id": "4",
 			"group": "2b59bbae-fb3b-7cb0-1fbc-5b3fb45efdbc",
-			"width": 64,
+			"width": 128,
 			"height": 64,
-			"uv_width": 64,
+			"uv_width": 128,
 			"uv_height": 64,
 			"particle": false,
 			"use_as_default": false,
@@ -5208,7 +5208,7 @@
 			"saved": true,
 			"uuid": "d9ad0458-089b-0330-9ddc-c99edcfee342",
 			"relative_path": "textures/armor/chainmailArmor.png",
-			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAIRJREFUeF7t1QERADAMArHi33SFfOagHBm7+Fv8/hOABsQTQCBeAJ8gAgjEE0AgXgArgAAC8QQQiBfACiCAQDwBBOIFsAIIIBBPAIF4AawAAgjEE0AgXgArgAAC8QQQiBfACiCAQDwBBOIFsAIIIBBPAIF4AawAAgjEE0AgXgArgECdwANo2ABBrP9ggQAAAABJRU5ErkJggg=="
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAABACAYAAADS1n9/AAAAAXNSR0IArs4c6QAAAPVJREFUeF7t1AENAAAMg7DPv+kLKXMAIds12sBo+uCvAPAICqAAcAM4fg9QALgBHL8HKADcAI7fAxQAbgDH7wEKADeA4/cABYAbwPF7gALADeD4PUAB4AZw/B6gAHADOH4PUAC4ARy/BygA3ACO3wMUAG4Ax+8BCgA3gOP3AAWAG8Dxe4ACwA3g+D1AAeAGcPweoABwAzh+D1AAuAEcvwcoANwAjt8DFABuAMfvAQoAN4Dj9wAFgBvA8XuAAsAN4Pg9QAHgBnD8HqAAcAM4fg9QALgBHL8HKADcAI7fAxQAbgDH7wEKADeA4/cABYAbwPF7ADyAB8lQAEGIEzzJAAAAAElFTkSuQmCC"
 		},
 		{
 			"path": "D:\\Total\\OneDrive\\Documents\\Misc Docs\\Video Game Assets\\Modding Assets\\Minecraft Assets\\Figura Avatars\\avatars\\GitHubRepos\\FiguraFurretTaurAvatar\\textures\\armor\\ironArmor.png",
@@ -5217,9 +5217,9 @@
 			"namespace": "",
 			"id": "4",
 			"group": "2b59bbae-fb3b-7cb0-1fbc-5b3fb45efdbc",
-			"width": 64,
+			"width": 128,
 			"height": 64,
-			"uv_width": 64,
+			"uv_width": 128,
 			"uv_height": 64,
 			"particle": false,
 			"use_as_default": false,
@@ -5236,7 +5236,7 @@
 			"saved": true,
 			"uuid": "6c67e1a4-40b7-dde3-4153-51e7061b3ec8",
 			"relative_path": "textures/armor/ironArmor.png",
-			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAIRJREFUeF7t1QERADAMArHi33SFfOagHBm7+Fv8/hOABsQTQCBeAJ8gAgjEE0AgXgArgAAC8QQQiBfACiCAQDwBBOIFsAIIIBBPAIF4AawAAgjEE0AgXgArgAAC8QQQiBfACiCAQDwBBOIFsAIIIBBPAIF4AawAAgjEE0AgXgArgECdwANo2ABBrP9ggQAAAABJRU5ErkJggg=="
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAABACAYAAADS1n9/AAAAAXNSR0IArs4c6QAAAPVJREFUeF7t1AENAAAMg7DPv+kLKXMAIds12sBo+uCvAPAICqAAcAM4fg9QALgBHL8HKADcAI7fAxQAbgDH7wEKADeA4/cABYAbwPF7gALADeD4PUAB4AZw/B6gAHADOH4PUAC4ARy/BygA3ACO3wMUAG4Ax+8BCgA3gOP3AAWAG8Dxe4ACwA3g+D1AAeAGcPweoABwAzh+D1AAuAEcvwcoANwAjt8DFABuAMfvAQoAN4Dj9wAFgBvA8XuAAsAN4Pg9QAHgBnD8HqAAcAM4fg9QALgBHL8HKADcAI7fAxQAbgDH7wEKADeA4/cABYAbwPF7ADyAB8lQAEGIEzzJAAAAAElFTkSuQmCC"
 		},
 		{
 			"path": "D:\\Total\\OneDrive\\Documents\\Misc Docs\\Video Game Assets\\Modding Assets\\Minecraft Assets\\Figura Avatars\\avatars\\GitHubRepos\\FiguraFurretTaurAvatar\\textures\\armor\\goldenArmor.png",
@@ -5245,9 +5245,9 @@
 			"namespace": "",
 			"id": "4",
 			"group": "2b59bbae-fb3b-7cb0-1fbc-5b3fb45efdbc",
-			"width": 64,
+			"width": 128,
 			"height": 64,
-			"uv_width": 64,
+			"uv_width": 128,
 			"uv_height": 64,
 			"particle": false,
 			"use_as_default": false,
@@ -5264,7 +5264,7 @@
 			"saved": true,
 			"uuid": "65093584-d86c-7c57-b8ff-0cd1aa8e1994",
 			"relative_path": "textures/armor/goldenArmor.png",
-			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAIRJREFUeF7t1QERADAMArHi33SFfOagHBm7+Fv8/hOABsQTQCBeAJ8gAgjEE0AgXgArgAAC8QQQiBfACiCAQDwBBOIFsAIIIBBPAIF4AawAAgjEE0AgXgArgAAC8QQQiBfACiCAQDwBBOIFsAIIIBBPAIF4AawAAgjEE0AgXgArgECdwANo2ABBrP9ggQAAAABJRU5ErkJggg=="
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAABACAYAAADS1n9/AAAAAXNSR0IArs4c6QAAAPVJREFUeF7t1AENAAAMg7DPv+kLKXMAIds12sBo+uCvAPAICqAAcAM4fg9QALgBHL8HKADcAI7fAxQAbgDH7wEKADeA4/cABYAbwPF7gALADeD4PUAB4AZw/B6gAHADOH4PUAC4ARy/BygA3ACO3wMUAG4Ax+8BCgA3gOP3AAWAG8Dxe4ACwA3g+D1AAeAGcPweoABwAzh+D1AAuAEcvwcoANwAjt8DFABuAMfvAQoAN4Dj9wAFgBvA8XuAAsAN4Pg9QAHgBnD8HqAAcAM4fg9QALgBHL8HKADcAI7fAxQAbgDH7wEKADeA4/cABYAbwPF7ADyAB8lQAEGIEzzJAAAAAElFTkSuQmCC"
 		},
 		{
 			"path": "D:\\Total\\OneDrive\\Documents\\Misc Docs\\Video Game Assets\\Modding Assets\\Minecraft Assets\\Figura Avatars\\avatars\\GitHubRepos\\FiguraFurretTaurAvatar\\textures\\armor\\diamondArmor.png",
@@ -5273,9 +5273,9 @@
 			"namespace": "",
 			"id": "4",
 			"group": "2b59bbae-fb3b-7cb0-1fbc-5b3fb45efdbc",
-			"width": 64,
+			"width": 128,
 			"height": 64,
-			"uv_width": 64,
+			"uv_width": 128,
 			"uv_height": 64,
 			"particle": false,
 			"use_as_default": false,
@@ -5292,7 +5292,7 @@
 			"saved": true,
 			"uuid": "6212204b-8a6e-09b0-b1fa-0fdcbda48468",
 			"relative_path": "textures/armor/diamondArmor.png",
-			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAIRJREFUeF7t1QERADAMArHi33SFfOagHBm7+Fv8/hOABsQTQCBeAJ8gAgjEE0AgXgArgAAC8QQQiBfACiCAQDwBBOIFsAIIIBBPAIF4AawAAgjEE0AgXgArgAAC8QQQiBfACiCAQDwBBOIFsAIIIBBPAIF4AawAAgjEE0AgXgArgECdwANo2ABBrP9ggQAAAABJRU5ErkJggg=="
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAABACAYAAADS1n9/AAAAAXNSR0IArs4c6QAAAPVJREFUeF7t1AENAAAMg7DPv+kLKXMAIds12sBo+uCvAPAICqAAcAM4fg9QALgBHL8HKADcAI7fAxQAbgDH7wEKADeA4/cABYAbwPF7gALADeD4PUAB4AZw/B6gAHADOH4PUAC4ARy/BygA3ACO3wMUAG4Ax+8BCgA3gOP3AAWAG8Dxe4ACwA3g+D1AAeAGcPweoABwAzh+D1AAuAEcvwcoANwAjt8DFABuAMfvAQoAN4Dj9wAFgBvA8XuAAsAN4Pg9QAHgBnD8HqAAcAM4fg9QALgBHL8HKADcAI7fAxQAbgDH7wEKADeA4/cABYAbwPF7ADyAB8lQAEGIEzzJAAAAAElFTkSuQmCC"
 		},
 		{
 			"path": "D:\\Total\\OneDrive\\Documents\\Misc Docs\\Video Game Assets\\Modding Assets\\Minecraft Assets\\Figura Avatars\\avatars\\GitHubRepos\\FiguraFurretTaurAvatar\\textures\\armor\\netheriteArmor.png",
@@ -5301,9 +5301,9 @@
 			"namespace": "",
 			"id": "4",
 			"group": "2b59bbae-fb3b-7cb0-1fbc-5b3fb45efdbc",
-			"width": 64,
+			"width": 128,
 			"height": 64,
-			"uv_width": 64,
+			"uv_width": 128,
 			"uv_height": 64,
 			"particle": false,
 			"use_as_default": false,
@@ -5320,7 +5320,7 @@
 			"saved": true,
 			"uuid": "9f950731-253e-e768-cf16-5bf54a48e4c8",
 			"relative_path": "textures/armor/netheriteArmor.png",
-			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAIRJREFUeF7t1QERADAMArHi33SFfOagHBm7+Fv8/hOABsQTQCBeAJ8gAgjEE0AgXgArgAAC8QQQiBfACiCAQDwBBOIFsAIIIBBPAIF4AawAAgjEE0AgXgArgAAC8QQQiBfACiCAQDwBBOIFsAIIIBBPAIF4AawAAgjEE0AgXgArgECdwANo2ABBrP9ggQAAAABJRU5ErkJggg=="
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAABACAYAAADS1n9/AAAAAXNSR0IArs4c6QAAAPVJREFUeF7t1AENAAAMg7DPv+kLKXMAIds12sBo+uCvAPAICqAAcAM4fg9QALgBHL8HKADcAI7fAxQAbgDH7wEKADeA4/cABYAbwPF7gALADeD4PUAB4AZw/B6gAHADOH4PUAC4ARy/BygA3ACO3wMUAG4Ax+8BCgA3gOP3AAWAG8Dxe4ACwA3g+D1AAeAGcPweoABwAzh+D1AAuAEcvwcoANwAjt8DFABuAMfvAQoAN4Dj9wAFgBvA8XuAAsAN4Pg9QAHgBnD8HqAAcAM4fg9QALgBHL8HKADcAI7fAxQAbgDH7wEKADeA4/cABYAbwPF7ADyAB8lQAEGIEzzJAAAAAElFTkSuQmCC"
 		},
 		{
 			"path": "D:\\Total\\OneDrive\\Documents\\Misc Docs\\Video Game Assets\\Modding Assets\\Minecraft Assets\\Figura Avatars\\avatars\\GitHubRepos\\FiguraFurretTaurAvatar\\textures\\armor\\leatherOverlay.png",
@@ -5329,9 +5329,9 @@
 			"namespace": "",
 			"id": "5",
 			"group": "2b59bbae-fb3b-7cb0-1fbc-5b3fb45efdbc",
-			"width": 64,
+			"width": 128,
 			"height": 64,
-			"uv_width": 64,
+			"uv_width": 128,
 			"uv_height": 64,
 			"particle": false,
 			"use_as_default": false,
@@ -5348,7 +5348,7 @@
 			"saved": true,
 			"uuid": "c349e579-ead7-4a50-bcd8-55c14c882f16",
 			"relative_path": "textures/armor/leatherOverlay.png",
-			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAIRJREFUeF7t1QERADAMArHi33SFfOagHBm7+Fv8/hOABsQTQCBeAJ8gAgjEE0AgXgArgAAC8QQQiBfACiCAQDwBBOIFsAIIIBBPAIF4AawAAgjEE0AgXgArgAAC8QQQiBfACiCAQDwBBOIFsAIIIBBPAIF4AawAAgjEE0AgXgArgECdwANo2ABBrP9ggQAAAABJRU5ErkJggg=="
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAABACAYAAADS1n9/AAAAAXNSR0IArs4c6QAAAPVJREFUeF7t1AENAAAMg7DPv+kLKXMAIds12sBo+uCvAPAICqAAcAM4fg9QALgBHL8HKADcAI7fAxQAbgDH7wEKADeA4/cABYAbwPF7gALADeD4PUAB4AZw/B6gAHADOH4PUAC4ARy/BygA3ACO3wMUAG4Ax+8BCgA3gOP3AAWAG8Dxe4ACwA3g+D1AAeAGcPweoABwAzh+D1AAuAEcvwcoANwAjt8DFABuAMfvAQoAN4Dj9wAFgBvA8XuAAsAN4Pg9QAHgBnD8HqAAcAM4fg9QALgBHL8HKADcAI7fAxQAbgDH7wEKADeA4/cABYAbwPF7ADyAB8lQAEGIEzzJAAAAAElFTkSuQmCC"
 		},
 		{
 			"path": "D:\\Total\\OneDrive\\Documents\\Misc Docs\\Video Game Assets\\Modding Assets\\Minecraft Assets\\Figura Avatars\\avatars\\GitHubRepos\\FiguraFurretTaurAvatar\\textures\\armor\\trims\\coastTrim.png",
@@ -5357,9 +5357,9 @@
 			"namespace": "",
 			"id": "6",
 			"group": "9df41fcf-268c-4321-0b9d-3cf8adbd6c28",
-			"width": 64,
+			"width": 128,
 			"height": 64,
-			"uv_width": 64,
+			"uv_width": 128,
 			"uv_height": 64,
 			"particle": false,
 			"use_as_default": false,
@@ -5376,7 +5376,7 @@
 			"saved": true,
 			"uuid": "1177d94a-b876-3d6e-4b07-505035469f4c",
 			"relative_path": "textures/armor/trims/coastTrim.png",
-			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAIRJREFUeF7t1QERADAMArHi33SFfOagHBm7+Fv8/hOABsQTQCBeAJ8gAgjEE0AgXgArgAAC8QQQiBfACiCAQDwBBOIFsAIIIBBPAIF4AawAAgjEE0AgXgArgAAC8QQQiBfACiCAQDwBBOIFsAIIIBBPAIF4AawAAgjEE0AgXgArgECdwANo2ABBrP9ggQAAAABJRU5ErkJggg=="
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAABACAYAAADS1n9/AAAAAXNSR0IArs4c6QAAAPVJREFUeF7t1AENAAAMg7DPv+kLKXMAIds12sBo+uCvAPAICqAAcAM4fg9QALgBHL8HKADcAI7fAxQAbgDH7wEKADeA4/cABYAbwPF7gALADeD4PUAB4AZw/B6gAHADOH4PUAC4ARy/BygA3ACO3wMUAG4Ax+8BCgA3gOP3AAWAG8Dxe4ACwA3g+D1AAeAGcPweoABwAzh+D1AAuAEcvwcoANwAjt8DFABuAMfvAQoAN4Dj9wAFgBvA8XuAAsAN4Pg9QAHgBnD8HqAAcAM4fg9QALgBHL8HKADcAI7fAxQAbgDH7wEKADeA4/cABYAbwPF7ADyAB8lQAEGIEzzJAAAAAElFTkSuQmCC"
 		},
 		{
 			"path": "D:\\Total\\OneDrive\\Documents\\Misc Docs\\Video Game Assets\\Modding Assets\\Minecraft Assets\\Figura Avatars\\avatars\\GitHubRepos\\FiguraFurretTaurAvatar\\textures\\armor\\trims\\duneTrim.png",
@@ -5385,9 +5385,9 @@
 			"namespace": "",
 			"id": "6",
 			"group": "9df41fcf-268c-4321-0b9d-3cf8adbd6c28",
-			"width": 64,
+			"width": 128,
 			"height": 64,
-			"uv_width": 64,
+			"uv_width": 128,
 			"uv_height": 64,
 			"particle": false,
 			"use_as_default": false,
@@ -5404,7 +5404,7 @@
 			"saved": true,
 			"uuid": "56af026e-dc11-bd07-29c1-115713d4cb4c",
 			"relative_path": "textures/armor/trims/duneTrim.png",
-			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAIRJREFUeF7t1QERADAMArHi33SFfOagHBm7+Fv8/hOABsQTQCBeAJ8gAgjEE0AgXgArgAAC8QQQiBfACiCAQDwBBOIFsAIIIBBPAIF4AawAAgjEE0AgXgArgAAC8QQQiBfACiCAQDwBBOIFsAIIIBBPAIF4AawAAgjEE0AgXgArgECdwANo2ABBrP9ggQAAAABJRU5ErkJggg=="
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAABACAYAAADS1n9/AAAAAXNSR0IArs4c6QAAAPVJREFUeF7t1AENAAAMg7DPv+kLKXMAIds12sBo+uCvAPAICqAAcAM4fg9QALgBHL8HKADcAI7fAxQAbgDH7wEKADeA4/cABYAbwPF7gALADeD4PUAB4AZw/B6gAHADOH4PUAC4ARy/BygA3ACO3wMUAG4Ax+8BCgA3gOP3AAWAG8Dxe4ACwA3g+D1AAeAGcPweoABwAzh+D1AAuAEcvwcoANwAjt8DFABuAMfvAQoAN4Dj9wAFgBvA8XuAAsAN4Pg9QAHgBnD8HqAAcAM4fg9QALgBHL8HKADcAI7fAxQAbgDH7wEKADeA4/cABYAbwPF7ADyAB8lQAEGIEzzJAAAAAElFTkSuQmCC"
 		},
 		{
 			"path": "D:\\Total\\OneDrive\\Documents\\Misc Docs\\Video Game Assets\\Modding Assets\\Minecraft Assets\\Figura Avatars\\avatars\\GitHubRepos\\FiguraFurretTaurAvatar\\textures\\armor\\trims\\eyeTrim.png",
@@ -5413,9 +5413,9 @@
 			"namespace": "",
 			"id": "6",
 			"group": "9df41fcf-268c-4321-0b9d-3cf8adbd6c28",
-			"width": 64,
+			"width": 128,
 			"height": 64,
-			"uv_width": 64,
+			"uv_width": 128,
 			"uv_height": 64,
 			"particle": false,
 			"use_as_default": false,
@@ -5432,7 +5432,7 @@
 			"saved": true,
 			"uuid": "813f1498-1f9f-afe9-c6ab-b33eccf4a5e7",
 			"relative_path": "textures/armor/trims/eyeTrim.png",
-			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAIRJREFUeF7t1QERADAMArHi33SFfOagHBm7+Fv8/hOABsQTQCBeAJ8gAgjEE0AgXgArgAAC8QQQiBfACiCAQDwBBOIFsAIIIBBPAIF4AawAAgjEE0AgXgArgAAC8QQQiBfACiCAQDwBBOIFsAIIIBBPAIF4AawAAgjEE0AgXgArgECdwANo2ABBrP9ggQAAAABJRU5ErkJggg=="
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAABACAYAAADS1n9/AAAAAXNSR0IArs4c6QAAAPVJREFUeF7t1AENAAAMg7DPv+kLKXMAIds12sBo+uCvAPAICqAAcAM4fg9QALgBHL8HKADcAI7fAxQAbgDH7wEKADeA4/cABYAbwPF7gALADeD4PUAB4AZw/B6gAHADOH4PUAC4ARy/BygA3ACO3wMUAG4Ax+8BCgA3gOP3AAWAG8Dxe4ACwA3g+D1AAeAGcPweoABwAzh+D1AAuAEcvwcoANwAjt8DFABuAMfvAQoAN4Dj9wAFgBvA8XuAAsAN4Pg9QAHgBnD8HqAAcAM4fg9QALgBHL8HKADcAI7fAxQAbgDH7wEKADeA4/cABYAbwPF7ADyAB8lQAEGIEzzJAAAAAElFTkSuQmCC"
 		},
 		{
 			"path": "D:\\Total\\OneDrive\\Documents\\Misc Docs\\Video Game Assets\\Modding Assets\\Minecraft Assets\\Figura Avatars\\avatars\\GitHubRepos\\FiguraFurretTaurAvatar\\textures\\armor\\trims\\hostTrim.png",
@@ -5441,9 +5441,9 @@
 			"namespace": "",
 			"id": "6",
 			"group": "9df41fcf-268c-4321-0b9d-3cf8adbd6c28",
-			"width": 64,
+			"width": 128,
 			"height": 64,
-			"uv_width": 64,
+			"uv_width": 128,
 			"uv_height": 64,
 			"particle": false,
 			"use_as_default": false,
@@ -5460,7 +5460,7 @@
 			"saved": true,
 			"uuid": "0f6f5511-1b0a-ceca-5c42-9c07d08037d6",
 			"relative_path": "textures/armor/trims/hostTrim.png",
-			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAIRJREFUeF7t1QERADAMArHi33SFfOagHBm7+Fv8/hOABsQTQCBeAJ8gAgjEE0AgXgArgAAC8QQQiBfACiCAQDwBBOIFsAIIIBBPAIF4AawAAgjEE0AgXgArgAAC8QQQiBfACiCAQDwBBOIFsAIIIBBPAIF4AawAAgjEE0AgXgArgECdwANo2ABBrP9ggQAAAABJRU5ErkJggg=="
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAABACAYAAADS1n9/AAAAAXNSR0IArs4c6QAAAPVJREFUeF7t1AENAAAMg7DPv+kLKXMAIds12sBo+uCvAPAICqAAcAM4fg9QALgBHL8HKADcAI7fAxQAbgDH7wEKADeA4/cABYAbwPF7gALADeD4PUAB4AZw/B6gAHADOH4PUAC4ARy/BygA3ACO3wMUAG4Ax+8BCgA3gOP3AAWAG8Dxe4ACwA3g+D1AAeAGcPweoABwAzh+D1AAuAEcvwcoANwAjt8DFABuAMfvAQoAN4Dj9wAFgBvA8XuAAsAN4Pg9QAHgBnD8HqAAcAM4fg9QALgBHL8HKADcAI7fAxQAbgDH7wEKADeA4/cABYAbwPF7ADyAB8lQAEGIEzzJAAAAAElFTkSuQmCC"
 		},
 		{
 			"path": "D:\\Total\\OneDrive\\Documents\\Misc Docs\\Video Game Assets\\Modding Assets\\Minecraft Assets\\Figura Avatars\\avatars\\GitHubRepos\\FiguraFurretTaurAvatar\\textures\\armor\\trims\\raiserTrim.png",
@@ -5469,9 +5469,9 @@
 			"namespace": "",
 			"id": "6",
 			"group": "9df41fcf-268c-4321-0b9d-3cf8adbd6c28",
-			"width": 64,
+			"width": 128,
 			"height": 64,
-			"uv_width": 64,
+			"uv_width": 128,
 			"uv_height": 64,
 			"particle": false,
 			"use_as_default": false,
@@ -5488,7 +5488,7 @@
 			"saved": true,
 			"uuid": "03e354aa-4b0d-1428-88f3-360cb5a55a05",
 			"relative_path": "textures/armor/trims/raiserTrim.png",
-			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAIRJREFUeF7t1QERADAMArHi33SFfOagHBm7+Fv8/hOABsQTQCBeAJ8gAgjEE0AgXgArgAAC8QQQiBfACiCAQDwBBOIFsAIIIBBPAIF4AawAAgjEE0AgXgArgAAC8QQQiBfACiCAQDwBBOIFsAIIIBBPAIF4AawAAgjEE0AgXgArgECdwANo2ABBrP9ggQAAAABJRU5ErkJggg=="
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAABACAYAAADS1n9/AAAAAXNSR0IArs4c6QAAAPVJREFUeF7t1AENAAAMg7DPv+kLKXMAIds12sBo+uCvAPAICqAAcAM4fg9QALgBHL8HKADcAI7fAxQAbgDH7wEKADeA4/cABYAbwPF7gALADeD4PUAB4AZw/B6gAHADOH4PUAC4ARy/BygA3ACO3wMUAG4Ax+8BCgA3gOP3AAWAG8Dxe4ACwA3g+D1AAeAGcPweoABwAzh+D1AAuAEcvwcoANwAjt8DFABuAMfvAQoAN4Dj9wAFgBvA8XuAAsAN4Pg9QAHgBnD8HqAAcAM4fg9QALgBHL8HKADcAI7fAxQAbgDH7wEKADeA4/cABYAbwPF7ADyAB8lQAEGIEzzJAAAAAElFTkSuQmCC"
 		},
 		{
 			"path": "D:\\Total\\OneDrive\\Documents\\Misc Docs\\Video Game Assets\\Modding Assets\\Minecraft Assets\\Figura Avatars\\avatars\\GitHubRepos\\FiguraFurretTaurAvatar\\textures\\armor\\trims\\ribTrim.png",
@@ -5497,9 +5497,9 @@
 			"namespace": "",
 			"id": "6",
 			"group": "9df41fcf-268c-4321-0b9d-3cf8adbd6c28",
-			"width": 64,
+			"width": 128,
 			"height": 64,
-			"uv_width": 64,
+			"uv_width": 128,
 			"uv_height": 64,
 			"particle": false,
 			"use_as_default": false,
@@ -5516,7 +5516,7 @@
 			"saved": true,
 			"uuid": "dddad19e-48bc-d98c-906d-9b3803301e70",
 			"relative_path": "textures/armor/trims/ribTrim.png",
-			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAIRJREFUeF7t1QERADAMArHi33SFfOagHBm7+Fv8/hOABsQTQCBeAJ8gAgjEE0AgXgArgAAC8QQQiBfACiCAQDwBBOIFsAIIIBBPAIF4AawAAgjEE0AgXgArgAAC8QQQiBfACiCAQDwBBOIFsAIIIBBPAIF4AawAAgjEE0AgXgArgECdwANo2ABBrP9ggQAAAABJRU5ErkJggg=="
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAABACAYAAADS1n9/AAAAAXNSR0IArs4c6QAAAPVJREFUeF7t1AENAAAMg7DPv+kLKXMAIds12sBo+uCvAPAICqAAcAM4fg9QALgBHL8HKADcAI7fAxQAbgDH7wEKADeA4/cABYAbwPF7gALADeD4PUAB4AZw/B6gAHADOH4PUAC4ARy/BygA3ACO3wMUAG4Ax+8BCgA3gOP3AAWAG8Dxe4ACwA3g+D1AAeAGcPweoABwAzh+D1AAuAEcvwcoANwAjt8DFABuAMfvAQoAN4Dj9wAFgBvA8XuAAsAN4Pg9QAHgBnD8HqAAcAM4fg9QALgBHL8HKADcAI7fAxQAbgDH7wEKADeA4/cABYAbwPF7ADyAB8lQAEGIEzzJAAAAAElFTkSuQmCC"
 		},
 		{
 			"path": "D:\\Total\\OneDrive\\Documents\\Misc Docs\\Video Game Assets\\Modding Assets\\Minecraft Assets\\Figura Avatars\\avatars\\GitHubRepos\\FiguraFurretTaurAvatar\\textures\\armor\\trims\\sentryTrim.png",
@@ -5525,9 +5525,9 @@
 			"namespace": "",
 			"id": "6",
 			"group": "9df41fcf-268c-4321-0b9d-3cf8adbd6c28",
-			"width": 64,
+			"width": 128,
 			"height": 64,
-			"uv_width": 64,
+			"uv_width": 128,
 			"uv_height": 64,
 			"particle": false,
 			"use_as_default": false,
@@ -5544,7 +5544,7 @@
 			"saved": true,
 			"uuid": "e5d30873-116b-593f-4517-ce10374a14c3",
 			"relative_path": "textures/armor/trims/sentryTrim.png",
-			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAIRJREFUeF7t1QERADAMArHi33SFfOagHBm7+Fv8/hOABsQTQCBeAJ8gAgjEE0AgXgArgAAC8QQQiBfACiCAQDwBBOIFsAIIIBBPAIF4AawAAgjEE0AgXgArgAAC8QQQiBfACiCAQDwBBOIFsAIIIBBPAIF4AawAAgjEE0AgXgArgECdwANo2ABBrP9ggQAAAABJRU5ErkJggg=="
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAABACAYAAADS1n9/AAAAAXNSR0IArs4c6QAAAPVJREFUeF7t1AENAAAMg7DPv+kLKXMAIds12sBo+uCvAPAICqAAcAM4fg9QALgBHL8HKADcAI7fAxQAbgDH7wEKADeA4/cABYAbwPF7gALADeD4PUAB4AZw/B6gAHADOH4PUAC4ARy/BygA3ACO3wMUAG4Ax+8BCgA3gOP3AAWAG8Dxe4ACwA3g+D1AAeAGcPweoABwAzh+D1AAuAEcvwcoANwAjt8DFABuAMfvAQoAN4Dj9wAFgBvA8XuAAsAN4Pg9QAHgBnD8HqAAcAM4fg9QALgBHL8HKADcAI7fAxQAbgDH7wEKADeA4/cABYAbwPF7ADyAB8lQAEGIEzzJAAAAAElFTkSuQmCC"
 		},
 		{
 			"path": "D:\\Total\\OneDrive\\Documents\\Misc Docs\\Video Game Assets\\Modding Assets\\Minecraft Assets\\Figura Avatars\\avatars\\GitHubRepos\\FiguraFurretTaurAvatar\\textures\\armor\\trims\\shaperTrim.png",
@@ -5553,9 +5553,9 @@
 			"namespace": "",
 			"id": "6",
 			"group": "9df41fcf-268c-4321-0b9d-3cf8adbd6c28",
-			"width": 64,
+			"width": 128,
 			"height": 64,
-			"uv_width": 64,
+			"uv_width": 128,
 			"uv_height": 64,
 			"particle": false,
 			"use_as_default": false,
@@ -5572,7 +5572,7 @@
 			"saved": true,
 			"uuid": "e14f52f2-d887-9761-abf0-148415ed855c",
 			"relative_path": "textures/armor/trims/shaperTrim.png",
-			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAIRJREFUeF7t1QERADAMArHi33SFfOagHBm7+Fv8/hOABsQTQCBeAJ8gAgjEE0AgXgArgAAC8QQQiBfACiCAQDwBBOIFsAIIIBBPAIF4AawAAgjEE0AgXgArgAAC8QQQiBfACiCAQDwBBOIFsAIIIBBPAIF4AawAAgjEE0AgXgArgECdwANo2ABBrP9ggQAAAABJRU5ErkJggg=="
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAABACAYAAADS1n9/AAAAAXNSR0IArs4c6QAAAPVJREFUeF7t1AENAAAMg7DPv+kLKXMAIds12sBo+uCvAPAICqAAcAM4fg9QALgBHL8HKADcAI7fAxQAbgDH7wEKADeA4/cABYAbwPF7gALADeD4PUAB4AZw/B6gAHADOH4PUAC4ARy/BygA3ACO3wMUAG4Ax+8BCgA3gOP3AAWAG8Dxe4ACwA3g+D1AAeAGcPweoABwAzh+D1AAuAEcvwcoANwAjt8DFABuAMfvAQoAN4Dj9wAFgBvA8XuAAsAN4Pg9QAHgBnD8HqAAcAM4fg9QALgBHL8HKADcAI7fAxQAbgDH7wEKADeA4/cABYAbwPF7ADyAB8lQAEGIEzzJAAAAAElFTkSuQmCC"
 		},
 		{
 			"path": "D:\\Total\\OneDrive\\Documents\\Misc Docs\\Video Game Assets\\Modding Assets\\Minecraft Assets\\Figura Avatars\\avatars\\GitHubRepos\\FiguraFurretTaurAvatar\\textures\\armor\\trims\\silenceTrim.png",
@@ -5581,9 +5581,9 @@
 			"namespace": "",
 			"id": "6",
 			"group": "9df41fcf-268c-4321-0b9d-3cf8adbd6c28",
-			"width": 64,
+			"width": 128,
 			"height": 64,
-			"uv_width": 64,
+			"uv_width": 128,
 			"uv_height": 64,
 			"particle": false,
 			"use_as_default": false,
@@ -5600,7 +5600,7 @@
 			"saved": true,
 			"uuid": "bad3ae0f-6905-3c19-52d7-39d9bc3d29bd",
 			"relative_path": "textures/armor/trims/silenceTrim.png",
-			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAIRJREFUeF7t1QERADAMArHi33SFfOagHBm7+Fv8/hOABsQTQCBeAJ8gAgjEE0AgXgArgAAC8QQQiBfACiCAQDwBBOIFsAIIIBBPAIF4AawAAgjEE0AgXgArgAAC8QQQiBfACiCAQDwBBOIFsAIIIBBPAIF4AawAAgjEE0AgXgArgECdwANo2ABBrP9ggQAAAABJRU5ErkJggg=="
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAABACAYAAADS1n9/AAAAAXNSR0IArs4c6QAAAPVJREFUeF7t1AENAAAMg7DPv+kLKXMAIds12sBo+uCvAPAICqAAcAM4fg9QALgBHL8HKADcAI7fAxQAbgDH7wEKADeA4/cABYAbwPF7gALADeD4PUAB4AZw/B6gAHADOH4PUAC4ARy/BygA3ACO3wMUAG4Ax+8BCgA3gOP3AAWAG8Dxe4ACwA3g+D1AAeAGcPweoABwAzh+D1AAuAEcvwcoANwAjt8DFABuAMfvAQoAN4Dj9wAFgBvA8XuAAsAN4Pg9QAHgBnD8HqAAcAM4fg9QALgBHL8HKADcAI7fAxQAbgDH7wEKADeA4/cABYAbwPF7ADyAB8lQAEGIEzzJAAAAAElFTkSuQmCC"
 		},
 		{
 			"path": "D:\\Total\\OneDrive\\Documents\\Misc Docs\\Video Game Assets\\Modding Assets\\Minecraft Assets\\Figura Avatars\\avatars\\GitHubRepos\\FiguraFurretTaurAvatar\\textures\\armor\\trims\\snoutTrim.png",
@@ -5609,9 +5609,9 @@
 			"namespace": "",
 			"id": "6",
 			"group": "9df41fcf-268c-4321-0b9d-3cf8adbd6c28",
-			"width": 64,
+			"width": 128,
 			"height": 64,
-			"uv_width": 64,
+			"uv_width": 128,
 			"uv_height": 64,
 			"particle": false,
 			"use_as_default": false,
@@ -5628,7 +5628,7 @@
 			"saved": true,
 			"uuid": "33703846-2a60-56a6-2aec-b68c5418cf5c",
 			"relative_path": "textures/armor/trims/snoutTrim.png",
-			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAIRJREFUeF7t1QERADAMArHi33SFfOagHBm7+Fv8/hOABsQTQCBeAJ8gAgjEE0AgXgArgAAC8QQQiBfACiCAQDwBBOIFsAIIIBBPAIF4AawAAgjEE0AgXgArgAAC8QQQiBfACiCAQDwBBOIFsAIIIBBPAIF4AawAAgjEE0AgXgArgECdwANo2ABBrP9ggQAAAABJRU5ErkJggg=="
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAABACAYAAADS1n9/AAAAAXNSR0IArs4c6QAAAPVJREFUeF7t1AENAAAMg7DPv+kLKXMAIds12sBo+uCvAPAICqAAcAM4fg9QALgBHL8HKADcAI7fAxQAbgDH7wEKADeA4/cABYAbwPF7gALADeD4PUAB4AZw/B6gAHADOH4PUAC4ARy/BygA3ACO3wMUAG4Ax+8BCgA3gOP3AAWAG8Dxe4ACwA3g+D1AAeAGcPweoABwAzh+D1AAuAEcvwcoANwAjt8DFABuAMfvAQoAN4Dj9wAFgBvA8XuAAsAN4Pg9QAHgBnD8HqAAcAM4fg9QALgBHL8HKADcAI7fAxQAbgDH7wEKADeA4/cABYAbwPF7ADyAB8lQAEGIEzzJAAAAAElFTkSuQmCC"
 		},
 		{
 			"path": "D:\\Total\\OneDrive\\Documents\\Misc Docs\\Video Game Assets\\Modding Assets\\Minecraft Assets\\Figura Avatars\\avatars\\GitHubRepos\\FiguraFurretTaurAvatar\\textures\\armor\\trims\\spireTrim.png",
@@ -5637,9 +5637,9 @@
 			"namespace": "",
 			"id": "6",
 			"group": "9df41fcf-268c-4321-0b9d-3cf8adbd6c28",
-			"width": 64,
+			"width": 128,
 			"height": 64,
-			"uv_width": 64,
+			"uv_width": 128,
 			"uv_height": 64,
 			"particle": false,
 			"use_as_default": false,
@@ -5656,7 +5656,7 @@
 			"saved": true,
 			"uuid": "c244b76d-05ca-ecbd-6f35-4d710ed6ad64",
 			"relative_path": "textures/armor/trims/spireTrim.png",
-			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAIRJREFUeF7t1QERADAMArHi33SFfOagHBm7+Fv8/hOABsQTQCBeAJ8gAgjEE0AgXgArgAAC8QQQiBfACiCAQDwBBOIFsAIIIBBPAIF4AawAAgjEE0AgXgArgAAC8QQQiBfACiCAQDwBBOIFsAIIIBBPAIF4AawAAgjEE0AgXgArgECdwANo2ABBrP9ggQAAAABJRU5ErkJggg=="
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAABACAYAAADS1n9/AAAAAXNSR0IArs4c6QAAAPVJREFUeF7t1AENAAAMg7DPv+kLKXMAIds12sBo+uCvAPAICqAAcAM4fg9QALgBHL8HKADcAI7fAxQAbgDH7wEKADeA4/cABYAbwPF7gALADeD4PUAB4AZw/B6gAHADOH4PUAC4ARy/BygA3ACO3wMUAG4Ax+8BCgA3gOP3AAWAG8Dxe4ACwA3g+D1AAeAGcPweoABwAzh+D1AAuAEcvwcoANwAjt8DFABuAMfvAQoAN4Dj9wAFgBvA8XuAAsAN4Pg9QAHgBnD8HqAAcAM4fg9QALgBHL8HKADcAI7fAxQAbgDH7wEKADeA4/cABYAbwPF7ADyAB8lQAEGIEzzJAAAAAElFTkSuQmCC"
 		},
 		{
 			"path": "D:\\Total\\OneDrive\\Documents\\Misc Docs\\Video Game Assets\\Modding Assets\\Minecraft Assets\\Figura Avatars\\avatars\\GitHubRepos\\FiguraFurretTaurAvatar\\textures\\armor\\trims\\tideTrim.png",
@@ -5665,9 +5665,9 @@
 			"namespace": "",
 			"id": "6",
 			"group": "9df41fcf-268c-4321-0b9d-3cf8adbd6c28",
-			"width": 64,
+			"width": 128,
 			"height": 64,
-			"uv_width": 64,
+			"uv_width": 128,
 			"uv_height": 64,
 			"particle": false,
 			"use_as_default": false,
@@ -5684,7 +5684,7 @@
 			"saved": true,
 			"uuid": "336fcf4d-defe-d7ee-5f64-2aa67326a510",
 			"relative_path": "textures/armor/trims/tideTrim.png",
-			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAIRJREFUeF7t1QERADAMArHi33SFfOagHBm7+Fv8/hOABsQTQCBeAJ8gAgjEE0AgXgArgAAC8QQQiBfACiCAQDwBBOIFsAIIIBBPAIF4AawAAgjEE0AgXgArgAAC8QQQiBfACiCAQDwBBOIFsAIIIBBPAIF4AawAAgjEE0AgXgArgECdwANo2ABBrP9ggQAAAABJRU5ErkJggg=="
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAABACAYAAADS1n9/AAAAAXNSR0IArs4c6QAAAPVJREFUeF7t1AENAAAMg7DPv+kLKXMAIds12sBo+uCvAPAICqAAcAM4fg9QALgBHL8HKADcAI7fAxQAbgDH7wEKADeA4/cABYAbwPF7gALADeD4PUAB4AZw/B6gAHADOH4PUAC4ARy/BygA3ACO3wMUAG4Ax+8BCgA3gOP3AAWAG8Dxe4ACwA3g+D1AAeAGcPweoABwAzh+D1AAuAEcvwcoANwAjt8DFABuAMfvAQoAN4Dj9wAFgBvA8XuAAsAN4Pg9QAHgBnD8HqAAcAM4fg9QALgBHL8HKADcAI7fAxQAbgDH7wEKADeA4/cABYAbwPF7ADyAB8lQAEGIEzzJAAAAAElFTkSuQmCC"
 		},
 		{
 			"path": "D:\\Total\\OneDrive\\Documents\\Misc Docs\\Video Game Assets\\Modding Assets\\Minecraft Assets\\Figura Avatars\\avatars\\GitHubRepos\\FiguraFurretTaurAvatar\\textures\\armor\\trims\\vexTrim.png",
@@ -5693,9 +5693,9 @@
 			"namespace": "",
 			"id": "6",
 			"group": "9df41fcf-268c-4321-0b9d-3cf8adbd6c28",
-			"width": 64,
+			"width": 128,
 			"height": 64,
-			"uv_width": 64,
+			"uv_width": 128,
 			"uv_height": 64,
 			"particle": false,
 			"use_as_default": false,
@@ -5712,7 +5712,7 @@
 			"saved": true,
 			"uuid": "203dc91e-0d57-ff02-9af2-2d6ee53f7225",
 			"relative_path": "textures/armor/trims/vexTrim.png",
-			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAIRJREFUeF7t1QERADAMArHi33SFfOagHBm7+Fv8/hOABsQTQCBeAJ8gAgjEE0AgXgArgAAC8QQQiBfACiCAQDwBBOIFsAIIIBBPAIF4AawAAgjEE0AgXgArgAAC8QQQiBfACiCAQDwBBOIFsAIIIBBPAIF4AawAAgjEE0AgXgArgECdwANo2ABBrP9ggQAAAABJRU5ErkJggg=="
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAABACAYAAADS1n9/AAAAAXNSR0IArs4c6QAAAPVJREFUeF7t1AENAAAMg7DPv+kLKXMAIds12sBo+uCvAPAICqAAcAM4fg9QALgBHL8HKADcAI7fAxQAbgDH7wEKADeA4/cABYAbwPF7gALADeD4PUAB4AZw/B6gAHADOH4PUAC4ARy/BygA3ACO3wMUAG4Ax+8BCgA3gOP3AAWAG8Dxe4ACwA3g+D1AAeAGcPweoABwAzh+D1AAuAEcvwcoANwAjt8DFABuAMfvAQoAN4Dj9wAFgBvA8XuAAsAN4Pg9QAHgBnD8HqAAcAM4fg9QALgBHL8HKADcAI7fAxQAbgDH7wEKADeA4/cABYAbwPF7ADyAB8lQAEGIEzzJAAAAAElFTkSuQmCC"
 		},
 		{
 			"path": "D:\\Total\\OneDrive\\Documents\\Misc Docs\\Video Game Assets\\Modding Assets\\Minecraft Assets\\Figura Avatars\\avatars\\GitHubRepos\\FiguraFurretTaurAvatar\\textures\\armor\\trims\\wardTrim.png",
@@ -5721,9 +5721,9 @@
 			"namespace": "",
 			"id": "6",
 			"group": "9df41fcf-268c-4321-0b9d-3cf8adbd6c28",
-			"width": 64,
+			"width": 128,
 			"height": 64,
-			"uv_width": 64,
+			"uv_width": 128,
 			"uv_height": 64,
 			"particle": false,
 			"use_as_default": false,
@@ -5740,7 +5740,7 @@
 			"saved": true,
 			"uuid": "f0053799-4a16-0d95-9b94-bfd2ecf753b8",
 			"relative_path": "textures/armor/trims/wardTrim.png",
-			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAIRJREFUeF7t1QERADAMArHi33SFfOagHBm7+Fv8/hOABsQTQCBeAJ8gAgjEE0AgXgArgAAC8QQQiBfACiCAQDwBBOIFsAIIIBBPAIF4AawAAgjEE0AgXgArgAAC8QQQiBfACiCAQDwBBOIFsAIIIBBPAIF4AawAAgjEE0AgXgArgECdwANo2ABBrP9ggQAAAABJRU5ErkJggg=="
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAABACAYAAADS1n9/AAAAAXNSR0IArs4c6QAAAPVJREFUeF7t1AENAAAMg7DPv+kLKXMAIds12sBo+uCvAPAICqAAcAM4fg9QALgBHL8HKADcAI7fAxQAbgDH7wEKADeA4/cABYAbwPF7gALADeD4PUAB4AZw/B6gAHADOH4PUAC4ARy/BygA3ACO3wMUAG4Ax+8BCgA3gOP3AAWAG8Dxe4ACwA3g+D1AAeAGcPweoABwAzh+D1AAuAEcvwcoANwAjt8DFABuAMfvAQoAN4Dj9wAFgBvA8XuAAsAN4Pg9QAHgBnD8HqAAcAM4fg9QALgBHL8HKADcAI7fAxQAbgDH7wEKADeA4/cABYAbwPF7ADyAB8lQAEGIEzzJAAAAAElFTkSuQmCC"
 		},
 		{
 			"path": "D:\\Total\\OneDrive\\Documents\\Misc Docs\\Video Game Assets\\Modding Assets\\Minecraft Assets\\Figura Avatars\\avatars\\GitHubRepos\\FiguraFurretTaurAvatar\\textures\\armor\\trims\\wayfinderTrim.png",
@@ -5749,9 +5749,9 @@
 			"namespace": "",
 			"id": "6",
 			"group": "9df41fcf-268c-4321-0b9d-3cf8adbd6c28",
-			"width": 64,
+			"width": 128,
 			"height": 64,
-			"uv_width": 64,
+			"uv_width": 128,
 			"uv_height": 64,
 			"particle": false,
 			"use_as_default": false,
@@ -5768,7 +5768,7 @@
 			"saved": true,
 			"uuid": "c4d67663-fc6e-76c8-b440-47677d873d82",
 			"relative_path": "textures/armor/trims/wayfinderTrim.png",
-			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAIRJREFUeF7t1QERADAMArHi33SFfOagHBm7+Fv8/hOABsQTQCBeAJ8gAgjEE0AgXgArgAAC8QQQiBfACiCAQDwBBOIFsAIIIBBPAIF4AawAAgjEE0AgXgArgAAC8QQQiBfACiCAQDwBBOIFsAIIIBBPAIF4AawAAgjEE0AgXgArgECdwANo2ABBrP9ggQAAAABJRU5ErkJggg=="
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAABACAYAAADS1n9/AAAAAXNSR0IArs4c6QAAAPVJREFUeF7t1AENAAAMg7DPv+kLKXMAIds12sBo+uCvAPAICqAAcAM4fg9QALgBHL8HKADcAI7fAxQAbgDH7wEKADeA4/cABYAbwPF7gALADeD4PUAB4AZw/B6gAHADOH4PUAC4ARy/BygA3ACO3wMUAG4Ax+8BCgA3gOP3AAWAG8Dxe4ACwA3g+D1AAeAGcPweoABwAzh+D1AAuAEcvwcoANwAjt8DFABuAMfvAQoAN4Dj9wAFgBvA8XuAAsAN4Pg9QAHgBnD8HqAAcAM4fg9QALgBHL8HKADcAI7fAxQAbgDH7wEKADeA4/cABYAbwPF7ADyAB8lQAEGIEzzJAAAAAElFTkSuQmCC"
 		},
 		{
 			"path": "D:\\Total\\OneDrive\\Documents\\Misc Docs\\Video Game Assets\\Modding Assets\\Minecraft Assets\\Figura Avatars\\avatars\\GitHubRepos\\FiguraFurretTaurAvatar\\textures\\armor\\trims\\wildTrim.png",
@@ -5777,9 +5777,9 @@
 			"namespace": "",
 			"id": "6",
 			"group": "9df41fcf-268c-4321-0b9d-3cf8adbd6c28",
-			"width": 64,
+			"width": 128,
 			"height": 64,
-			"uv_width": 64,
+			"uv_width": 128,
 			"uv_height": 64,
 			"particle": false,
 			"use_as_default": false,
@@ -5796,7 +5796,7 @@
 			"saved": true,
 			"uuid": "5f26e3bf-2fd2-2729-7063-b4aa11a6c083",
 			"relative_path": "textures/armor/trims/wildTrim.png",
-			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAIRJREFUeF7t1QERADAMArHi33SFfOagHBm7+Fv8/hOABsQTQCBeAJ8gAgjEE0AgXgArgAAC8QQQiBfACiCAQDwBBOIFsAIIIBBPAIF4AawAAgjEE0AgXgArgAAC8QQQiBfACiCAQDwBBOIFsAIIIBBPAIF4AawAAgjEE0AgXgArgECdwANo2ABBrP9ggQAAAABJRU5ErkJggg=="
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAABACAYAAADS1n9/AAAAAXNSR0IArs4c6QAAAPVJREFUeF7t1AENAAAMg7DPv+kLKXMAIds12sBo+uCvAPAICqAAcAM4fg9QALgBHL8HKADcAI7fAxQAbgDH7wEKADeA4/cABYAbwPF7gALADeD4PUAB4AZw/B6gAHADOH4PUAC4ARy/BygA3ACO3wMUAG4Ax+8BCgA3gOP3AAWAG8Dxe4ACwA3g+D1AAeAGcPweoABwAzh+D1AAuAEcvwcoANwAjt8DFABuAMfvAQoAN4Dj9wAFgBvA8XuAAsAN4Pg9QAHgBnD8HqAAcAM4fg9QALgBHL8HKADcAI7fAxQAbgDH7wEKADeA4/cABYAbwPF7ADyAB8lQAEGIEzzJAAAAAElFTkSuQmCC"
 		}
 	],
 	"texture_groups": [
@@ -6022,7 +6022,7 @@
 							"data_points": [
 								{
 									"x": 1,
-									"y": 0,
+									"y": -1,
 									"z": 2
 								}
 							],
@@ -6076,7 +6076,7 @@
 							"data_points": [
 								{
 									"x": -1,
-									"y": 0,
+									"y": -1,
 									"z": 2
 								}
 							],
@@ -6218,8 +6218,8 @@
 							"data_points": [
 								{
 									"x": 0,
-									"y": 9.75,
-									"z": 7.75
+									"y": 11.5,
+									"z": 9.75
 								}
 							],
 							"uuid": "2c540f65-e693-3620-b20b-2c6a8295bf2d",
@@ -7364,8 +7364,8 @@
 						}
 					]
 				},
-				"38d5cea8-3123-0042-3d03-a89976654b67": {
-					"name": "Player",
+				"edeb736e-c3a8-844c-35d9-9edaedc7131b": {
+					"name": "LowerBody",
 					"type": "bone",
 					"keyframes": [
 						{
@@ -7377,7 +7377,21 @@
 									"z": 0
 								}
 							],
-							"uuid": "d2fdcd80-8629-1792-337c-6dd608aeb68a",
+							"uuid": "c0cb23de-002d-255c-3166-27f69ddcce3e",
+							"time": 0,
+							"color": -1,
+							"interpolation": "linear"
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": 0,
+									"y": 0.5,
+									"z": 0
+								}
+							],
+							"uuid": "b8e78055-7f77-4617-a02c-19cc285ab665",
 							"time": 0,
 							"color": -1,
 							"interpolation": "linear"
@@ -7851,11 +7865,51 @@
 							"data_points": [
 								{
 									"x": 0,
-									"y": "q(...) +\nMath.sin(q.anim_time*720-90)*3+3.25",
+									"y": "q(...) +\nMath.sin(q.anim_time*720-90)*4+6",
 									"z": 0
 								}
 							],
 							"uuid": "413247b5-3a5b-e5f7-6b26-c768d9f6873b",
+							"time": 0,
+							"color": -1,
+							"interpolation": "linear"
+						}
+					]
+				},
+				"cecd4e75-4fc6-d923-118b-4b51609a067a": {
+					"name": "FrontLeftGround",
+					"type": "bone",
+					"keyframes": [
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": 0,
+									"y": -0.75,
+									"z": 0
+								}
+							],
+							"uuid": "ca7c1112-6ef8-28e9-00b0-8c1dc399ee67",
+							"time": 0,
+							"color": -1,
+							"interpolation": "linear"
+						}
+					]
+				},
+				"c6a2ca2c-1322-54e0-006c-6b759e28ee42": {
+					"name": "FrontRightGround",
+					"type": "bone",
+					"keyframes": [
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": 0,
+									"y": -0.75,
+									"z": 0
+								}
+							],
+							"uuid": "14b94d9f-5992-168c-27c0-472de4857e73",
 							"time": 0,
 							"color": -1,
 							"interpolation": "linear"
@@ -8519,7 +8573,7 @@
 							"data_points": [
 								{
 									"x": 0,
-									"y": 21,
+									"y": 22,
 									"z": 6
 								}
 							],
@@ -8978,26 +9032,6 @@
 			"start_delay": "",
 			"loop_delay": "",
 			"animators": {
-				"38d5cea8-3123-0042-3d03-a89976654b67": {
-					"name": "Player",
-					"type": "bone",
-					"keyframes": [
-						{
-							"channel": "position",
-							"data_points": [
-								{
-									"x": 0,
-									"y": 2,
-									"z": 0
-								}
-							],
-							"uuid": "f3078c3d-0d74-6c26-ea10-b67659c7c7c7",
-							"time": 0,
-							"color": -1,
-							"interpolation": "linear"
-						}
-					]
-				},
 				"db518952-bd07-cda0-708a-3744d847af20": {
 					"name": "UpperBody",
 					"type": "bone",
@@ -9012,6 +9046,26 @@
 								}
 							],
 							"uuid": "563406d8-3304-3329-abcc-73edfc545db1",
+							"time": 0,
+							"color": -1,
+							"interpolation": "linear"
+						}
+					]
+				},
+				"edeb736e-c3a8-844c-35d9-9edaedc7131b": {
+					"name": "LowerBody",
+					"type": "bone",
+					"keyframes": [
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": 0,
+									"y": 2,
+									"z": 0
+								}
+							],
+							"uuid": "48385a97-e214-ec17-9aae-88845d670cb0",
 							"time": 0,
 							"color": -1,
 							"interpolation": "linear"
