@@ -1,107 +1,107 @@
 -- Required scripts
-local parts     = require("lib.PartsAPI")
-local kattArmor = require("lib.KattArmor")()
+local parts       = require("lib.PartsAPI")
+local furretArmor = require("lib.KattArmor")()
 
 -- Setting the leggings to layer 1
-kattArmor.Armor.Leggings:setLayer(1)
+furretArmor.Armor.Leggings:setLayer(1)
 
 -- Armor parts
-kattArmor.Armor.Leggings
+furretArmor.Armor.Leggings
 	:addParts(table.unpack(parts:createTable(function(part) return part:getName() == "Leggings" end)))
 	:addTrimParts(table.unpack(parts:createTable(function(part) return part:getName() == "LeggingsTrim" end)))
-kattArmor.Armor.Boots
+furretArmor.Armor.Boots
 	:addParts(table.unpack(parts:createTable(function(part) return part:getName() == "Boot" end)))
 	:addTrimParts(table.unpack(parts:createTable(function(part) return part:getName() == "BootTrim" end)))
 
 -- Leather armor
-kattArmor.Materials.leather
+furretArmor.Materials.leather
 	:setTexture(textures["textures.armor.leatherArmor"] or textures["FurretTaur.leatherArmor"])
-	:addParts(kattArmor.Armor.Leggings, table.unpack(parts:createTable(function(part) return part:getName() == "LeggingsLeather" end)))
-	:addParts(kattArmor.Armor.Boots,    table.unpack(parts:createTable(function(part) return part:getName() == "BootLeather" end)))
+	:addParts(furretArmor.Armor.Leggings, table.unpack(parts:createTable(function(part) return part:getName() == "LeggingsLeather" end)))
+	:addParts(furretArmor.Armor.Boots,    table.unpack(parts:createTable(function(part) return part:getName() == "BootLeather" end)))
 
 -- Chainmail armor
-kattArmor.Materials.chainmail
+furretArmor.Materials.chainmail
 	:setTexture(textures["textures.armor.chainmailArmor"] or textures["FurretTaur.chainmailArmor"])
 
 -- Iron armor
-kattArmor.Materials.iron
+furretArmor.Materials.iron
 	:setTexture(textures["textures.armor.ironArmor"] or textures["FurretTaur.ironArmor"])
 
 -- Golden armor
-kattArmor.Materials.golden
+furretArmor.Materials.golden
 	:setTexture(textures["textures.armor.goldenArmor"] or textures["FurretTaur.goldenArmor"])
 
 -- Diamond armor
-kattArmor.Materials.diamond
+furretArmor.Materials.diamond
 	:setTexture(textures["textures.armor.diamondArmor"] or textures["FurretTaur.diamondArmor"])
 
 -- Netherite armor
-kattArmor.Materials.netherite
+furretArmor.Materials.netherite
 	:setTexture(textures["textures.armor.netheriteArmor"] or textures["FurretTaur.netheriteArmor"])
 
 -- Trims
 -- Coast
-kattArmor.TrimPatterns.coast
+furretArmor.TrimPatterns.coast
 	:setTexture(textures["textures.armor.trims.coastTrim"] or textures["FurretTaur.coastTrim"])
 
 -- Dune
-kattArmor.TrimPatterns.dune
+furretArmor.TrimPatterns.dune
 	:setTexture(textures["textures.armor.trims.duneTrim"] or textures["FurretTaur.duneTrim"])
 
 -- Eye
-kattArmor.TrimPatterns.eye
+furretArmor.TrimPatterns.eye
 	:setTexture(textures["textures.armor.trims.eyeTrim"] or textures["FurretTaur.eyeTrim"])
 
 -- Host
-kattArmor.TrimPatterns.host
+furretArmor.TrimPatterns.host
 	:setTexture(textures["textures.armor.trims.hostTrim"] or textures["FurretTaur.hostTrim"])
 
 -- Raiser
-kattArmor.TrimPatterns.raiser
+furretArmor.TrimPatterns.raiser
 	:setTexture(textures["textures.armor.trims.raiserTrim"] or textures["FurretTaur.raiserTrim"])
 
 -- Rib
-kattArmor.TrimPatterns.rib
+furretArmor.TrimPatterns.rib
 	:setTexture(textures["textures.armor.trims.ribTrim"] or textures["FurretTaur.ribTrim"])
 
 -- Sentry
-kattArmor.TrimPatterns.sentry
+furretArmor.TrimPatterns.sentry
 	:setTexture(textures["textures.armor.trims.sentryTrim"] or textures["FurretTaur.sentryTrim"])
 
 -- Shaper
-kattArmor.TrimPatterns.shaper
+furretArmor.TrimPatterns.shaper
 	:setTexture(textures["textures.armor.trims.shaperTrim"] or textures["FurretTaur.shaperTrim"])
 
 -- Silence
-kattArmor.TrimPatterns.silence
+furretArmor.TrimPatterns.silence
 	:setTexture(textures["textures.armor.trims.silenceTrim"] or textures["FurretTaur.silenceTrim"])
 
 -- Snout
-kattArmor.TrimPatterns.snout
+furretArmor.TrimPatterns.snout
 	:setTexture(textures["textures.armor.trims.snoutTrim"] or textures["FurretTaur.snoutTrim"])
 
 -- Spire
-kattArmor.TrimPatterns.spire
+furretArmor.TrimPatterns.spire
 	:setTexture(textures["textures.armor.trims.spireTrim"] or textures["FurretTaur.spireTrim"])
 
 -- Tide
-kattArmor.TrimPatterns.tide
+furretArmor.TrimPatterns.tide
 	:setTexture(textures["textures.armor.trims.tideTrim"] or textures["FurretTaur.tideTrim"])
 
 -- Vex
-kattArmor.TrimPatterns.vex
+furretArmor.TrimPatterns.vex
 	:setTexture(textures["textures.armor.trims.vexTrim"] or textures["FurretTaur.vexTrim"])
 
 -- Ward
-kattArmor.TrimPatterns.ward
+furretArmor.TrimPatterns.ward
 	:setTexture(textures["textures.armor.trims.wardTrim"] or textures["FurretTaur.wardTrim"])
 
 -- Wayfinder
-kattArmor.TrimPatterns.wayfinder
+furretArmor.TrimPatterns.wayfinder
 	:setTexture(textures["textures.armor.trims.wayfinderTrim"] or textures["FurretTaur.wayfinderTrim"])
 
 -- Wild
-kattArmor.TrimPatterns.wild
+furretArmor.TrimPatterns.wild
 	:setTexture(textures["textures.armor.trims.wildTrim"] or textures["FurretTaur.wildTrim"])
 
 -- Config setup
