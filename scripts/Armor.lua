@@ -40,6 +40,10 @@ furretArmor.Materials.netherite
 	:setTexture(textures["textures.armor.netheriteArmor"] or textures["FurretTaur.netheriteArmor"])
 
 -- Trims
+-- Bolt
+furretArmor.TrimPatterns.bolt
+	:setTexture(textures["textures.armor.trims.boltTrim"] or textures["FurretTaur.boltTrim"])
+
 -- Coast
 furretArmor.TrimPatterns.coast
 	:setTexture(textures["textures.armor.trims.coastTrim"] or textures["FurretTaur.coastTrim"])
@@ -51,6 +55,10 @@ furretArmor.TrimPatterns.dune
 -- Eye
 furretArmor.TrimPatterns.eye
 	:setTexture(textures["textures.armor.trims.eyeTrim"] or textures["FurretTaur.eyeTrim"])
+
+-- Flow
+furretArmor.TrimPatterns.flow
+	:setTexture(textures["textures.armor.trims.flowTrim"] or textures["FurretTaur.flowTrim"])
 
 -- Host
 furretArmor.TrimPatterns.host
