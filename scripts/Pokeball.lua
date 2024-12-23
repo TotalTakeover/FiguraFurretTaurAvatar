@@ -223,7 +223,7 @@ local setRightKey   = keybinds:newKeybind("Pokeball Right Animation")  :onPress(
 local setJumpKey    = keybinds:newKeybind("Pokeball Jump Animation")   :onPress(function() if not anims.pokeballBounce:isPlaying() then pings.playPokeballBounce() end return true end)
 local setCrouchKey  = keybinds:newKeybind("Pokeball Crouch Animation") :onPress(function() return true end)
 local setAttackKey  = keybinds:newKeybind("Pokeball Attack Animation") :onPress(function() if not action_wheel:isEnabled() then pings.playPokeballInteract() end return true end)
-local setUseKey     = keybinds:newKeybind("Pokeball Use Abimation")    :onPress(function() if not action_wheel:isEnabled() then pings.playPokeballInteract() end return true end)
+local setUseKey     = keybinds:newKeybind("Pokeball Use Animation")    :onPress(function() if not action_wheel:isEnabled() then pings.playPokeballInteract() end return true end)
 
 -- Keybind updaters
 function events.TICK()
