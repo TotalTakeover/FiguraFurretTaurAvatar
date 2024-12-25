@@ -1,4 +1,4 @@
--- Required script
+-- Required scripts
 require("lib.GSAnimBlend")
 require("lib.Molang")
 local parts   = require("lib.PartsAPI")
