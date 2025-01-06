@@ -7561,6 +7561,20 @@
 							"time": 0,
 							"color": -1,
 							"interpolation": "linear"
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": 0,
+									"y": "q(...) +\n-Math.sin(q.anim_time*720-90)*0.5-0.5",
+									"z": 0
+								}
+							],
+							"uuid": "4cb82606-1b76-d206-f7a5-02d6b34b7836",
+							"time": 0,
+							"color": -1,
+							"interpolation": "linear"
 						}
 					]
 				},
