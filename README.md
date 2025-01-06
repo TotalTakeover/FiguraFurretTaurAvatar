@@ -9,6 +9,7 @@ This Figura avatar is a template designed around turning the user into a Furret 
 - Irri
 - Psycho Breadstick
 - Jimmy
+- AdamTheLapras
 - PoolloverNathan
 - The Cobblemon Team
 - The Pokemon Company
