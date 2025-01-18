@@ -203,7 +203,7 @@ function pings.setSquapiArmsMove(boolean)
 	
 end
 
--- Sync variable
+-- Sync variables
 function pings.syncSquapi(a, b)
 	
 	earFlick = a
@@ -274,5 +274,5 @@ function events.RENDER(delta, context)
 	
 end
 
--- Return action
+-- Return actions
 return t
