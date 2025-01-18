@@ -1,6 +1,3 @@
--- Required script
-local parts = require("lib.PartsAPI")
-
 -- Play sound
 function pings.playPokemonCry()
 	
