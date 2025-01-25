@@ -4,7 +4,7 @@ local ground  = require("lib.GroundCheck")
 local pose    = require("scripts.Posing")
 local effects = require("scripts.SyncedVariables")
 
--- Variables
+-- Variable
 local wasGround = false
 
 -- Find all ground parts
