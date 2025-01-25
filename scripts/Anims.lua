@@ -30,7 +30,7 @@ end
 
 function events.TICK()
 	
-	-- Variable
+	-- Variables
 	local vel       = player:getVelocity()
 	local sprinting = player:isSprinting()
 	local onGround  = ground()
