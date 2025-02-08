@@ -32,14 +32,19 @@ function events.TICK()
 	
 	-- Variables
 	local vel       = player:getVelocity()
+	local dir       = player:getLookDir()
 	local sprinting = player:isSprinting()
 	local onGround  = ground()
+	
+	-- Directional velocity
+	local fbVel = player:getVelocity():dot((dir.x_z):normalize())
+	local lrVel = player:getVelocity():cross(dir.x_z:normalize()).y
 	
 	-- Animation variables
 	isSprinting = sprinting and not pose.crouch and not pose.swim
 	
 	-- Speed control
-	local walkSpeed   = math.min(vel.xz:length() * 5, 3)
+	local walkSpeed   = math.clamp(fbVel < -0.05 and math.min(fbVel, math.abs(lrVel)) * 5 or math.max(fbVel, math.abs(lrVel)) * 5, -3, 3)
 	local sprintSpeed = math.min(vel.xz:length() * 3.7, 1.5)
 	
 	-- Animation speeds
@@ -48,13 +53,14 @@ function events.TICK()
 	anims.sprint:speed(sprintSpeed)
 	
 	-- Animation states
-	local groundIdle = vel.xz:length() == 0 and not player:getVehicle() and not pose.sleep
-	local walk       = vel.xz:length() ~= 0 and (onGround or player:isInWater() or effects.cF) and not isSprinting and not player:getVehicle() and not pose.sleep
+	local groundIdle = vel.xz:length() == 0 and not (player:getVehicle() or pose.sleep or pose.crawl)
+	local walk       = (vel.xz:length() ~= 0 or pose.crawl) and (onGround or player:isInWater() or effects.cF) and not (isSprinting or player:getVehicle() or pose.sleep)
 	local walkBounce = walk and onGround and not pose.swim
-	local sprint     = vel.xz:length() ~= 0 and (onGround or effects.cF) and isSprinting and not player:getVehicle() and not pose.sleep
-	local jump       = vel.xz:length() ~= 0 and not onGround and not player:getVehicle() and not pose.sleep
+	local sprint     = vel.xz:length() ~= 0 and (onGround or effects.cF) and isSprinting and not (player:getVehicle() or pose.sleep)
+	local jump       = vel.xz:length() ~= 0 and not (onGround or player:getVehicle() or pose.sleep)
 	local ride       = player:getVehicle()
 	local sleep      = pose.sleep
+	local crawl      = pose.crawl or pose.swim
 	
 	-- Animations
 	anims.groundIdle:playing(groundIdle)
@@ -64,6 +70,7 @@ function events.TICK()
 	anims.jump:playing(jump)
 	anims.ride:playing(ride)
 	anims.sleep:playing(sleep)
+	anims.crawl:playing(crawl)
 	
 end
 
@@ -83,7 +90,8 @@ local blendAnims = {
 	{ anim = anims.sprint,     ticks = {3,7} },
 	{ anim = anims.jump,       ticks = {7,7} },
 	{ anim = anims.ride,       ticks = {7,7} },
-	{ anim = anims.sleep,      ticks = {7,7} }
+	{ anim = anims.sleep,      ticks = {7,7} },
+	{ anim = anims.crawl,      ticks = {7,7} }
 }
 
 -- Apply GS Blending
