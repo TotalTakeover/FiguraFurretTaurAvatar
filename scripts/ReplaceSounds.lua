@@ -1,7 +1,6 @@
 -- Required scripts
 local parts   = require("lib.PartsAPI")
 local ground  = require("lib.GroundCheck")
-local pose    = require("scripts.Posing")
 local effects = require("scripts.SyncedVariables")
 
 -- Variable
