@@ -9276,61 +9276,6 @@
 			}
 		},
 		{
-			"uuid": "66e83b04-f731-7da4-8f5d-d25a7806824e",
-			"name": "crouch",
-			"loop": "loop",
-			"override": false,
-			"length": 0,
-			"snapping": 24,
-			"selected": false,
-			"anim_time_update": "",
-			"blend_weight": "",
-			"start_delay": "",
-			"loop_delay": "",
-			"animators": {
-				"db518952-bd07-cda0-708a-3744d847af20": {
-					"name": "UpperBody",
-					"type": "bone",
-					"keyframes": [
-						{
-							"channel": "position",
-							"data_points": [
-								{
-									"x": "0",
-									"y": "0",
-									"z": "-5"
-								}
-							],
-							"uuid": "563406d8-3304-3329-abcc-73edfc545db1",
-							"time": 0,
-							"color": -1,
-							"interpolation": "linear"
-						}
-					]
-				},
-				"edeb736e-c3a8-844c-35d9-9edaedc7131b": {
-					"name": "LowerBody",
-					"type": "bone",
-					"keyframes": [
-						{
-							"channel": "position",
-							"data_points": [
-								{
-									"x": "0",
-									"y": "2",
-									"z": "0"
-								}
-							],
-							"uuid": "48385a97-e214-ec17-9aae-88845d670cb0",
-							"time": 0,
-							"color": -1,
-							"interpolation": "linear"
-						}
-					]
-				}
-			}
-		},
-		{
 			"uuid": "1a52cad0-ae84-c00d-f75e-a9281c3e4fa0",
 			"name": "pokeballOpen",
 			"loop": "hold",
