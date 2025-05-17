@@ -66,7 +66,7 @@ function events.TICK()
 	local inWater  = player:isInWater()
 	
 	-- Play footsteps based on placement
-	if onGround and not inWater and not player:getVehicle() and not effects.cF then
+	if onGround and not (inWater or player:getVehicle() or effects.cF) then
 		
 		for _, leg in ipairs(groundParts) do
 			
