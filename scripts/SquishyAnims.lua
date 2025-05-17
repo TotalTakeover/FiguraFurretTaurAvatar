@@ -130,7 +130,7 @@ function events.TICK()
 	-- Control targets based on variables
 	leftArmLerp.target  = (armsMove or armShouldMove or leftSwing  or bow or ((crossL or crossR) or (using and usingL ~= "NONE"))) and 1 or 0
 	rightArmLerp.target = (armsMove or armShouldMove or rightSwing or bow or ((crossL or crossR) or (using and usingR ~= "NONE"))) and 1 or 0
-	taur.target         = anims.groundIdle:isPlaying() and 0 or taur.target
+	taur.target         = (onGround or player:getVehicle() or anims.groundIdle:isPlaying()) and 0 or taur.target
 	
 	-- Control ear flick based on variables
 	ears.doEarFlick = earFlick
