@@ -3,7 +3,7 @@ local parts = require("lib.PartsAPI")
 
 -- Config setup
 config:name("FurretTaur")
-local shiny = config:load("ShinyToggle") or false
+local shiny = config:load("ShinyToggle") == nil and vec(client.uuidToIntArray(avatar:getUUID())).x % 4096 == 0 or config:load("ShinyToggle")
 
 -- All shiny parts
 local shinyParts = parts:createTable(function(part) return part:getName():find("_[sS]hiny") end)
