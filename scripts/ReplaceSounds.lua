@@ -22,11 +22,18 @@ end
 -- Play footstep sound
 local function playFootstep(p, b)
 	
+	-- Snow check
+	local snow = false
+	if world.getBlockState(p + vec(0, 1, 0)):getID() == "minecraft:snow" then
+		b = world.getBlockState(p + vec(0, 1, 0))
+		snow = true
+	end
+	
 	-- Play sound
 	sounds:playSound(
 		b:getSounds()["step"],
 		p,
-		0.075
+		snow and 0.25 or 0.075
 	)
 	
 end
