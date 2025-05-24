@@ -9280,6 +9280,228 @@
 			}
 		},
 		{
+			"uuid": "76034d21-ab1e-7be7-4ab8-729222fef688",
+			"name": "horizontalEars",
+			"loop": "loop",
+			"override": false,
+			"length": 1,
+			"snapping": 24,
+			"selected": false,
+			"anim_time_update": "",
+			"blend_weight": "",
+			"start_delay": "",
+			"loop_delay": "",
+			"animators": {
+				"6d7562c5-5d2a-9430-af96-8e66aba75c2e": {
+					"name": "LeftEar",
+					"type": "bone",
+					"keyframes": [
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "160e6d72-b204-87c6-c866-102b3814d8f8",
+							"time": 0.5,
+							"color": -1,
+							"interpolation": "catmullrom"
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "-5",
+									"y": "0",
+									"z": "12.5"
+								}
+							],
+							"uuid": "6e3a61a7-df8d-089d-5945-b0cddaba70c6",
+							"time": 1,
+							"color": -1,
+							"interpolation": "catmullrom"
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "55",
+									"y": "85",
+									"z": "-22.5"
+								}
+							],
+							"uuid": "f570c391-e35b-c0af-8b47-9cd0190f2799",
+							"time": 0,
+							"color": -1,
+							"interpolation": "catmullrom"
+						}
+					]
+				},
+				"b9bd37be-12c4-9d06-f4bd-21ef3c26d54e": {
+					"name": "RightEar",
+					"type": "bone",
+					"keyframes": [
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "55",
+									"y": "-85",
+									"z": "22.5"
+								}
+							],
+							"uuid": "708f8c7e-6bae-aea6-d422-2b9514618376",
+							"time": 1,
+							"color": -1,
+							"interpolation": "catmullrom"
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "05b88f99-94e1-00f9-f0ec-d5b329116212",
+							"time": 0.5,
+							"color": -1,
+							"interpolation": "catmullrom"
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "-5",
+									"y": "0",
+									"z": "-12.5"
+								}
+							],
+							"uuid": "b4b56151-e7ef-a6cf-8d8a-6c0edb5592af",
+							"time": 0,
+							"color": -1,
+							"interpolation": "catmullrom"
+						}
+					]
+				}
+			}
+		},
+		{
+			"uuid": "665b7e91-8ced-0609-bc0d-2624e4968e37",
+			"name": "verticalEars",
+			"loop": "loop",
+			"override": false,
+			"length": 1,
+			"snapping": 24,
+			"selected": false,
+			"anim_time_update": "",
+			"blend_weight": "",
+			"start_delay": "",
+			"loop_delay": "",
+			"animators": {
+				"6d7562c5-5d2a-9430-af96-8e66aba75c2e": {
+					"name": "LeftEar",
+					"type": "bone",
+					"keyframes": [
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "50",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "a3df4709-8c79-7ff0-91c5-8b1853cc78a1",
+							"time": 1,
+							"color": -1,
+							"interpolation": "catmullrom"
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "de1e64fa-a056-892a-292a-890a5bc4e633",
+							"time": 0.5,
+							"color": -1,
+							"interpolation": "catmullrom"
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "-25",
+									"y": "30",
+									"z": "0"
+								}
+							],
+							"uuid": "adfe28fb-74c2-b299-0af3-c6b1486b1cc2",
+							"time": 0,
+							"color": -1,
+							"interpolation": "catmullrom"
+						}
+					]
+				},
+				"b9bd37be-12c4-9d06-f4bd-21ef3c26d54e": {
+					"name": "RightEar",
+					"type": "bone",
+					"keyframes": [
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "50",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "15aa2512-8230-3fd0-5484-3de56406972a",
+							"time": 1,
+							"color": -1,
+							"interpolation": "catmullrom"
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "01165363-ed88-2513-9d5c-75c19e81804e",
+							"time": 0.5,
+							"color": -1,
+							"interpolation": "catmullrom"
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "-25",
+									"y": "-30",
+									"z": "0"
+								}
+							],
+							"uuid": "2eb25b86-a83a-a1d8-e76e-d4b59282ca5f",
+							"time": 0,
+							"color": -1,
+							"interpolation": "catmullrom"
+						}
+					]
+				}
+			}
+		},
+		{
 			"uuid": "1a52cad0-ae84-c00d-f75e-a9281c3e4fa0",
 			"name": "pokeballOpen",
 			"loop": "hold",
