@@ -58,11 +58,21 @@ end
 -- Host only instructions
 if not host:isHost() then return end
 
--- Required scripts
-local itemCheck = require("lib.ItemCheck")
-local s, c = pcall(require, "scripts.ColorProperties")
+-- Sync on tick
+function events.TICK()
+	
+	if world.getTime() % 200 == 0 then
+		pings.syncShiny(shiny)
+	end
+	
+end
 
-if s then
+-- Required scripts
+local s, wheel, itemCheck, c = pcall(require, "scripts.ActionWheel")
+if not s then return end -- Kills script early if ActionWheel.lua isnt found
+pcall(require, "scripts.Pokeball") -- Tries to find script, not required
+
+if c ~= {} then
 	
 	-- Store init colors
 	local temp = {}
@@ -81,35 +91,42 @@ if s then
 		
 	end
 	
-else
-	
-	c = {}
-	
 end
 
--- Sync on tick
-function events.TICK()
-	
-	if world.getTime() % 200 == 0 then
-		pings.syncShiny(shiny)
-	end
-	
+-- Check for if page already exists
+local pageExists = action_wheel:getPage("Furret")
+
+-- Pages
+local parentPage = action_wheel:getPage("Main")
+local furretPage = pageExists or action_wheel:newPage("Furret")
+
+-- Actions table setup
+local a = {}
+
+-- Actions
+if not pageExists then
+	a.pageAct = parentPage:newAction()
+		:item(itemCheck("cobblemon:lucky_egg", "rabbit_hide"))
+		:onLeftClick(function() wheel:descend(furretPage) end)
 end
 
--- Table setup
-local t = {}
-
--- Action
-t.shinyAct = action_wheel:newAction()
+a.shinyAct = furretPage:newAction()
 	:item(itemCheck("gunpowder"))
 	:toggleItem(itemCheck("glowstone_dust"))
 	:onToggle(pings.setShinyToggle)
 
--- Update action
+-- Update actions
 function events.RENDER(delta, context)
 	
 	if action_wheel:isEnabled() then
-		t.shinyAct
+		if a.pageAct then
+			a.pageAct
+				:title(toJson(
+					{text = "Furret Settings", bold = true, color = c.primary}
+				))
+		end
+		
+		a.shinyAct
 			:title(toJson(
 				{
 					"",
@@ -119,13 +136,10 @@ function events.RENDER(delta, context)
 			))
 			:toggled(shiny)
 		
-		for _, act in pairs(t) do
+		for _, act in pairs(a) do
 			act:hoverColor(c.hover):toggleColor(c.active)
 		end
 		
 	end
 	
 end
-
--- Return action
-return t
