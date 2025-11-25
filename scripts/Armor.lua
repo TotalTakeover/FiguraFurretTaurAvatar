@@ -40,77 +40,34 @@ furretArmor.Materials.netherite
 	:setTexture(textures["textures.armor.netheriteArmor"] or textures["FurretTaur.netheriteArmor"])
 
 -- Trims
--- Bolt
-furretArmor.TrimPatterns.bolt
-	:setTexture(textures["textures.armor.trims.boltTrim"] or textures["FurretTaur.boltTrim"])
+local trims = {
+	"bolt",
+	"coast",
+	"dune",
+	"eye",
+	"flow",
+	"host",
+	"raiser",
+	"rib",
+	"sentry",
+	"shaper",
+	"silence",
+	"snout",
+	"spire",
+	"tide",
+	"vex",
+	"ward",
+	"wayfinder",
+	"wild"
+}
 
--- Coast
-furretArmor.TrimPatterns.coast
-	:setTexture(textures["textures.armor.trims.coastTrim"] or textures["FurretTaur.coastTrim"])
-
--- Dune
-furretArmor.TrimPatterns.dune
-	:setTexture(textures["textures.armor.trims.duneTrim"] or textures["FurretTaur.duneTrim"])
-
--- Eye
-furretArmor.TrimPatterns.eye
-	:setTexture(textures["textures.armor.trims.eyeTrim"] or textures["FurretTaur.eyeTrim"])
-
--- Flow
-furretArmor.TrimPatterns.flow
-	:setTexture(textures["textures.armor.trims.flowTrim"] or textures["FurretTaur.flowTrim"])
-
--- Host
-furretArmor.TrimPatterns.host
-	:setTexture(textures["textures.armor.trims.hostTrim"] or textures["FurretTaur.hostTrim"])
-
--- Raiser
-furretArmor.TrimPatterns.raiser
-	:setTexture(textures["textures.armor.trims.raiserTrim"] or textures["FurretTaur.raiserTrim"])
-
--- Rib
-furretArmor.TrimPatterns.rib
-	:setTexture(textures["textures.armor.trims.ribTrim"] or textures["FurretTaur.ribTrim"])
-
--- Sentry
-furretArmor.TrimPatterns.sentry
-	:setTexture(textures["textures.armor.trims.sentryTrim"] or textures["FurretTaur.sentryTrim"])
-
--- Shaper
-furretArmor.TrimPatterns.shaper
-	:setTexture(textures["textures.armor.trims.shaperTrim"] or textures["FurretTaur.shaperTrim"])
-
--- Silence
-furretArmor.TrimPatterns.silence
-	:setTexture(textures["textures.armor.trims.silenceTrim"] or textures["FurretTaur.silenceTrim"])
-
--- Snout
-furretArmor.TrimPatterns.snout
-	:setTexture(textures["textures.armor.trims.snoutTrim"] or textures["FurretTaur.snoutTrim"])
-
--- Spire
-furretArmor.TrimPatterns.spire
-	:setTexture(textures["textures.armor.trims.spireTrim"] or textures["FurretTaur.spireTrim"])
-
--- Tide
-furretArmor.TrimPatterns.tide
-	:setTexture(textures["textures.armor.trims.tideTrim"] or textures["FurretTaur.tideTrim"])
-
--- Vex
-furretArmor.TrimPatterns.vex
-	:setTexture(textures["textures.armor.trims.vexTrim"] or textures["FurretTaur.vexTrim"])
-
--- Ward
-furretArmor.TrimPatterns.ward
-	:setTexture(textures["textures.armor.trims.wardTrim"] or textures["FurretTaur.wardTrim"])
-
--- Wayfinder
-furretArmor.TrimPatterns.wayfinder
-	:setTexture(textures["textures.armor.trims.wayfinderTrim"] or textures["FurretTaur.wayfinderTrim"])
-
--- Wild
-furretArmor.TrimPatterns.wild
-	:setTexture(textures["textures.armor.trims.wildTrim"] or textures["FurretTaur.wildTrim"])
+-- Apply trims
+for _, trim in ipairs(trims) do
+	local tex = textures["textures.armor.trims."..trim.."Trim"] or textures["FurretTaur."..trim.."Trim"] or false
+	if tex then
+		furretArmor.TrimPatterns[trim]:setTexture(tex)
+	end
+end
 
 -- Config setup
 config:name("FurretTaur")
