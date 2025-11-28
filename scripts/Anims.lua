@@ -31,20 +31,22 @@ end
 function events.TICK()
 	
 	-- Variables
-	local vel       = player:getVelocity()
-	local dir       = player:getLookDir()
+	local vel = player:getVelocity()
+	local yaw = player:getBodyYaw()
+	local dir = vec(math.sin(math.rad(-yaw)), 0, math.cos(math.rad(-yaw)))
 	local sprinting = player:isSprinting()
 	local onGround  = ground()
 	
 	-- Directional velocity
-	local fbVel = player:getVelocity():dot((dir.x_z):normalize())
-	local lrVel = player:getVelocity():cross(dir.x_z:normalize()).y
+	local fbVel = vel:dot((dir.x_z):normalized())
+	local lrVel = vel:crossed(dir.x_z:normalized()).y
+	local udVel = vel.y
 	
 	-- Animation variables
 	isSprinting = sprinting and not pose.crouch and not pose.swim
 	
 	-- Speed control
-	local walkSpeed   = math.clamp(fbVel < -0.05 and math.min(fbVel, math.abs(lrVel)) * 5 or math.max(fbVel, math.abs(lrVel)) * 5, -3, 3)
+	local walkSpeed   = math.clamp(fbVel * 5, -3, 3)
 	local sprintSpeed = math.min(vel.xz:length() * 3.7, 1.5)
 	
 	-- Animation speeds
