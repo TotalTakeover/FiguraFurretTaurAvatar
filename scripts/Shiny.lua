@@ -1,15 +1,15 @@
--- Required script
+-- Required scripts
 local parts = require("lib.PartsAPI")
+local sync  = require("lib.LetThatSyncFig")
 
--- Config setup
-config:name("FurretTaur")
-local shiny = config:load("ShinyToggle") == nil and vec(client.uuidToIntArray(avatar:getUUID())).x % 4096 == 0 or config:load("ShinyToggle")
+-- Synced variables setup
+local shiny = sync.add(config:load("ShinyToggle"), vec(client.uuidToIntArray(avatar:getUUID())).x % 4096 == 0)
 
 -- All shiny parts
 local shinyParts = parts:createTable(function(part) return part:getName():find("_[sS]hiny") end)
 
 -- Variables
-local wasShiny = not shiny
+local wasShiny = not sync[shiny]
 local initAvatarColor = vectors.hexToRGB(avatar:getColor() or "default")
 local initGlowColor = renderer:getOutlineColor() or vec(1, 1, 1)
 
@@ -20,52 +20,36 @@ local shinyTex  = textures["textures.furret_shiny"] or textures["FurretTaur.furr
 function events.RENDER(delta, context)
 	
 	-- Shiny textures
-	if shiny ~= wasShiny then
+	if sync[shiny] ~= wasShiny then
 		for _, part in ipairs(shinyParts) do
-			part:primaryTexture("CUSTOM", shiny and shinyTex or normalTex)
+			part:primaryTexture("CUSTOM", sync[shiny] and shinyTex or normalTex)
 		end
 	end
 	
 	-- Store data
-	wasShiny = shiny
+	wasShiny = sync[shiny]
 	
 	-- Avatar color
-	avatar:color(shiny and vectors.hexToRGB("FF8EBC") or initAvatarColor)
+	avatar:color(sync[shiny] and vectors.hexToRGB("FF8EBC") or initAvatarColor)
 	
 	-- Glowing outline
-	renderer:outlineColor(shiny and vectors.hexToRGB("FF8EBC") or initGlowColor)
+	renderer:outlineColor(sync[shiny] and vectors.hexToRGB("FF8EBC") or initGlowColor)
 	
 end
 
 -- Shiny toggle
 function pings.setShinyToggle(boolean)
 	
-	shiny = boolean
-	config:save("ShinyToggle", shiny)
-	if player:isLoaded() and shiny then
+	sync[shiny] = boolean
+	config:save("ShinyToggle", sync[shiny])
+	if player:isLoaded() and sync[shiny] then
 		sounds:playSound("block.amethyst_block.chime", player:getPos())
 	end
 	
 end
 
--- Sync variables
-function pings.syncShiny(...)
-	
-	shiny = ...
-	
-end
-
 -- Host only instructions
 if not host:isHost() then return end
-
--- Sync on tick
-function events.TICK()
-	
-	if world.getTime() % 200 == 0 then
-		pings.syncShiny(shiny)
-	end
-	
-end
 
 -- Required scripts
 local s, wheel, c = pcall(require, "scripts.ActionWheel")
@@ -93,7 +77,7 @@ if next(c) ~= nil then
 	function events.RENDER(delta, context)
 		
 		for k in pairs(c) do
-			c[k] = shiny and shinyColors[k] or initColors[k]
+			c[k] = sync[shiny] and shinyColors[k] or initColors[k]
 		end
 		
 	end
@@ -141,7 +125,7 @@ function events.RENDER(delta, context)
 					{text = "Toggles the usage of shiny textures for your pokemon parts.", color = c.secondary}
 				}
 			))
-			:toggled(shiny)
+			:toggled(sync[shiny])
 		
 		for _, act in pairs(a) do
 			act:hoverColor(c.hover):toggleColor(c.active)

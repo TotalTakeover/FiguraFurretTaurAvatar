@@ -1,5 +1,6 @@
--- Required script
+-- Required scripts
 local parts = require("lib.PartsAPI")
+local sync  = require("lib.LetThatSyncFig")
 
 -- Pokeball part
 local pokeBall = parts.group.PokeBall
@@ -12,13 +13,12 @@ local anims = animations.FurretTaur
 local openAnim  = anims.pokeballOpen
 local closeAnim = anims.pokeballClose
 
--- Config setup
-config:name("FurretTaur")
-local toggle = config:load("PokeballToggle") or false
+-- Synced variables setup
+local toggle = sync.add(config:load("PokeballToggle"), false)
 
 -- Variables
-local isInBall  = toggle
-local wasInBall = toggle
+local isInBall  = sync[toggle]
+local wasInBall = sync[toggle]
 local staticYaw = 0
 
 -- Play pokeball sound
@@ -54,7 +54,7 @@ end
 do
 	
 	-- Start with an animation
-	local startAnim = toggle and closeAnim or openAnim
+	local startAnim = sync[toggle] and closeAnim or openAnim
 	startAnim:play()
 	
 	-- Set each pokeball animation to be at the end of their length
@@ -83,7 +83,7 @@ function events.RENDER(delta, context)
 	local menu = context == "FIGURA_GUI" or context == "MINECRAFT_GUI" or context == "PAPERDOLL"
 	
 	-- Pokeball state
-	isInBall = toggle and not hasRider
+	isInBall = sync[toggle] and not hasRider
 	
 	-- Activate pokeball
 	if isInBall ~= wasInBall then
@@ -131,8 +131,8 @@ function pings.setPokeball(boolean)
 	local canToggle = openAnim:getTime() == openAnim:getLength() and closeAnim:getTime() == closeAnim:getLength()
 	
 	if canToggle then
-		toggle = boolean
-		config:save("PokeballToggle", toggle)
+		sync[toggle] = boolean
+		config:save("PokeballToggle", sync[toggle])
 	end
 	
 end
@@ -178,24 +178,8 @@ function pings.playPokeballInteract()
 	
 end
 
--- Sync variables
-function pings.syncPokeball(...)
-	
-	toggle = ...
-	
-end
-
 -- Host only instructions
 if not host:isHost() then return end
-
--- Sync on tick
-function events.TICK()
-	
-	if world.getTime() % 200 == 0 then
-		pings.syncPokeball(toggle)
-	end
-	
-end
 
 -- Check if any bob animations are playing
 local function checkBob()
@@ -215,11 +199,18 @@ local function checkBob()
 	
 end
 
--- Pokeball Keybind
-local toggleBind   = config:load("PokeballToggleKeybind") or "key.keyboard.keypad.1"
-local setToggleKey = keybinds:newKeybind("Pokeball Toggle"):onPress(function() pings.setPokeball(not toggle) end):key(toggleBind)
+-- Keybinds
+local toggleKeybind = keybinds:newKeybind("Pokeball Toggle", "key.keyboard.keypad.1")
+	:onPress(function() pings.setPokeball(not sync[toggle]) end)
+
+-- Sync config keybinds
+sync.keybind(toggleKeybind, "PokeballToggleKeybind")
 
 -- Movement/Action keybinds
+--[[
+	This section is old code I'm afraid to touch, I plan on swapping it out for something better eventually.
+	For now, admire the foundation of what will eventually be not.
+--]]
 local setForwardKey = keybinds:newKeybind("Pokeball Forward Animation"):onPress(function() if not checkBob() then pings.playPokeballBob(math.random(1,#bobs)) end return true end)
 local setBackKey    = keybinds:newKeybind("Pokeball Back Animation")   :onPress(function() if not checkBob() then pings.playPokeballBob(math.random(1,#bobs)) end return true end)
 local setLeftKey    = keybinds:newKeybind("Pokeball Left Animation")   :onPress(function() if not checkBob() then pings.playPokeballBob(math.random(1,#bobs)) end return true end)
@@ -231,12 +222,6 @@ local setUseKey     = keybinds:newKeybind("Pokeball Use Animation")    :onPress(
 
 -- Keybind updaters
 function events.TICK()
-	
-	local toggleKey = setToggleKey:getKey()
-	if toggleKey ~= toggleBind then
-		toggleBind = toggleKey
-		config:save("PokeballToggleKeybind", toggleKey)
-	end
 	
 	-- Force keybinds
 	setForwardKey:key(keybinds:getVanillaKey("key.forward")):enabled(isInBall)
@@ -296,7 +281,7 @@ function events.RENDER(delta, context)
 					{text = "Various factors can prevent this feature from being active.\nAdditionally, when inside your pokeball, you are unable to move or preform actions.", color = "yellow"}
 				}
 			))
-			:toggled(toggle)
+			:toggled(sync[toggle])
 		
 		for _, act in pairs(a) do
 			act:hoverColor(c.hover):toggleColor(c.active)

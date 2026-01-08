@@ -10,15 +10,18 @@ end
 -- Host only instructions
 if not host:isHost() then return end
 
--- Config setup
-config:name("FurretTaur")
+-- Required script
+local sync = require("lib.LetThatSyncFig")
 
 -- Variable
 local cooldown = 0
 
--- Cry Keybind
-local cryBind   = config:load("CryKeybind") or "key.keyboard.keypad.2"
-local setCryKey = keybinds:newKeybind("Pokemon Cry"):onPress(function() pings.playPokemonCry() cooldown = 30 end):key(cryBind)
+-- Keybinds
+local cryKeybind = keybinds:newKeybind("Pokemon Cry", "key.keyboard.keypad.2")
+	:onPress(function() pings.playPokemonCry() cooldown = 30 end)
+
+-- Sync config keybinds
+sync.keybind(cryKeybind, "CryKeybind")
 
 function events.TICK()
 	
@@ -26,17 +29,6 @@ function events.TICK()
 	cooldown = math.max(cooldown - 1, 0)
 	
 	-- Disable keybind if cooldown is active, and player isnt dead
-	setCryKey:enabled(cooldown == 0 and player:getDeathTime() == 0)
-	
-end
-
--- Keybind updater
-function events.TICK()
-	
-	local cryKey = setCryKey:getKey()
-	if cryKey ~= cryBind then
-		cryBind = cryKey
-		config:save("CryKeybind", cryKey)
-	end
+	cryKeybind:enabled(cooldown == 0 and player:getDeathTime() == 0)
 	
 end
