@@ -6,7 +6,7 @@ local sync  = require("lib.LetThatSyncFig")
 local pokeBall = parts.group.PokeBall
 
 -- Kills script if it cannot find pokeBall
-if not pokeBall then return {} end
+if not pokeBall then return end
 
 -- Animation setup
 local anims = animations.FurretTaur
@@ -88,8 +88,8 @@ function events.RENDER(delta, context)
 	-- Activate pokeball
 	if isInBall ~= wasInBall then
 		
-		anims.pokeballOpen:playing(not isInBall)
-		anims.pokeballClose:playing(isInBall)
+		openAnim:playing(not isInBall)
+		closeAnim:playing(isInBall)
 		
 		pokeballSound(isInBall)
 		
