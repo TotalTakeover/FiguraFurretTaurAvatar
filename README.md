@@ -17,7 +17,7 @@ This Figura avatar is a template designed around turning the user into a Furret 
 ### Libraries:
 - Grandpa Scout (GSAnimBlend, GSCarrier)
 - Squishy (SquAPI)
-- Katt (OriginsAPI, KattArmor, DynamicCrosshair)
+- Katt (OriginsAPI, KattArmor)
 - Bitslayn (Gaze API)
 - 4P5 (GroundCheck)
 - Manuel (Molang Conversions)
