@@ -14,11 +14,11 @@ local openAnim  = anims.pokeballOpen
 local closeAnim = anims.pokeballClose
 
 -- Synced variables setup
-local toggle = sync.add(config:load("PokeballToggle"), false)
+local toggle = sync.new("PokeballToggle", false):config()
 
 -- Variables
-local isInBall  = sync[toggle]
-local wasInBall = sync[toggle]
+local isInBall  = toggle.curr
+local wasInBall = toggle.curr
 local staticYaw = 0
 
 -- Play pokeball sound
@@ -54,7 +54,7 @@ end
 do
 	
 	-- Start with an animation
-	local startAnim = sync[toggle] and closeAnim or openAnim
+	local startAnim = toggle.curr and closeAnim or openAnim
 	startAnim:play()
 	
 	-- Set each pokeball animation to be at the end of their length
@@ -83,7 +83,7 @@ function events.RENDER(delta, context)
 	local menu = context == "FIGURA_GUI" or context == "MINECRAFT_GUI" or context == "PAPERDOLL"
 	
 	-- Pokeball state
-	isInBall = sync[toggle] and not hasRider
+	isInBall = toggle.curr and not hasRider
 	
 	-- Activate pokeball
 	if isInBall ~= wasInBall then
@@ -124,19 +124,6 @@ function events.RENDER(delta, context)
 	
 end
 
--- Pokeball toggle
-function pings.setPokeball(boolean)
-	
-	-- If animations both animations are done playing, allow the switching of animations
-	local canToggle = openAnim:getTime() == openAnim:getLength() and closeAnim:getTime() == closeAnim:getLength()
-	
-	if canToggle then
-		sync[toggle] = boolean
-		config:save("PokeballToggle", sync[toggle])
-	end
-	
-end
-
 -- Bob animations
 local bobs = {}
 for _, child in ipairs(animations:getAnimations()) do
@@ -167,7 +154,7 @@ function pings.playPokeballBounce()
 	
 end
 
--- Pokeball bounce
+-- Pokeball interact
 function pings.playPokeballInteract()
 	
 	anims.pokeballInteract:restart()
@@ -199,12 +186,21 @@ local function checkBob()
 	
 end
 
--- Keybinds
-local toggleKeybind = keybinds:newKeybind("Pokeball Toggle", "key.keyboard.keypad.1")
-	:onPress(function() pings.setPokeball(not sync[toggle]) end)
+-- If animations both animations are done playing, allow the switching of animations
+local function checkToggle()
+	return openAnim:getTime() == openAnim:getLength() and closeAnim:getTime() == closeAnim:getLength()
+end
 
--- Sync config keybinds
-sync.keybind(toggleKeybind, "PokeballToggleKeybind")
+-- Required script
+local keybound = require("lib.Keybound")
+
+-- Setup keybind
+local toggleKeybind = keybound.new(
+	keybinds
+		:newKeybind("Pokeball Toggle", "key.keyboard.keypad.1")
+		:onPress(function() if checkToggle() then toggle:update(not toggle.curr) end end),
+	"PokeballToggleKeybind"
+)
 
 -- Movement/Action keybinds
 --[[
@@ -258,7 +254,9 @@ end
 
 a.toggleAct = furretPage:newAction()
 	:item("cobblemon:luxury_ball", "ender_pearl")
-	:onToggle(pings.setPokeball)
+	:onToggle(function(bool)
+		if checkToggle() then toggle:update(bool) end
+	end)
 
 -- Update actions
 function events.RENDER(delta, context)
@@ -281,7 +279,7 @@ function events.RENDER(delta, context)
 					{text = "Various factors can prevent this feature from being active.\nAdditionally, when inside your pokeball, you are unable to move or preform actions.", color = "yellow"}
 				}
 			))
-			:toggled(sync[toggle])
+			:toggled(toggle.curr)
 		
 		for _, act in pairs(a) do
 			act:hoverColor(c.hover):toggleColor(c.active)
