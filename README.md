@@ -1,5 +1,5 @@
 # [Furret Taur](https://github.com/Taurs-with-Keyboards/FiguraFurretTaurAvatar)
-### Version: 1.2.0
+### Version: 1.3.0
 This Figura avatar is a template designed around turning the user into a Furret Taur.
 
 ### Authors:

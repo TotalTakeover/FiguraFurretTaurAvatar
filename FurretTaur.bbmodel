@@ -5722,6 +5722,75 @@
 			"autouv": 0,
 			"isOpen": false,
 			"primary_selected": false
+		},
+		{
+			"name": "Camera",
+			"uuid": "c2be0110-a3bc-b7c5-ddbf-f0c2a73142be",
+			"export": true,
+			"locked": false,
+			"scope": 0,
+			"selected": false,
+			"_static": {
+				"properties": {},
+				"temp_data": {}
+			},
+			"origin": [0, 18, -18],
+			"rotation": [0, 0, 0],
+			"color": 0,
+			"children": [],
+			"reset": false,
+			"shade": true,
+			"mirror_uv": false,
+			"visibility": true,
+			"autouv": 0,
+			"isOpen": false,
+			"primary_selected": false
+		},
+		{
+			"name": "NameplatePivot",
+			"uuid": "f3285577-180f-bc5d-a1cd-951fa2627556",
+			"export": true,
+			"locked": false,
+			"scope": 0,
+			"selected": false,
+			"_static": {
+				"properties": {},
+				"temp_data": {}
+			},
+			"origin": [0, 20, -18],
+			"rotation": [0, 0, 0],
+			"color": 0,
+			"children": [],
+			"reset": false,
+			"shade": true,
+			"mirror_uv": false,
+			"visibility": true,
+			"autouv": 0,
+			"isOpen": false,
+			"primary_selected": false
+		},
+		{
+			"name": "Nameplate",
+			"uuid": "2b241d72-aee7-0623-d2f5-51af6ae74058",
+			"export": true,
+			"locked": false,
+			"scope": 0,
+			"selected": false,
+			"_static": {
+				"properties": {},
+				"temp_data": {}
+			},
+			"origin": [0, 30.6, -18],
+			"rotation": [0, 0, 0],
+			"color": 0,
+			"children": [],
+			"reset": false,
+			"shade": true,
+			"mirror_uv": false,
+			"visibility": true,
+			"autouv": 0,
+			"isOpen": false,
+			"primary_selected": false
 		}
 	],
 	"outliner": [
@@ -5894,6 +5963,22 @@
 												},
 												{
 													"uuid": "f14bf209-06b9-f59e-9146-e4fe3cc854bd",
+													"isOpen": false,
+													"children": []
+												}
+											]
+										},
+										{
+											"uuid": "c2be0110-a3bc-b7c5-ddbf-f0c2a73142be",
+											"isOpen": false,
+											"children": []
+										},
+										{
+											"uuid": "f3285577-180f-bc5d-a1cd-951fa2627556",
+											"isOpen": false,
+											"children": [
+												{
+													"uuid": "2b241d72-aee7-0623-d2f5-51af6ae74058",
 													"isOpen": false,
 													"children": []
 												}
@@ -7991,6 +8076,24 @@
 					"type": "bone",
 					"rotation_global": false,
 					"quaternion_interpolation": false
+				},
+				"c2be0110-a3bc-b7c5-ddbf-f0c2a73142be": {
+					"name": "Camera",
+					"type": "bone",
+					"rotation_global": false,
+					"quaternion_interpolation": false
+				},
+				"f3285577-180f-bc5d-a1cd-951fa2627556": {
+					"name": "NameplatePivot",
+					"type": "bone",
+					"rotation_global": false,
+					"quaternion_interpolation": false
+				},
+				"2b241d72-aee7-0623-d2f5-51af6ae74058": {
+					"name": "Nameplate",
+					"type": "bone",
+					"rotation_global": false,
+					"quaternion_interpolation": false
 				}
 			}
 		},
@@ -9564,6 +9667,24 @@
 					"type": "bone",
 					"rotation_global": false,
 					"quaternion_interpolation": false
+				},
+				"c2be0110-a3bc-b7c5-ddbf-f0c2a73142be": {
+					"name": "Camera",
+					"type": "bone",
+					"rotation_global": false,
+					"quaternion_interpolation": false
+				},
+				"f3285577-180f-bc5d-a1cd-951fa2627556": {
+					"name": "NameplatePivot",
+					"type": "bone",
+					"rotation_global": false,
+					"quaternion_interpolation": false
+				},
+				"2b241d72-aee7-0623-d2f5-51af6ae74058": {
+					"name": "Nameplate",
+					"type": "bone",
+					"rotation_global": false,
+					"quaternion_interpolation": false
 				}
 			}
 		},
@@ -10088,6 +10209,24 @@
 				},
 				"d9846843-73d7-e995-93df-616a8e425432": {
 					"name": "Portrait",
+					"type": "bone",
+					"rotation_global": false,
+					"quaternion_interpolation": false
+				},
+				"c2be0110-a3bc-b7c5-ddbf-f0c2a73142be": {
+					"name": "Camera",
+					"type": "bone",
+					"rotation_global": false,
+					"quaternion_interpolation": false
+				},
+				"f3285577-180f-bc5d-a1cd-951fa2627556": {
+					"name": "NameplatePivot",
+					"type": "bone",
+					"rotation_global": false,
+					"quaternion_interpolation": false
+				},
+				"2b241d72-aee7-0623-d2f5-51af6ae74058": {
+					"name": "Nameplate",
 					"type": "bone",
 					"rotation_global": false,
 					"quaternion_interpolation": false
@@ -10932,6 +11071,24 @@
 					"type": "bone",
 					"rotation_global": false,
 					"quaternion_interpolation": false
+				},
+				"c2be0110-a3bc-b7c5-ddbf-f0c2a73142be": {
+					"name": "Camera",
+					"type": "bone",
+					"rotation_global": false,
+					"quaternion_interpolation": false
+				},
+				"f3285577-180f-bc5d-a1cd-951fa2627556": {
+					"name": "NameplatePivot",
+					"type": "bone",
+					"rotation_global": false,
+					"quaternion_interpolation": false
+				},
+				"2b241d72-aee7-0623-d2f5-51af6ae74058": {
+					"name": "Nameplate",
+					"type": "bone",
+					"rotation_global": false,
+					"quaternion_interpolation": false
 				}
 			}
 		},
@@ -11600,6 +11757,24 @@
 				},
 				"d9846843-73d7-e995-93df-616a8e425432": {
 					"name": "Portrait",
+					"type": "bone",
+					"rotation_global": false,
+					"quaternion_interpolation": false
+				},
+				"c2be0110-a3bc-b7c5-ddbf-f0c2a73142be": {
+					"name": "Camera",
+					"type": "bone",
+					"rotation_global": false,
+					"quaternion_interpolation": false
+				},
+				"f3285577-180f-bc5d-a1cd-951fa2627556": {
+					"name": "NameplatePivot",
+					"type": "bone",
+					"rotation_global": false,
+					"quaternion_interpolation": false
+				},
+				"2b241d72-aee7-0623-d2f5-51af6ae74058": {
+					"name": "Nameplate",
 					"type": "bone",
 					"rotation_global": false,
 					"quaternion_interpolation": false
@@ -12436,6 +12611,24 @@
 					"type": "bone",
 					"rotation_global": false,
 					"quaternion_interpolation": false
+				},
+				"c2be0110-a3bc-b7c5-ddbf-f0c2a73142be": {
+					"name": "Camera",
+					"type": "bone",
+					"rotation_global": false,
+					"quaternion_interpolation": false
+				},
+				"f3285577-180f-bc5d-a1cd-951fa2627556": {
+					"name": "NameplatePivot",
+					"type": "bone",
+					"rotation_global": false,
+					"quaternion_interpolation": false
+				},
+				"2b241d72-aee7-0623-d2f5-51af6ae74058": {
+					"name": "Nameplate",
+					"type": "bone",
+					"rotation_global": false,
+					"quaternion_interpolation": false
 				}
 			}
 		},
@@ -13253,6 +13446,24 @@
 					"type": "bone",
 					"rotation_global": false,
 					"quaternion_interpolation": false
+				},
+				"c2be0110-a3bc-b7c5-ddbf-f0c2a73142be": {
+					"name": "Camera",
+					"type": "bone",
+					"rotation_global": false,
+					"quaternion_interpolation": false
+				},
+				"f3285577-180f-bc5d-a1cd-951fa2627556": {
+					"name": "NameplatePivot",
+					"type": "bone",
+					"rotation_global": false,
+					"quaternion_interpolation": false
+				},
+				"2b241d72-aee7-0623-d2f5-51af6ae74058": {
+					"name": "Nameplate",
+					"type": "bone",
+					"rotation_global": false,
+					"quaternion_interpolation": false
 				}
 			}
 		},
@@ -13761,6 +13972,24 @@
 				},
 				"d9846843-73d7-e995-93df-616a8e425432": {
 					"name": "Portrait",
+					"type": "bone",
+					"rotation_global": false,
+					"quaternion_interpolation": false
+				},
+				"c2be0110-a3bc-b7c5-ddbf-f0c2a73142be": {
+					"name": "Camera",
+					"type": "bone",
+					"rotation_global": false,
+					"quaternion_interpolation": false
+				},
+				"f3285577-180f-bc5d-a1cd-951fa2627556": {
+					"name": "NameplatePivot",
+					"type": "bone",
+					"rotation_global": false,
+					"quaternion_interpolation": false
+				},
+				"2b241d72-aee7-0623-d2f5-51af6ae74058": {
+					"name": "Nameplate",
 					"type": "bone",
 					"rotation_global": false,
 					"quaternion_interpolation": false
@@ -14331,6 +14560,24 @@
 					"type": "bone",
 					"rotation_global": false,
 					"quaternion_interpolation": false
+				},
+				"c2be0110-a3bc-b7c5-ddbf-f0c2a73142be": {
+					"name": "Camera",
+					"type": "bone",
+					"rotation_global": false,
+					"quaternion_interpolation": false
+				},
+				"f3285577-180f-bc5d-a1cd-951fa2627556": {
+					"name": "NameplatePivot",
+					"type": "bone",
+					"rotation_global": false,
+					"quaternion_interpolation": false
+				},
+				"2b241d72-aee7-0623-d2f5-51af6ae74058": {
+					"name": "Nameplate",
+					"type": "bone",
+					"rotation_global": false,
+					"quaternion_interpolation": false
 				}
 			}
 		},
@@ -14895,6 +15142,24 @@
 				},
 				"d9846843-73d7-e995-93df-616a8e425432": {
 					"name": "Portrait",
+					"type": "bone",
+					"rotation_global": false,
+					"quaternion_interpolation": false
+				},
+				"c2be0110-a3bc-b7c5-ddbf-f0c2a73142be": {
+					"name": "Camera",
+					"type": "bone",
+					"rotation_global": false,
+					"quaternion_interpolation": false
+				},
+				"f3285577-180f-bc5d-a1cd-951fa2627556": {
+					"name": "NameplatePivot",
+					"type": "bone",
+					"rotation_global": false,
+					"quaternion_interpolation": false
+				},
+				"2b241d72-aee7-0623-d2f5-51af6ae74058": {
+					"name": "Nameplate",
 					"type": "bone",
 					"rotation_global": false,
 					"quaternion_interpolation": false
@@ -15562,6 +15827,24 @@
 					"type": "bone",
 					"rotation_global": false,
 					"quaternion_interpolation": false
+				},
+				"c2be0110-a3bc-b7c5-ddbf-f0c2a73142be": {
+					"name": "Camera",
+					"type": "bone",
+					"rotation_global": false,
+					"quaternion_interpolation": false
+				},
+				"f3285577-180f-bc5d-a1cd-951fa2627556": {
+					"name": "NameplatePivot",
+					"type": "bone",
+					"rotation_global": false,
+					"quaternion_interpolation": false
+				},
+				"2b241d72-aee7-0623-d2f5-51af6ae74058": {
+					"name": "Nameplate",
+					"type": "bone",
+					"rotation_global": false,
+					"quaternion_interpolation": false
 				}
 			}
 		},
@@ -16209,6 +16492,24 @@
 				},
 				"d9846843-73d7-e995-93df-616a8e425432": {
 					"name": "Portrait",
+					"type": "bone",
+					"rotation_global": false,
+					"quaternion_interpolation": false
+				},
+				"c2be0110-a3bc-b7c5-ddbf-f0c2a73142be": {
+					"name": "Camera",
+					"type": "bone",
+					"rotation_global": false,
+					"quaternion_interpolation": false
+				},
+				"f3285577-180f-bc5d-a1cd-951fa2627556": {
+					"name": "NameplatePivot",
+					"type": "bone",
+					"rotation_global": false,
+					"quaternion_interpolation": false
+				},
+				"2b241d72-aee7-0623-d2f5-51af6ae74058": {
+					"name": "Nameplate",
 					"type": "bone",
 					"rotation_global": false,
 					"quaternion_interpolation": false
@@ -17171,6 +17472,24 @@
 					"type": "bone",
 					"rotation_global": false,
 					"quaternion_interpolation": false
+				},
+				"c2be0110-a3bc-b7c5-ddbf-f0c2a73142be": {
+					"name": "Camera",
+					"type": "bone",
+					"rotation_global": false,
+					"quaternion_interpolation": false
+				},
+				"f3285577-180f-bc5d-a1cd-951fa2627556": {
+					"name": "NameplatePivot",
+					"type": "bone",
+					"rotation_global": false,
+					"quaternion_interpolation": false
+				},
+				"2b241d72-aee7-0623-d2f5-51af6ae74058": {
+					"name": "Nameplate",
+					"type": "bone",
+					"rotation_global": false,
+					"quaternion_interpolation": false
 				}
 			}
 		},
@@ -17694,6 +18013,24 @@
 					"type": "bone",
 					"rotation_global": false,
 					"quaternion_interpolation": false
+				},
+				"c2be0110-a3bc-b7c5-ddbf-f0c2a73142be": {
+					"name": "Camera",
+					"type": "bone",
+					"rotation_global": false,
+					"quaternion_interpolation": false
+				},
+				"f3285577-180f-bc5d-a1cd-951fa2627556": {
+					"name": "NameplatePivot",
+					"type": "bone",
+					"rotation_global": false,
+					"quaternion_interpolation": false
+				},
+				"2b241d72-aee7-0623-d2f5-51af6ae74058": {
+					"name": "Nameplate",
+					"type": "bone",
+					"rotation_global": false,
+					"quaternion_interpolation": false
 				}
 			}
 		},
@@ -18214,6 +18551,24 @@
 				},
 				"d9846843-73d7-e995-93df-616a8e425432": {
 					"name": "Portrait",
+					"type": "bone",
+					"rotation_global": false,
+					"quaternion_interpolation": false
+				},
+				"c2be0110-a3bc-b7c5-ddbf-f0c2a73142be": {
+					"name": "Camera",
+					"type": "bone",
+					"rotation_global": false,
+					"quaternion_interpolation": false
+				},
+				"f3285577-180f-bc5d-a1cd-951fa2627556": {
+					"name": "NameplatePivot",
+					"type": "bone",
+					"rotation_global": false,
+					"quaternion_interpolation": false
+				},
+				"2b241d72-aee7-0623-d2f5-51af6ae74058": {
+					"name": "Nameplate",
 					"type": "bone",
 					"rotation_global": false,
 					"quaternion_interpolation": false
@@ -18796,6 +19151,24 @@
 					"type": "bone",
 					"rotation_global": false,
 					"quaternion_interpolation": false
+				},
+				"c2be0110-a3bc-b7c5-ddbf-f0c2a73142be": {
+					"name": "Camera",
+					"type": "bone",
+					"rotation_global": false,
+					"quaternion_interpolation": false
+				},
+				"f3285577-180f-bc5d-a1cd-951fa2627556": {
+					"name": "NameplatePivot",
+					"type": "bone",
+					"rotation_global": false,
+					"quaternion_interpolation": false
+				},
+				"2b241d72-aee7-0623-d2f5-51af6ae74058": {
+					"name": "Nameplate",
+					"type": "bone",
+					"rotation_global": false,
+					"quaternion_interpolation": false
 				}
 			}
 		},
@@ -19372,6 +19745,24 @@
 				},
 				"d9846843-73d7-e995-93df-616a8e425432": {
 					"name": "Portrait",
+					"type": "bone",
+					"rotation_global": false,
+					"quaternion_interpolation": false
+				},
+				"c2be0110-a3bc-b7c5-ddbf-f0c2a73142be": {
+					"name": "Camera",
+					"type": "bone",
+					"rotation_global": false,
+					"quaternion_interpolation": false
+				},
+				"f3285577-180f-bc5d-a1cd-951fa2627556": {
+					"name": "NameplatePivot",
+					"type": "bone",
+					"rotation_global": false,
+					"quaternion_interpolation": false
+				},
+				"2b241d72-aee7-0623-d2f5-51af6ae74058": {
+					"name": "Nameplate",
 					"type": "bone",
 					"rotation_global": false,
 					"quaternion_interpolation": false
@@ -19995,6 +20386,24 @@
 				},
 				"d9846843-73d7-e995-93df-616a8e425432": {
 					"name": "Portrait",
+					"type": "bone",
+					"rotation_global": false,
+					"quaternion_interpolation": false
+				},
+				"c2be0110-a3bc-b7c5-ddbf-f0c2a73142be": {
+					"name": "Camera",
+					"type": "bone",
+					"rotation_global": false,
+					"quaternion_interpolation": false
+				},
+				"f3285577-180f-bc5d-a1cd-951fa2627556": {
+					"name": "NameplatePivot",
+					"type": "bone",
+					"rotation_global": false,
+					"quaternion_interpolation": false
+				},
+				"2b241d72-aee7-0623-d2f5-51af6ae74058": {
+					"name": "Nameplate",
 					"type": "bone",
 					"rotation_global": false,
 					"quaternion_interpolation": false
