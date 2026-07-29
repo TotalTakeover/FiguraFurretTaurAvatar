@@ -232,7 +232,7 @@ function events.TICK()
 end
 
 -- Required script
-local s, wheel, c = pcall(require, "scripts.ActionWheel")
+local s, pageNav, c = pcall(require, "scripts.ActionWheel")
 if not s then return end -- Kills script early if ActionWheel.lua isnt found
 
 -- Check for if page already exists
@@ -249,7 +249,7 @@ local a = {}
 if not pageExists then
 	a.pageAct = parentPage:newAction()
 		:item("cobblemon:lucky_egg", "rabbit_hide")
-		:onLeftClick(function() wheel:descend(furretPage) end)
+		:onLeftClick(function() pageNav.descend(furretPage) end)
 end
 
 a.toggleAct = furretPage:newAction()
