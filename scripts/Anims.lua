@@ -57,7 +57,7 @@ function events.TICK()
 	local udVel = vel.y
 	
 	-- Animation variables
-	isSprinting = sprinting and not pose.crouch and not pose.swim
+	local isSprinting = sprinting and not pose.crouch and not pose.swim
 	
 	-- Speed control
 	local walkSpeed   = math.clamp(fbVel * 5, -3, 3)
