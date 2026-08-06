@@ -48,16 +48,16 @@ end)
 if not host:isHost() then return end
 
 -- Required scripts
-local s, pageNav, acts, c = pcall(require, "scripts.ActionWheel")
+local s, pageNav, acts, colors = pcall(require, "scripts.ActionWheel")
 if not s then return end -- Kills script early if ActionWheel.lua isnt found
 pcall(require, "scripts.Pokeball") -- Tries to find script, not required
 
 -- Dont preform if color properties is empty
-if next(c) ~= nil then
+if next(colors) ~= nil then
 	
 	-- Store init colors
 	local initColors = {}
-	for k, v in pairs(c) do
+	for k, v in pairs(colors) do
 		initColors[k] = v
 	end
 	
@@ -72,8 +72,8 @@ if next(c) ~= nil then
 	-- Update action wheel colors
 	function events.RENDER(delta, context)
 		
-		for k in pairs(c) do
-			c[k] = shiny.curr and shinyColors[k] or initColors[k]
+		for k in pairs(colors) do
+			colors[k] = shiny.curr and shinyColors[k] or initColors[k]
 		end
 		
 	end
@@ -109,21 +109,21 @@ function events.RENDER(delta, context)
 		if acts.furretPage then
 			acts.furretPage
 				:title(toJson(
-					{text = "Furret Settings", bold = true, color = c.primary}
+					{text = "Furret Settings", bold = true, color = colors.primary}
 				))
-				:hoverColor(c.hover)
+				:hoverColor(colors.hover)
 		end
 		
 		acts.shinyToggle
 			:title(toJson(
 				{
 					"",
-					{text = "Toggle Shiny Textures\n\n", bold = true, color = c.primary},
-					{text = "Toggles the usage of shiny textures for your pokemon parts.", color = c.secondary}
+					{text = "Toggle Shiny Textures\n\n", bold = true, color = colors.primary},
+					{text = "Toggles the usage of shiny textures for your pokemon parts.", color = colors.secondary}
 				}
 			))
-			:hoverColor(c.hover)
-			:toggleColor(c.active)
+			:hoverColor(colors.hover)
+			:toggleColor(colors.active)
 		
 	end
 	
