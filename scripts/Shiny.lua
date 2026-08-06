@@ -48,7 +48,7 @@ end)
 if not host:isHost() then return end
 
 -- Required scripts
-local s, pageNav, c = pcall(require, "scripts.ActionWheel")
+local s, pageNav, acts, c = pcall(require, "scripts.ActionWheel")
 if not s then return end -- Kills script early if ActionWheel.lua isnt found
 pcall(require, "scripts.Pokeball") -- Tries to find script, not required
 
@@ -87,17 +87,14 @@ local pageExists = action_wheel:getPage("Furret")
 local parentPage = action_wheel:getPage("Main")
 local furretPage = pageExists or action_wheel:newPage("Furret")
 
--- Actions table setup
-local a = {}
-
 -- Actions
 if not pageExists then
-	a.pageAct = parentPage:newAction()
+	acts.furretPage = parentPage:newAction()
 		:item("cobblemon:lucky_egg", "rabbit_hide")
 		:onLeftClick(function() pageNav.descend(furretPage) end)
 end
 
-a.shinyAct = furretPage:newAction()
+acts.shinyToggle = furretPage:newAction()
 	:item("gunpowder")
 	:toggleItem("glowstone_dust")
 	:onToggle(function(bool)
@@ -109,14 +106,15 @@ a.shinyAct = furretPage:newAction()
 function events.RENDER(delta, context)
 	
 	if action_wheel:isEnabled() then
-		if a.pageAct then
-			a.pageAct
+		if acts.furretPage then
+			acts.furretPage
 				:title(toJson(
 					{text = "Furret Settings", bold = true, color = c.primary}
 				))
+				:hoverColor(c.hover)
 		end
 		
-		a.shinyAct
+		acts.shinyToggle
 			:title(toJson(
 				{
 					"",
@@ -124,10 +122,8 @@ function events.RENDER(delta, context)
 					{text = "Toggles the usage of shiny textures for your pokemon parts.", color = c.secondary}
 				}
 			))
-		
-		for _, act in pairs(a) do
-			act:hoverColor(c.hover):toggleColor(c.active)
-		end
+			:hoverColor(c.hover)
+			:toggleColor(c.active)
 		
 	end
 	
