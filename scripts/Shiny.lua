@@ -38,7 +38,7 @@ function events.RENDER(delta, context)
 end
 
 -- Apply sound function
-shiny:applyFunc(function()
+shiny:addFunc(function()
 	if player:isLoaded() and shiny.curr then
 		sounds:playSound("block.amethyst_block.chime", player:getPos())
 	end
